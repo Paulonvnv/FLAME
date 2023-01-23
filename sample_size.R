@@ -1,0 +1,188 @@
+
+setwd("D:/UTSW/fMDA_Project/Randomization/Randomization1/")
+randomizationTable0 <- read.csv("selected_comm4.csv",sep=",",header=T)
+
+# Data cleaning----
+# remove duplicated rows
+randomizationTable0<-randomizationTable0[!duplicated(randomizationTable0$village_district),]
+
+# function of the harmonic mean and its standard deviation
+hmean<-function(x) {1/mean(1/x)}
+sd.hmean<-function(x) {sqrt((mean(1/x))^(-4)*var(1/x)/length(x))}
+
+#imputation of population size with the harmonic mean
+randomizationTable0[is.na(randomizationTable0$population),][["population"]]<-ceiling(hmean(randomizationTable0[!is.na(randomizationTable0$population),][["population"]]))
+
+#calculation of api for missing data
+
+randomizationTable0[is.na(randomizationTable0$api.malaria2019),][["api.malaria2019"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2019),][["malaria2019"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2019),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2018),][["api.malaria2018"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2018),][["malaria2018"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2018),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2017),][["api.malaria2017"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2017),][["malaria2017"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2017),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2016),][["api.malaria2016"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2016),][["malaria2016"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2016),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2015),][["api.malaria2015"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2015),][["malaria2015"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2015),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2014),][["api.malaria2014"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2014),][["malaria2014"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2014),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.malaria2013),][["api.malaria2013"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.malaria2013),][["malaria2013"]]/randomizationTable0[is.na(randomizationTable0$api.malaria2013),][["population"]]
+
+randomizationTable0[is.na(randomizationTable0$api.pfal2019),][["api.pfal2019"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2019),][["pfal2019"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2019),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2018),][["api.pfal2018"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2018),][["pfal2018"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2018),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2017),][["api.pfal2017"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2017),][["pfal2017"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2017),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2016),][["api.pfal2016"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2016),][["pfal2016"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2016),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2015),][["api.pfal2015"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2015),][["pfal2015"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2015),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2014),][["api.pfal2014"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2014),][["pfal2014"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2014),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pfal2013),][["api.pfal2013"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pfal2013),][["pfal2013"]]/randomizationTable0[is.na(randomizationTable0$api.pfal2013),][["population"]]
+
+randomizationTable0[is.na(randomizationTable0$api.pviv2019),][["api.pviv2019"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2019),][["pviv2019"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2019),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2018),][["api.pviv2018"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2018),][["pviv2018"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2018),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2017),][["api.pviv2017"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2017),][["pviv2017"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2017),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2016),][["api.pviv2016"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2016),][["pviv2016"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2016),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2015),][["api.pviv2015"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2015),][["pviv2015"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2015),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2014),][["api.pviv2014"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2014),][["pviv2014"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2014),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pviv2013),][["api.pviv2013"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pviv2013),][["pviv2013"]]/randomizationTable0[is.na(randomizationTable0$api.pviv2013),][["population"]]
+
+randomizationTable0[is.na(randomizationTable0$api.pmal2016),][["api.pmal2016"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pmal2016),][["pmal2016"]]/randomizationTable0[is.na(randomizationTable0$api.pmal2016),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pmal2015),][["api.pmal2015"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pmal2015),][["pmal2015"]]/randomizationTable0[is.na(randomizationTable0$api.pmal2015),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pmal2014),][["api.pmal2014"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pmal2014),][["pmal2014"]]/randomizationTable0[is.na(randomizationTable0$api.pmal2014),][["population"]]
+randomizationTable0[is.na(randomizationTable0$api.pmal2013),][["api.pmal2013"]]<-1000*randomizationTable0[is.na(randomizationTable0$api.pmal2013),][["pmal2013"]]/randomizationTable0[is.na(randomizationTable0$api.pmal2013),][["population"]]
+
+
+randomizationTable0[is.na(randomizationTable0$dist_iquitos),][["dist_iquitos"]]<-hmean(randomizationTable0[!is.na(randomizationTable0$dist_iquitos),][["dist_iquitos"]])
+
+
+#selection of villages with api higher than 0 and lower than 500----
+
+# randomizationTable<-randomizationTable0[randomizationTable0$malaria2019>2&
+#                                           randomizationTable0$api.malaria2019<700&
+#                                           randomizationTable0$population<1000&
+#                                           randomizationTable0$dist_iquitos<155000,]
+
+randomizationTable<-randomizationTable0[randomizationTable0$pviv2019>2&
+                                          randomizationTable0$api.pviv2019<500&
+                                          randomizationTable0$population<1000&
+                                          randomizationTable0$dist_iquitos<155000,]
+
+library(geosphere)
+
+# calculate distance in meters between villages----
+
+# Calculate all pairs of polygons
+combns <- t(combn(length(randomizationTable$village), 2))
+
+# For each row of combns, calculate Haus. dist. for the relevant pair of 
+#  polygons
+dists <- apply(combns, 1, function(x) 
+  distm(randomizationTable[x[1],c("XGD","YGD")], randomizationTable[x[2],c("XGD","YGD")], fun = distGeo))
+
+
+hdists <- cbind.data.frame(from=as.character(randomizationTable$village[combns[, 1]]), 
+                           to=as.character(randomizationTable$village[combns[, 2]]), 
+                           d=dists)
+
+# histogram and summary table of selected variables----
+
+par(mfrow=c(2,4))
+
+hist(randomizationTable$population,breaks = 50, freq = T, xlab = "Population size", main = NULL)
+hist(randomizationTable$pop2k,breaks = 50, freq = T, xlab = "Pop density 2k", main = NULL)
+hist(randomizationTable$pop5k,breaks = 50, freq = T, xlab = "Pop density 5k", main = NULL)
+hist(randomizationTable$api.pviv2019,breaks = 50, freq = T, xlab = "API 2019", main = NULL)
+hist(randomizationTable$pviv2019,breaks = 50, freq = T, xlab = "Malaria cases 2019", main = NULL)
+hist(randomizationTable$dist_iquitos/1000,breaks = 50, freq = T, xlab = "Distance to Iquitos (Km)", main = NULL)
+hist(randomizationTable$dist_minutes_cat3,breaks = 50, freq = T, xlab = "Distance to HF (min)", main = NULL)
+hist(hdists$d,breaks = 50, freq = T, xlab = "Distance between villages", main = NULL)
+
+summary(randomizationTable[c("population",
+                             "pop2k",
+                             "pop5k",
+                              "api.malaria2019",
+                              "malaria2019",
+                              "dist_iquitos",
+                              "dist_minutes_cat1",
+                             "dist_minutes_cat2",
+                             "dist_minutes_cat3")])
+
+summary(hdists$d)
+
+#calculation of the coefficient of variation (k) and the average cluster person-year (csize)----
+
+k<-sd(randomizationTable[["api.pviv2019"]])/mean(randomizationTable[["api.pviv2019"]])
+csize<-ceiling(mean(randomizationTable[["population"]]))
+hcsize<-ceiling(hmean(randomizationTable[["population"]]))
+
+#csize<-200
+
+#other variables required to calculate the number of required clusters to detect a difference in incidence (Hayes/Bennett 1999)
+lambda0<-mean(randomizationTable[["api.pviv2019"]])
+zalpha<-1.96
+zbeta<-0.8
+reduction<-c(0.1,
+             0.125,
+             0.25,
+             0.375,
+             0.5,
+             0.6,
+             0.65,
+             0.7,
+             0.75,
+             0.8,
+             0.85,
+             0.9,
+             0.95)
+
+
+# calculation of the Number of required clusters ----
+
+Hayes_Bennett1999<-function(lambda0=NULL,
+                            k=NULL,
+                            csize=NULL,
+                            hcsize=NULL,
+                            reduction=NULL,
+                            zalpha=1.96,
+                            zbeta=0.8
+                            ){
+  data1<-data.frame(lambda0=NULL,
+                    reduction=NULL,
+                    lambda1=NULL,
+                    zalpha=NULL,
+                    zbeta=NULL,
+                    k=NULL,
+                    csize=NULL,
+                    hcsize=NULL,
+                    nclust=NULL,
+                    arm.size=NULL,
+                    total.size=NULL,
+                    OR=NULL)
+  
+  for (n in reduction){
+    data0<-as.data.frame(lambda0)
+    data0$reduction<-n
+    data0$lambda1<-lambda0*(1-n)
+    data0$zalpha<-zalpha
+    data0$zbeta<-zbeta
+    data0$k<-k
+    data0$csize<-csize
+    data0$hcsize<-hcsize
+    data0$nclust<- ceiling(1+((zalpha+zbeta)^2)*(((lambda0+data0$lambda1)/csize)+k^2*(lambda0^2+data0$lambda1^2))/(lambda0-data0$lambda1)^2)
+    data0$arm.size<-data0$nclust*csize
+    data0$total.size<-data0$arm.size*2
+    data0$OR<-1/((lambda0/(1-lambda0))/(data0$lambda1/(1-data0$lambda1)))
+    data1<-rbind(data1,data0)
+  }
+  return(data1)
+}
+
+
+nclusterTable<-Hayes_Bennett1999(lambda0 = lambda0,k = k,
+                  csize = csize,
+                  hcsize = hcsize,
+                  reduction = reduction)
+
+
+write.csv(nclusterTable,"nclusterTable.csv")
+
+
+mean(randomizationTable$api.pviv2019)
+
+
+sum(randomizationTable0$population)
+
+
