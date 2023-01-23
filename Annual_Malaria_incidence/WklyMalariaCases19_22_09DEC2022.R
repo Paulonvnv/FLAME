@@ -42,21 +42,20 @@ report %>%
   theme_bw()+
   labs(fill = 'N cases')
 
+data_wide=report%>%pivot_wider(values_from = "n_cases", names_from = "year")
+data_wide%<>%mutate(village_district=paste(Census.INEI.2017,district,sep = "_"))
+names(data_wide)=c(names(data_wide)[1:2],
+"village",
+names(data_wide)[4:8])
 
-#Plot p.vivax incidence in heat map by year and locality within district of Iquitos, adjusted breaks and labels for incidence and figure legend
-report %>% filter(DISTRITO == 'IQUITOS',
-                  LOCALIDAD != '(en blanco)',
-                  parasite == 'P. vivax') %>%
-  ggplot(aes(x = year,
-             y = LOCALIDAD,
-             fill = log(n_cases*3 + 1, 3)))+
-  geom_tile()+
-  scale_fill_gradient(low="white", high="red",
-                      breaks = log(c(1,5,10,40,160)*3+1,3),
-                      labels = c(1,5,10,40,160))+
-  theme_bw()+
-  labs(fill = 'N cases')
-  
+#combine the current number of cases with the previous data number of cases between 2012 and 2018, geographic location, distance from Iquitos, distance from the health center, density population, 
 
+previousdata=read.csv("selected_comm4.csv")   
+
+previousdata%<>%select(names(previousdata)[!grepl("(pfal)|(pmal)|(malaria)|(2019)",names(previousdata))])
+
+data_wide=left_join(data_wide,previousdata,by="village_district")
+
+data_wide%>%filter(is.na(order))%>%ungroup%>%select(village_district)%>%unlist
 
 
