@@ -50,12 +50,34 @@ names(data_wide)[4:8])
 
 #combine the current number of cases with the previous data number of cases between 2012 and 2018, geographic location, distance from Iquitos, distance from the health center, density population, 
 
-previousdata=read.csv("selected_comm4.csv")   
+#previousdata=read.csv("selected_comm4.csv")  
 
-previousdata%<>%select(names(previousdata)[!grepl("(pfal)|(pmal)|(malaria)|(2019)",names(previousdata))])
+previousdata = read.csv("../localidades_V7.csv")
+previousdata$api=NULL
+previousdata%<>%filter(specie =="P. vivax")%>%pivot_wider(values_from ="cases", names_from = "year")
+
+#previousdata%<>%select(names(previousdata)[!grepl("(pfal)|(pmal)|(malaria)|(2019)",names(previousdata))])
+
+names(previousdata)=c("village_district",names(previousdata)[-1])
 
 data_wide=left_join(data_wide,previousdata,by="village_district")
 
-data_wide%>%filter(is.na(order))%>%ungroup%>%select(village_district)%>%unlist
+data_wide%>%filter(is.na(specie))%>%ungroup%>%select(village_district)%>%unlist
 
+new_names=data.frame(name_currentdata=c(
+  "ANGUILLA_ALTO NANAY","BUENAVISTA_ALTO NANAY", "SALVADOR (PAVA QUEVADA)_ALTO NANAY",  "SANTA MARIA DE NANAY_ALTO NANAY", 
+  "FRAY MARTIN_IQUITOS", "AGRARIO DE SHIMBILLO_PUNCHANA", "PROGRESO I ZONA_PUNCHANA",  "SAN FERNANDO_PUNCHANA",
+  "ANGEL CARDENAS_SAN JUAN BAUTISTA", "EX PETROLERO I ZONA_SAN JUAN BAUTISTA" ,  "LOS DELFINES-CRUZ DEL SUR_SAN JUAN BAUTISTA",
+  "NUEVA SANTA ELOYSA_SAN JUAN BAUTISTA","PAUJIL II ZONA_SAN JUAN BAUTISTA",  "PEÑA NEGRA_SAN JUAN BAUTISTA", "SAN PEDRO PINTUYACU_SAN JUAN BAUTISTA",
+  "VILLA EL BUEN PASTOR_SAN JUAN BAUTISTA", "YUTO_SAN JUAN BAUTISTA", "ZUNGARO COCHA-CORRIENTILLO_SAN JUAN BAUTISTA"
+),name_previousdata=c("ANGUILLA_SAN JUAN BAUTISTA", "BUENAVISTA / SAN PEDRO_ALTO NANAY", "EL SALVADOR_ALTO NANAY",
+                      "SANTA MARIA DEL ALTO NANAY_ALTO NANAY", "FRAY MARTIN_PUNCHANA", "AGRARIO SHIMBILLO_PUNCHANA",
+                     "PROGRESO ZONA 1_PUNCHANA", "NUEVO SAN FERNANDO_PUNCHANA", "ANGEL CARDENAS HAYA I ZONA_SAN JUAN BAUTISTA",
+                     "EX PETROLEROS I ZONA_SAN JUAN BAUTISTA", "LOS DELFINES_SAN JUAN BAUTISTA", "NUEVA SANTA ELOISA_SAN JUAN BAUTISTA",
+                    "PAUJIL I ZONA_SAN JUAN BAUTISTA", "PE<d1>A NEGRA_SAN JUAN BAUTISTA", "SAN PEDRO DE PINTUYACU_SAN JUAN BAUTISTA",
+                    "VILLA BUEN PASTOR_SAN JUAN BAUTISTA", "SAN JUAN DE YUTO_SAN JUAN BAUTISTA", "SANTA ISABEL DE ZUNGARO COCHA_SAN JUAN BAUTISTA"))
+
+for (n in 1:nrow(new_names)) {
+  data_wide[data_wide$village_district==new_names[n, ][["name_currentdata"]],9:32] = previousdata[previousdata$village_district == new_names[n, ][["name_previousdata"]],-1]
+}
 
