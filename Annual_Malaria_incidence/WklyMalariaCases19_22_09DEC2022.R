@@ -76,8 +76,10 @@ new_names=data.frame(name_currentdata=c(
                      "EX PETROLEROS I ZONA_SAN JUAN BAUTISTA", "LOS DELFINES_SAN JUAN BAUTISTA", "NUEVA SANTA ELOISA_SAN JUAN BAUTISTA",
                     "PAUJIL I ZONA_SAN JUAN BAUTISTA", "PE<d1>A NEGRA_SAN JUAN BAUTISTA", "SAN PEDRO DE PINTUYACU_SAN JUAN BAUTISTA",
                     "VILLA BUEN PASTOR_SAN JUAN BAUTISTA", "SAN JUAN DE YUTO_SAN JUAN BAUTISTA", "SANTA ISABEL DE ZUNGARO COCHA_SAN JUAN BAUTISTA"))
+n=17
 
 for (n in 1:nrow(new_names)) {
-  data_wide[data_wide$village_district==new_names[n, ][["name_currentdata"]],9:32] = previousdata[previousdata$village_district == new_names[n, ][["name_previousdata"]],-1]
+  data_wide[data_wide$village_district==
+              new_names[n, ][["name_currentdata"]],9:32] = unlist(previousdata[previousdata$village_district == new_names[n, ][["name_previousdata"]],-1])
 }
 
