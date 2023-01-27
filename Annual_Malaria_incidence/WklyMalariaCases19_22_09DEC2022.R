@@ -112,5 +112,164 @@ for (n in 1:nrow(new_names)) {
 }
 
 
+library(raster)
+library(ggplot2); library(dplyr);library(leaflet);library(sp); library(tmap); library(tmaptools); library(mapview)
+
+names(data_wide) = c(
+  "Province",
+  "District",
+  'Village',
+  '2019',
+  '2020',
+  '2021',
+  '2022',
+  "village_district",
+  "LOCALIDAD",
+  "DISTRITO",
+  "PROVINCIA",
+  "Population size",
+  "Basin",
+  "Selected",
+  "Latitude",
+  "Longitude",
+  "dist_minutes_cat3",
+  "dist_minutes_cat2",
+  "dist_minutes_cat1",
+  "dist_minutes_all",
+  "urban",
+  "landc",
+  "cobVeg",
+  "cobVeg_simbol",
+  "specie",
+  "2013",
+  "2014",
+  "2015",
+  "2016",
+  "2017",
+  "2018"
+)
+
+communities = data_wide %>% ungroup() %>% dplyr::select(village_district,
+                                   Village,
+                                   District,
+                                   Province,
+                                   Latitude,
+                                   Longitude,
+                                   `Population size`,
+                                   dist_minutes_cat1,
+                                   dist_minutes_cat3,
+                                   `2021`,
+                                   `2022`)
+
+
+communities %<>% filter(!is.na(Latitude))
+
+communities = communities[c(-7, -10, -20,-21,-22, -24, -25, -26, -67,-68,-69, -76, -88, -89, -100, -101, -102, -108),]
+
+#ubicacion de los rios
+rivers <- data.frame(River = c("Nanay river", "Pintuyacu river", "Momon river", "Nanay river"),
+                     long = c(-73.90014, -73.71382, -73.38097, -73.351537),
+                     lat = c(-3.861075, -3.730544, -3.574809,  -3.785743))
+
+#ubicacion de iquitos
+Iquitos <- data.frame(Community = c("Iquitos"),
+                      long = c(-73.327286),
+                      lat = c(-3.743489))
+# texto de iquitos
+Iquitos_text <- data.frame(Community = c("Iquitos"),
+                           long = c(-73.327286),
+                           lat = c(-4.25))
+
+## Control Arm
+
+coords <- communities[, c("Latitude", "Longitude")]   # coordinates
+map_data   <- communities[,c('Village',
+                         'District',
+                         'Province',
+                         'Latitude',
+                         'Longitude',
+                         'Population size',
+                         'dist_minutes_cat1',
+                         'dist_minutes_cat3',
+                         '2021',
+                         '2022')]          # data
+
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+
+communities_preselected <- SpatialPointsDataFrame(coords = coords,
+                                                 data = map_data, 
+                                                 proj4string = crs)
+
+## numero de comunidad
+
+
+# 
+# names(communities)
+coords <- communities[ , c("Latitude", "Longitude")]   # coordinates
+
+communities$order = NA
+pos = 1
+for(commu in unique(communities$village_district)){
+  communities[communities$village_district == commu, ][['order']] = pos
+  pos = pos + 1
+}
+
+
+numb_data   <- communities[,c("order","Latitude", "Longitude")]          # data
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+
+communities_number_sp <- SpatialPointsDataFrame(coords = coords,
+                                                data = numb_data,
+                                                proj4string = crs)
+
+##rios
+coords <- rivers[ , c("long", "lat")]   # coordinates
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+
+rivers_sp <- SpatialPointsDataFrame(coords = coords,
+                                    data = rivers, 
+                                    proj4string = crs)
+
+##iquitos
+coords <- Iquitos[ , c("long", "lat")]   # coordinates
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+Iquitos_sp <- SpatialPointsDataFrame(coords = coords,
+                                     data = Iquitos, 
+                                     proj4string = crs)
+##iquitos texto
+coords <- Iquitos_text[ , c("long", "lat")]   # coordinates
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+Iquitos_text_sp <- SpatialPointsDataFrame(coords = coords,
+                                          data = Iquitos_text, 
+                                          proj4string = crs)
+
+#geometria de loreto
+loreto <- shapefile("../Limite_departamental/BAS_LIM_DEPARTAMENTO.shp")
+loreto <- loreto[loreto@data$NOMBDEP == "LORETO",]
+
+
+### Generacion de mapas
+tmap_mode('view') #pone tmap en modo exploración
+# mapa de las comunidades
+
+p1 <- tm_shape(communities_preselected)+
+  tm_dots("2022", size = 0.08, style="pretty", col = "lightblue")+
+  #tm_shape(communities_preselected)+
+  # tm_dots("api.malaria2019", size = 0.08, style="pretty", col = "red")+
+  # tm_shape(communities_NoSelected)+
+  #tm_dots(col="lightblue", size = 0.08)+
+  tm_basemap('OpenStreetMap')+
+  tm_shape(rivers_sp)+
+  tm_text("River", size = 1.15)+
+  tm_shape(communities_number_sp)+
+  tm_text("order", size=0.6)+
+  tm_scale_bar() 
+
+
+p1
+
+write.csv(communities, 'communitites.csv')
+
+
 
 
