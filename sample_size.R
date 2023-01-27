@@ -1,6 +1,8 @@
 
-setwd("D:/UTSW/fMDA_Project/Randomization/Randomization1/")
-randomizationTable0 <- read.csv("selected_comm4.csv",sep=",",header=T)
+# setwd("D:/UTSW/fMDA_Project/Randomization/Randomization1/")
+# randomizationTable0 <- read.csv("selected_comm4.csv",sep=",",header=T)
+
+randomizationTable0 = data_wide
 
 # Data cleaning----
 # remove duplicated rows
