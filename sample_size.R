@@ -48,15 +48,10 @@ randomizationTable0[randomizationTable0$order == 90,][,c('dist_minutes_cat1','di
 randomizationTable0[randomizationTable0$order == 98,][,c('dist_minutes_cat1','dist_minutes_cat3')] = randomizationTable0[randomizationTable0$order == 81,][,c('dist_minutes_cat1','dist_minutes_cat3')]
 randomizationTable0[randomizationTable0$order == 99,][,c('dist_minutes_cat1','dist_minutes_cat3')] = randomizationTable0[randomizationTable0$order == 82,][,c('dist_minutes_cat1','dist_minutes_cat3')]
 
-#selection of villages with api higher than 0 and lower than 500----
-
-# randomizationTable<-randomizationTable0[randomizationTable0$malaria2019>2&
-#                                           randomizationTable0$api.malaria2019<700&
-#                                           randomizationTable0$population<1000&
-#                                           randomizationTable0$dist_iquitos<155000,]
+#selection of villages with api higher than 0 and lower than 250----
 
 randomizationTable<-randomizationTable0[randomizationTable0$`2022`>2&
-                                          #randomizationTable0$ipa.2022<500&
+                                          randomizationTable0$ipa.2022<250&
                                           randomizationTable0$`Population size`<1000&
                                           randomizationTable0$dist_minutes_cat3 <500,]
 
@@ -70,7 +65,7 @@ combns <- t(combn(length(randomizationTable$Village), 2))
 # For each row of combns, calculate Haus. dist. for the relevant pair of 
 #  polygons
 dists <- apply(combns, 1, function(x) 
-  distm(randomizationTable[x[1],c("Latitude","Longitude")], randomizationTable[x[2],c("Latitude","Longitude")], fun = distGeo))
+  distm(randomizationTable[x[1],c("Longitude","Latitude")], randomizationTable[x[2],c("Longitude","Latitude")], fun = distGeo))
 
 
 hdists <- cbind.data.frame(from=as.character(randomizationTable$Village[combns[, 1]]), 
@@ -164,7 +159,16 @@ nclusterTable<-Hayes_Bennett1999(lambda0 = lambda0,k = k,
                   reduction = reduction)
 
 
-write.csv(nclusterTable,"nclusterTable.csv")
+write.csv(nclusterTable,"nclusterTable_250.csv")
+
+write.csv(randomizationTable, 'randomizationTable.csv', quote = F, row.names = F)
 
 
+############Step 1 ----
+#Genrate all possible permutations of arms allocation respecting no sellected (0), control (1) and intervention (2)
 
+arm0 <- c(rep(0,5),rep(1,14),rep(2,14))
+set.seed(1)
+arm0permutations<-as.data.frame(t(replicate(1440000,sample(arm0,length(arm0),replace = F))))
+arm0permutationsUnique <- arm0permutations[!duplicated(arm0permutations),]
+write.csv(arm0permutationsUnique, 'arm0permutationsUnique.csv', quote = F, row.names = F)

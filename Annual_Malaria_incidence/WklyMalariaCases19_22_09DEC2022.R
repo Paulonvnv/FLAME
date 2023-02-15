@@ -65,7 +65,7 @@ names(previousdata)=c("village_district",names(previousdata)[-1])
 
 data_wide=left_join(data_wide,previousdata,by="village_district")
 
-data_wide%>%filter(is.na(specie))%>%ungroup%>%select(village_district)%>%unlist
+#data_wide%>%filter(is.na(specie))%>%ungroup%>%select(village_district)%>%unlist
 
 new_names = data.frame(name_currentdata = c(
   "ANGUILLA_ALTO NANAY",
