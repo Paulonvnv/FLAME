@@ -55,6 +55,12 @@ randomizationTable<-randomizationTable0[randomizationTable0$`2022`>2&
                                           randomizationTable0$`Population size`<1000&
                                           randomizationTable0$dist_minutes_cat3 <500,]
 
+no_selected_highapi <-randomizationTable0[randomizationTable0$`2022`>2&
+                                          randomizationTable0$ipa.2022 >= 250&
+                                          randomizationTable0$`Population size`<1000&
+                                          randomizationTable0$dist_minutes_cat3 <500,]
+
+
 library(geosphere)
 
 # calculate distance in meters between villages----
@@ -158,7 +164,6 @@ nclusterTable<-Hayes_Bennett1999(lambda0 = lambda0,k = k,
                   hcsize = hcsize,
                   reduction = reduction)
 
-
 write.csv(nclusterTable,"nclusterTable_250.csv")
 
 write.csv(randomizationTable, 'randomizationTable.csv', quote = F, row.names = F)
@@ -172,3 +177,65 @@ set.seed(1)
 arm0permutations<-as.data.frame(t(replicate(1440000,sample(arm0,length(arm0),replace = F))))
 arm0permutationsUnique <- arm0permutations[!duplicated(arm0permutations),]
 write.csv(arm0permutationsUnique, 'arm0permutationsUnique.csv', quote = F, row.names = F)
+
+
+## Pre selected
+
+coords <- randomizationTable[, c("Latitude", "Longitude")]   # coordinates
+map_data   <- randomizationTable[,c('Village',
+                             'District',
+                             'Province',
+                             'Latitude',
+                             'Longitude',
+                             'Population size',
+                             'dist_minutes_cat1',
+                             'dist_minutes_cat3',
+                             '2021',
+                             '2022')]          # data
+
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+
+communities_preselected <- SpatialPointsDataFrame(coords = coords,
+                                                  data = map_data, 
+                                                  proj4string = crs)
+
+
+## No selected 
+
+coords <- no_selected_highapi[, c("Latitude", "Longitude")]   # coordinates
+map_data   <- no_selected_highapi[,c('Village',
+                             'District',
+                             'Province',
+                             'Latitude',
+                             'Longitude',
+                             'Population size',
+                             'dist_minutes_cat1',
+                             'dist_minutes_cat3',
+                             '2021',
+                             '2022')]          # data
+
+crs    <- CRS("+init=epsg:4326") # proj4string of coords
+
+communities_no_selected <- SpatialPointsDataFrame(coords = coords,
+                                                  data = map_data, 
+                                                  proj4string = crs)
+
+
+
+p2 <- tm_shape(communities_preselected)+
+  tm_dots("2022", size = 0.08, style="pretty", col = "lightblue")+
+  tm_shape(communities_no_selected)+
+  tm_dots("2022", size = 0.08, style="pretty", col = "red")+
+  # tm_shape(communities_NoSelected)+
+  #tm_dots(col="lightblue", size = 0.08)+
+  tm_basemap('OpenStreetMap')+
+  tm_shape(rivers_sp)+
+  tm_text("River", size = 1.15)+
+  tm_shape(communities_number_sp)+
+  tm_text("order", size=0.6)+
+  tm_scale_bar() 
+
+
+p2
+
+min(randomizationTable$`2022`)
