@@ -52,12 +52,12 @@ randomizationTable0[randomizationTable0$order == 99,][,c('dist_minutes_cat1','di
 
 randomizationTable<-randomizationTable0[randomizationTable0$`2022`>2&
                                           randomizationTable0$ipa.2022<250&
-                                          randomizationTable0$`Population size`<1000&
+                                          randomizationTable0$`Population size`<650&
                                           randomizationTable0$dist_minutes_cat3 <500,]
 
 no_selected_highapi <-randomizationTable0[randomizationTable0$`2022`>2&
                                           randomizationTable0$ipa.2022 >= 250&
-                                          randomizationTable0$`Population size`<1000&
+                                          randomizationTable0$`Population size`<650&
                                           randomizationTable0$dist_minutes_cat3 <500,]
 
 
@@ -163,6 +163,42 @@ nclusterTable<-Hayes_Bennett1999(lambda0 = lambda0,k = k,
                   csize = csize,
                   hcsize = hcsize,
                   reduction = reduction)
+
+
+nclust = 16
+
+
+zbeta = c(.8, .85, .9)
+
+reduction_table = NULL
+
+for(beta in zbeta){
+  
+  n = 1000
+  reduction = .1
+  
+  while(n > nclust){
+    
+    temp<-Hayes_Bennett1999(lambda0 = lambda0,
+                            
+                            k = k,
+                            csize = csize,
+                            hcsize = hcsize,
+                            reduction = reduction,
+                            zbeta=beta)
+    
+    n = temp$nclust
+    reduction = reduction + .001
+    
+  }
+  
+  reduction_table = rbind(reduction_table, data.frame(reduction = reduction, beta = beta))
+  
+}
+
+
+
+
 
 write.csv(nclusterTable,"nclusterTable_250.csv")
 
