@@ -10,6 +10,8 @@ randomizationTable0<-randomizationTable0[!duplicated(randomizationTable0$village
 
 
 
+randomizationTable0[is.na(randomizationTable0$`Population size`),][['Population size']] = c(63, 129, 227, 168, 177)
+
 
 # function of the harmonic mean and its standard deviation
 hmean<-function(x) {1/mean(1/x)}
