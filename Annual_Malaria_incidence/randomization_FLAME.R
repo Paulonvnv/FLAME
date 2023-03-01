@@ -1,6 +1,6 @@
-
-w = 1
-n = 480
+library(geosphere)
+w = 48
+n = 48
 
 randomizationTable = read.csv('randomizationTable.csv')
 
@@ -32,7 +32,7 @@ sd.population<-sd(randomizationTable$`Population size`,na.rm = T)       #a
 sd.dis_cat3<-sd(randomizationTable$dist_minutes_cat3,na.rm = T)  #b
 sd.dis_cat1<-sd(randomizationTable$dist_minutes_cat1,na.rm = T)  #c
 sd.ipa.2022<-sd(randomizationTable$ipa.2022,na.rm = T)     #d
-minDistBetweenArms<-1000   
+minDistBetweenArms<-1200   
 
 # Step 3: Randomization ----
 # Balance between control and intervention
@@ -52,15 +52,15 @@ for (i in low:high){ #3 seconds
   
   isDiffInMean.a.LowerThanOverallSD <- diffInMean.a < 0.25 * sd.population
   
-  #b. distance from the village to Iquitos city in minutes
+  #b. distance from the village to Iquitos city in meters
   
   diffInMean.b <- abs(by(randomizationTable$dist_minutes_cat3,randomizationTable[,c(name)],mean, na.rm=T)[2]-by(randomizationTable$dist_minutes_cat3,randomizationTable[,c(name)],mean, na.rm=T)[3])
   
   isDiffInMean.b.LowerThanOverallSD <- diffInMean.b < 0.25 * sd.dis_cat3
   
-  #c. distance to a health center cat1 in minutes
+  #c. distance to a health center cat1
   
-  diffInMean.c <- abs(by(randomizationTable$dist_minutes_cat1,randomizationTable[,c(name)],mean, na.rm=T)[2]-by(randomizationTable$dist_minutes_cat1,randomizationTable[,c(name)],mean, na.rm=T)[3])
+ diffInMean.c <- abs(by(randomizationTable$dist_minutes_cat1,randomizationTable[,c(name)],mean, na.rm=T)[2]-by(randomizationTable$dist_minutes_cat1,randomizationTable[,c(name)],mean, na.rm=T)[3])
   
   isDiffInMean.c.LowerThanOverallSD <- diffInMean.c < 0.25 * sd.dis_cat1
   
@@ -79,33 +79,48 @@ for (i in low:high){ #3 seconds
   ############Step 4
   #Keep the potential randomization if the difference in the means for Arm 1 and Arm 2 for a, b, and c is less than 25% of the overall SD for the given variable.
   #Repeat until all potential randomizations are listed 
-  keepRandomization.df[i - low + 1,1] <- prod(c(isDiffInMean.a.LowerThanOverallSD,
+  keepRandomization.df[i-low+1,1] <- prod(c(isDiffInMean.a.LowerThanOverallSD,
                                       isDiffInMean.b.LowerThanOverallSD,
                                       isDiffInMean.c.LowerThanOverallSD,
                                       isDiffInMean.d.LowerThanOverallSD,
-                                      isDist.HigherThan.minDistBetweenArms),
+                                      isDist.HigherThan.minDistBetweenArms
+  ),
   na.rm = T)
 }
 
 ############Step 7 ----
 #Randomly select the potential allocations meeting the criteria.
 listOfIndex <- which(keepRandomization.df[]==1,arr.ind = T)
-listOf_validRandomizationArm <- paste("randomizationArm", listOfIndex[,1] + low - 1)
 
-randomizationTable <- randomizationTable[,c("village_district",
-                              "Village",
-                              "District",
-                              "Province",
-                              "Latitude",
-                              "Longitude",
-                              "Population size",
-                              "dist_minutes_cat1",
-                              "dist_minutes_cat3",
-                              "2021",
-                              "2022",
-                              "order",
-                              "ipa.2021",
-                              "ipa.2022" , listOf_validRandomizationArm)]
+listOf_validRandomizationArm <- paste("randomizationArm",listOfIndex[,1]+low-1)
+if(nrow(listOfIndex)>0){randomizationTable <- randomizationTable[,c("village_district",
+                                                                       "Village",
+                                                                       "District",
+                                                                       "Province",
+                                                                       "Latitude",
+                                                                       "Longitude",
+                                                                       "Population size",
+                                                                       "dist_minutes_cat1",
+                                                                       "dist_minutes_cat3",
+                                                                       "2021",
+                                                                       "2022",
+                                                                       "order",
+                                                                       "ipa.2021",
+                                                                       "ipa.2022" , listOf_validRandomizationArm)]
+}else{randomizationTable <- randomizationTable[,c("village_district",
+                                                  "Village",
+                                                  "District",
+                                                  "Province",
+                                                  "Latitude",
+                                                  "Longitude",
+                                                  "Population size",
+                                                  "dist_minutes_cat1",
+                                                  "dist_minutes_cat3",
+                                                  "2021",
+                                                  "2022",
+                                                  "order",
+                                                  "ipa.2021",
+                                                  "ipa.2022")]}
 
 write.csv(randomizationTable, paste0('randomizationTable',w,'.csv'), row.names = FALSE)
 

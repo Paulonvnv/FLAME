@@ -109,6 +109,7 @@ reduction<-c(0.1,
              0.25,
              0.375,
              0.5,
+             0.520,
              0.6,
              0.65,
              0.7,
@@ -210,7 +211,7 @@ write.csv(randomizationTable, 'randomizationTable.csv', quote = F, row.names = F
 ############Step 1 ----
 #Genrate all possible permutations of arms allocation respecting no sellected (0), control (1) and intervention (2)
 
-arm0 <- c(rep(0,5),rep(1,14),rep(2,14))
+arm0 <- c(rep(1,16),rep(2,16))
 set.seed(1)
 arm0permutations<-as.data.frame(t(replicate(1440000,sample(arm0,length(arm0),replace = F))))
 arm0permutationsUnique <- arm0permutations[!duplicated(arm0permutations),]
@@ -276,4 +277,6 @@ p2 <- tm_shape(communities_preselected)+
 
 p2
 
-min(randomizationTable$`2022`)
+sum(randomizationTable$`Population size`)
+
+
