@@ -22,7 +22,23 @@ randomizationTable0[is.na(randomizationTable0$`Population size`),][["Population 
 
 #calculation of api for missing data
 
+randomizationTable0$`2013` = unlist(randomizationTable0$`2013`)
+randomizationTable0$`2014` = unlist(randomizationTable0$`2014`)
+randomizationTable0$`2015` = unlist(randomizationTable0$`2015`)
+randomizationTable0$`2016` = unlist(randomizationTable0$`2016`)
+randomizationTable0$`2017` = unlist(randomizationTable0$`2017`)
+randomizationTable0$`2018` = unlist(randomizationTable0$`2018`)
+
+
 randomizationTable0 %<>% mutate(
+  ipa.2013 = 1000*`2013`/`Population size`,
+  ipa.2014 = 1000*`2014`/`Population size`,
+  ipa.2015 = 1000*`2015`/`Population size`,
+  ipa.2016 = 1000*`2016`/`Population size`,
+  ipa.2017 = 1000*`2017`/`Population size`,
+  ipa.2018 = 1000*`2018`/`Population size`,
+  ipa.2019 = 1000*`2019`/`Population size`,
+  ipa.2020 = 1000*`2020`/`Population size`,
   ipa.2021 = 1000*`2021`/`Population size`,
   ipa.2022 = 1000*`2022`/`Population size`
 )
@@ -198,6 +214,23 @@ for(beta in zbeta){
   reduction_table = rbind(reduction_table, data.frame(reduction = reduction, beta = beta))
   
 }
+
+
+
+randomizationTable %>% pivot_longer(cols = all_of(colnames(randomizationTable)[grepl('ipa', colnames(randomizationTable))]),
+                                    names_to = 'year',
+                                    values_to = 'ipa')%>%
+  mutate(year = gsub('ipa\\.','', year))%>%
+  ggplot(aes(x = year,
+             y = Village,
+             fill = ipa))+
+  geom_tile()+
+  scale_fill_gradient(low="white", high="red",
+                      #breaks = 0:5,
+                      #labels = 3^(0:5)-1
+  )+
+  theme_bw()+
+  labs(fill = 'API')
 
 
 
