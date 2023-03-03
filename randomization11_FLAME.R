@@ -1,6 +1,6 @@
 
-w = 1
-n = 480
+w = 4
+n = 48
 
 randomizationTable = read.csv('randomizationTable.csv')
 
@@ -19,7 +19,7 @@ names(randomizationTable) = c("village_district",
                               "ipa.2021",
                               "ipa.2022")
 
-arm0permutationsUnique = read.csv('arm0permutationsUnique.csv')
+arm0permutationsUnique = read.csv('arm11permutationsUnique.csv')
 
 s = round(seq(1,nrow(arm0permutationsUnique)+1, length.out=n+1))
 low = s[w]
@@ -32,7 +32,7 @@ sd.population<-sd(randomizationTable$`Population size`,na.rm = T)       #a
 sd.dis_cat3<-sd(randomizationTable$dist_minutes_cat3,na.rm = T)  #b
 sd.dis_cat1<-sd(randomizationTable$dist_minutes_cat1,na.rm = T)  #c
 sd.ipa.2022<-sd(randomizationTable$ipa.2022,na.rm = T)     #d
-minDistBetweenArms<-1000   
+minDistBetweenArms<-2000   
 
 # Step 3: Randomization ----
 # Balance between control and intervention
@@ -107,7 +107,8 @@ randomizationTable <- randomizationTable[,c("village_district",
                               "ipa.2021",
                               "ipa.2022" , listOf_validRandomizationArm)]
 
-write.csv(randomizationTable, paste0('randomizationTable',w,'.csv'), row.names = FALSE)
+write.csv(randomizationTable, paste0('randomizationTable11_',w,'.csv'), row.names = FALSE)
 
+listOf_validRandomizationArm
 
 

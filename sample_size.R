@@ -10,6 +10,8 @@ randomizationTable0<-randomizationTable0[!duplicated(randomizationTable0$village
 
 
 
+randomizationTable0[is.na(randomizationTable0$`Population size`),][['Population size']] = c(63, 129, 227, 168, 177)
+
 
 # function of the harmonic mean and its standard deviation
 hmean<-function(x) {1/mean(1/x)}
@@ -20,7 +22,23 @@ randomizationTable0[is.na(randomizationTable0$`Population size`),][["Population 
 
 #calculation of api for missing data
 
+randomizationTable0$`2013` = unlist(randomizationTable0$`2013`)
+randomizationTable0$`2014` = unlist(randomizationTable0$`2014`)
+randomizationTable0$`2015` = unlist(randomizationTable0$`2015`)
+randomizationTable0$`2016` = unlist(randomizationTable0$`2016`)
+randomizationTable0$`2017` = unlist(randomizationTable0$`2017`)
+randomizationTable0$`2018` = unlist(randomizationTable0$`2018`)
+
+
 randomizationTable0 %<>% mutate(
+  ipa.2013 = 1000*`2013`/`Population size`,
+  ipa.2014 = 1000*`2014`/`Population size`,
+  ipa.2015 = 1000*`2015`/`Population size`,
+  ipa.2016 = 1000*`2016`/`Population size`,
+  ipa.2017 = 1000*`2017`/`Population size`,
+  ipa.2018 = 1000*`2018`/`Population size`,
+  ipa.2019 = 1000*`2019`/`Population size`,
+  ipa.2020 = 1000*`2020`/`Population size`,
   ipa.2021 = 1000*`2021`/`Population size`,
   ipa.2022 = 1000*`2022`/`Population size`
 )
@@ -107,6 +125,7 @@ reduction<-c(0.1,
              0.25,
              0.375,
              0.5,
+             0.520,
              0.6,
              0.65,
              0.7,
@@ -198,6 +217,23 @@ for(beta in zbeta){
 
 
 
+randomizationTable %>% pivot_longer(cols = all_of(colnames(randomizationTable)[grepl('ipa', colnames(randomizationTable))]),
+                                    names_to = 'year',
+                                    values_to = 'ipa')%>%
+  mutate(year = gsub('ipa\\.','', year))%>%
+  ggplot(aes(x = year,
+             y = Village,
+             fill = ipa))+
+  geom_tile()+
+  scale_fill_gradient(low="white", high="red",
+                      #breaks = 0:5,
+                      #labels = 3^(0:5)-1
+  )+
+  theme_bw()+
+  labs(fill = 'API')
+
+
+
 
 
 write.csv(nclusterTable,"nclusterTable_250.csv")
@@ -208,7 +244,7 @@ write.csv(randomizationTable, 'randomizationTable.csv', quote = F, row.names = F
 ############Step 1 ----
 #Genrate all possible permutations of arms allocation respecting no sellected (0), control (1) and intervention (2)
 
-arm0 <- c(rep(0,5),rep(1,14),rep(2,14))
+arm0 <- c(rep(1,16),rep(2,16))
 set.seed(1)
 arm0permutations<-as.data.frame(t(replicate(1440000,sample(arm0,length(arm0),replace = F))))
 arm0permutationsUnique <- arm0permutations[!duplicated(arm0permutations),]
@@ -274,4 +310,6 @@ p2 <- tm_shape(communities_preselected)+
 
 p2
 
-min(randomizationTable$`2022`)
+sum(randomizationTable$`Population size`)
+
+
