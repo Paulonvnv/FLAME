@@ -1,0 +1,664 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+681,familia_arm_1,9/7/2023,4,10,200,10200,4,Rudir Arirama Ijuma,2,,,,,,,,,,,,,,,,,,,,,
+681,individuo_1_arm_1,,,,,,,,,10200,Arirama,Ijuma,Rudir,,49015815,49015815,10/3/1979,,0,,,1,0,,,,,,,2
+681,individuo_2_arm_1,,,,,,,,,10200,Pinchi,Mucushua,Natalia,,44825602,44825602,4/13/1980,,1,0,,1,0,,,,,,,2
+681,individuo_3_arm_1,,,,,,,,,10200,Arirama,Pinchi,Rudir,Enrique,76104565,76104565,1/18/2011,,0,,,0,,,,,,,,2
+681,individuo_4_arm_1,,,,,,,,,10200,Sanchez,Arirama,Ruth,Elina,90922567,90922567,8/19/2018,,1,0,,0,,,,,,,,2
+682,familia_arm_1,9/7/2023,4,10,199,10199,4,Segundo Pedro Acuña Mozombite,2,,,,,,,,,,,,,,,,,,,,,
+682,individuo_1_arm_1,,,,,,,,,10199,Acuña,Mozombite,Segundo,Pedro,48403024,48403024,8/28/1980,,0,,,1,0,,,,,,,2
+682,individuo_2_arm_1,,,,,,,,,10199,Torres,Rojas,Susy,Farita,60512931,60512931,4/16/2003,,1,0,,0,,,,,,,,2
+682,individuo_3_arm_1,,,,,,,,,10199,Mozombite,Torres,Josefa,,80675708,80675708,7/2/1955,,1,0,,1,0,,,,,,,2
+682,individuo_4_arm_1,,,,,,,,,10199,Natorce,Torres,Kiara,Alejandra,91314262,91314262,5/9/2019,,1,0,,0,,,,,,,,2
+683,familia_arm_1,9/7/2023,4,10,204,10204,5,Jorge Ernesto Del Aguila Ynsapillo,2,,,,,,,,,,,,,,,,,,,,,
+683,individuo_1_arm_1,,,,,,,,,10204,Del Aguila,Ynsapillo,Jorge,Ernesto,44605107,44605107,7/28/1987,,0,,,999,,,,,,,,2
+683,individuo_2_arm_1,,,,,,,,,10204,Chavez,Rengifo,Sarai,Dorca,45166173,45166173,6/14/1987,,1,0,,1,0,,,,,,,2
+683,individuo_3_arm_1,,,,,,,,,10204,Del Aguila,Chavez,Treysi,Nicol,62553420,62553420,12/28/2009,,1,0,,0,,,,,,,,2
+683,individuo_4_arm_1,,,,,,,,,10204,Del Aguila,Chavez,Jorge,Leandro,62963950,62963950,10/18/2011,,0,,,0,,,,,,,,2
+683,individuo_5_arm_1,,,,,,,,,10204,Del Aguila,Chavez,Stefany,Yamali,78785707,78785707,9/14/2014,,1,0,,0,,,,,,,,2
+684,familia_arm_1,9/7/2023,4,10,600,10600,4,Jose Ortega Vargas,2,,,,,,,,,,,,,,,,,,,,,
+684,individuo_1_arm_1,,,,,,,,,10600,Ortega,Vargas,Jose,,43854998,43854998,10/1/1979,,0,,,1,0,,,,,,,2
+684,individuo_2_arm_1,,,,,,,,,10600,Chanchari,Marrera,Selvi,,40589351,40589351,9/12/1980,,1,0,,1,0,,,,,,,2
+684,individuo_3_arm_1,,,,,,,,,10600,Ortega,Chanchari,Adriano,,62553460,62553460,12/10/2009,,0,,,0,,,,,,,,2
+684,individuo_4_arm_1,,,,,,,,,10600,Ortega,Chanchari,Diandra,Sileri,99999999,99999999,8/1/2005,,1,0,,1,1,1,,1,3,,,2
+685,familia_arm_1,9/7/2023,4,10,212,10212,4,Manuel Mozombite Sanchez,2,,,,,,,,,,,,,,,,,,,,,
+685,individuo_1_arm_1,,,,,,,,,10212,Mozombite,Sanchez,Manuel,,5298701,5298701,4/7/1947,76,0,,,1,0,,,,,,,2
+685,individuo_2_arm_1,,,,,,,,,10212,Arimuya,Manuyama,Genoveva,,80534637,80534637,6/16/1959,64,1,0,,0,,,,,,,,2
+685,individuo_3_arm_1,,,,,,,,,10212,Manuyama,Amias,Clotilde,,48693721,48693721,1/2/1939,84,1,0,,1,0,,,,,,,2
+685,individuo_4_arm_1,,,,,,,,,10212,Arimuya,Manuyama,Jose,Rey,99999999,99999999,12/23/1972,50,0,,,NI,0,,,,,,,2
+686,familia_arm_1,9/7/2023,4,10,601,10601,7,Rider Tamani Murayari,2,,,,,,,,,,,,,,,,,,,,,
+686,individuo_1_arm_1,,,,,,,,,10601,Tamani,Murayari,Rider,,45326974,45326974,8/11/1984,39,0,,,1,0,,,,,,,2
+686,individuo_2_arm_1,,,,,,,,,10601,Manuyama,Yahuarcani,Medali,,46275104,46275104,6/13/1989,34,1,0,,0,,,,,,,,2
+686,individuo_3_arm_1,,,,,,,,,10601,Tamani,Manuyama,Monica,,80980418,80980418,1/27/2014,9,1,0,,0,,,,,,,,2
+686,individuo_4_arm_1,,,,,,,,,10601,Tamani,Manuyama,Rider,Adrian,99999999,99999999,10/26/2011,11,0,,,0,,,,,,,,2
+686,individuo_5_arm_1,,,,,,,,,10601,Tamani,Manuyama,Jhessira,Celeste,99999999,99999999,2/12/2008,15,1,0,,0,,,,,,,,2
+686,individuo_6_arm_1,,,,,,,,,10601,Tamani,Manuyama,Maicor,,99999999,99999999,12/7/2004,18,0,,,0,,,,,,,,2
+686,individuo_7_arm_1,,,,,,,,,10601,Manuyama,Chasnamote,Jose,,99999999,99999999,12/6/1958,64,0,,,1,0,,,,,,,2
+687,familia_arm_1,9/7/2023,4,10,224,10224,3,Ceni Apagueño Iñape,2,,,,,,,,,,,,,,,,,,,,,
+687,individuo_1_arm_1,,,,,,,,,10224,Apagueño,Iñapi,Ceni,,45705342,45705342,7/1/1987,,1,0,,1,0,,,,,,,2
+687,individuo_2_arm_1,,,,,,,,,10224,Pizango,Apagueño,Tatiana,Pricila,76846345,76846345,11/3/2005,,1,0,,0,,,,,,,,2
+687,individuo_3_arm_1,,,,,,,,,10224,Pizango,Apagueño,Evelyn,,61986532,61986532,7/11/2009,,1,0,,0,,,,,,,,2
+688,familia_arm_1,9/7/2023,4,10,228,10228,5,Joisi Thalia Rubio Manihuari,2,,,,,,,,,,,,,,,,,,,,,
+688,individuo_1_arm_1,,,,,,,,,10228,Rubio,Manihuari,Joisi,Thalia,62659066,62659066,1/29/1997,,1,0,,1,0,,,,,,,2
+688,individuo_2_arm_1,,,,,,,,,10228,Putpaña,Rubio,Yassira,Anileth,92502038,92502038,8/21/2021,,1,0,,0,,,,,,,,2
+688,individuo_3_arm_1,,,,,,,,,10228,Putpaña,Rubio,Nihan,Thalia,92288328,92288328,8/29/2018,,1,0,,0,,,,,,,,2
+688,individuo_4_arm_1,,,,,,,,,10228,Curichimba,Putpaña,Masiel,,99999999,99999999,4/21/2002,,1,0,,0,,,,,,,,2
+688,individuo_5_arm_1,,,,,,,,,10228,Tanger,Sanchez,Rosa,Del carmen,5270939,5270939,8/13/1965,,1,0,,1,1,1,,1,3,,,2
+689,familia_arm_1,9/7/2023,1,10,197,10197,2,Maribel macuyama murayari,2,,,,,,,,,,,,,,,,,,,,,
+689,individuo_1_arm_1,,,,,,,,,10197,Mucuyana,Murayari,Maribel,,5397205,5397205,7/24/1970,,1,0,,1,0,,,,,,,2
+689,individuo_2_arm_1,,,,,,,,,10197,Padilla,Macuyama,Silene,,46867522,46867522,3/16/1991,,1,0,,1,0,,,,,,,2
+690,familia_arm_1,9/7/2023,1,10,201,10201,1,Rosa dulmira alvarado huiñapi,2,,,,,,,,,,,,,,,,,,,,,
+690,individuo_1_arm_1,,,,,,,,,10201,Alvarado,Huiñapi,Rosa,Dulmira,5363038,5363038,8/30/1954,,1,0,,1,0,,,,,,,2
+691,familia_arm_1,9/7/2023,1,10,203,10203,4,Carme perez romero,2,,,,,,,,,,,,,,,,,,,,,
+691,individuo_1_arm_1,,,,,,,,,10203,Perez,Romero,Carmen,,73663866,73663866,6/6/1999,,1,0,,1,0,,,,,,,2
+691,individuo_2_arm_1,,,,,,,,,10203,Pacaya,Melendes,Witman,Jose,72864543,72864543,9/8/1993,,0,,,0,,,,,,,,2
+691,individuo_3_arm_1,,,,,,,,,10203,Pacaya,Perez,Xianna,Mercedes,92357520,92357520,5/13/2021,,1,0,,0,,,,,,,,2
+691,individuo_4_arm_1,,,,,,,,,10203,Ramires,Perez,Eva,Oliver,78732688,78732688,8/24/2014,,0,,,0,,,,,,,,2
+692,familia_arm_1,9/7/2023,1,10,209,10209,7,Jormeri flores mozombite,2,,,,,,,,,,,,,,,,,,,,,
+692,individuo_1_arm_1,,,,,,,,,10209,Flores,Mozombite,Jormeri,,46582201,46582201,4/12/1990,,1,0,,1,0,,,,,,,2
+692,individuo_2_arm_1,,,,,,,,,10209,Amasifuen,Huaman,Isrrael,,5294894,5294894,3/29/1968,,0,,,1,0,,,,,,,2
+692,individuo_3_arm_1,,,,,,,,,10209,Amasifuen,Flores,Semaias,,61899545,61899545,11/17/2009,,0,,,1,1,2,Comunidad shiriara,1,18,,,2
+692,individuo_4_arm_1,,,,,,,,,10209,Amasifuen,Flores,Joas,Abiel,90274579,90274579,6/17/2017,,0,,,0,,,,,,,,2
+692,individuo_5_arm_1,,,,,,,,,10209,Amasifuen,Sinarahua,Heber,Israel,47939564,47939564,7/10/1992,,0,,,0,,,,,,,,2
+692,individuo_6_arm_1,,,,,,,,,10209,Dosanto,Saboya,Sharolin,Del carmen,63364626,63364626,6/7/2000,,1,0,,999,,,,,,,,2
+692,individuo_7_arm_1,,,,,,,,,10209,Amasifuen,Dosantos,Heber,Adriel,91592379,91592379,11/14/2019,,0,,,0,,,,,,,,2
+693,familia_arm_1,9/7/2023,1,10,214,10214,8,Mariana albina aspajo caritimare,2,,,,,,,,,,,,,,,,,,,,,
+693,individuo_1_arm_1,,,,,,,,,10214,Aspajo,Caritimare,Maria,Albina,48696276,48696276,9/15/1986,,1,0,,1,0,,,,,,,2
+693,individuo_2_arm_1,,,,,,,,,10214,Trigozo,Panduro,Ramon,,80515092,80515092,8/31/1970,,0,,,0,,,,,,,,2
+693,individuo_3_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Randy,,79221207,79221207,7/6/2015,,0,,,0,,,,,,,,2
+693,individuo_4_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Vanussa,Suceth,92413899,92413899,4/13/2006,,1,0,,0,,,,,,,,2
+693,individuo_5_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Sebastian,,92413914,92413914,3/18/2008,,0,,,0,,,,,,,,2
+693,individuo_6_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Alodia,,92413890,92413890,12/16/2009,,1,0,,0,,,,,,,,2
+693,individuo_7_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Emyr,,91677547,91677547,1/12/2020,,0,,,0,,,,,,,,2
+693,individuo_8_arm_1,,,,,,,,,10214,Trigozo,Aspajo,Leonel,,78295372,78295372,10/3/2013,,0,,,0,,,,,,,,2
+694,familia_arm_1,9/7/2023,1,10,216,10216,4,Luz angelica ahuanari sias,2,,,,,,,,,,,,,,,,,,,,,
+694,individuo_1_arm_1,,,,,,,,,10216,Ahuanari,Sias,Liz,Angelica,77768898,77768898,6/18/2002,,1,0,,1,0,,,,,,,2
+694,individuo_2_arm_1,,,,,,,,,10216,Amasifen,Sias,Braulio,Alexander,77204603,77204603,3/1/2006,,0,,,0,,,,,,,,2
+694,individuo_3_arm_1,,,,,,,,,10216,Mucushua,Cahuaza,Celia,,80273056,80273056,2/17/1970,,1,0,,1,0,,,,,,,2
+694,individuo_4_arm_1,,,,,,,,,10216,Calampa,Ahuanari,Camille,Alexandra,91154595,91154595,1/26/2019,,1,0,,0,,,,,,,,2
+695,familia_arm_1,9/7/2023,1,10,700,10700,5,Tamner escobar martinez,2,,,,,,,,,,,,,,,,,,,,,
+695,individuo_1_arm_1,,,,,,,,,10700,Escobar,Martinez,Tamner,,44225759,44225759,2/14/1986,,0,,,1,0,,,,,,,2
+695,individuo_2_arm_1,,,,,,,,,10700,Isuiza,Oyola,Dorca,Ester,47767823,47767823,7/21/1992,,1,0,,1,0,,,,,,,2
+695,individuo_3_arm_1,,,,,,,,,10700,Tafur,Isuiza,Maritza,Yamilet,76889043,76889043,8/23/2007,,1,0,,0,,,,,,,,2
+695,individuo_4_arm_1,,,,,,,,,10700,Escobar,Isuiza,Elita,,78370860,78370860,12/12/2013,,1,0,,0,,,,,,,,2
+695,individuo_5_arm_1,,,,,,,,,10700,Escobar,Isuiza,Willian,,79842924,79842924,9/5/2016,,0,,,0,,,,,,,,2
+696,familia_arm_1,9/7/2023,1,10,229,10229,6,Monica del pilar mozombite huayambi,2,,,,,,,,,,,,,,,,,,,,,
+696,individuo_1_arm_1,,,,,,,,,10229,Mozombite,Huayambi,Monica,Del pilar,45085355,45085355,2/11/1988,,1,0,,0,,,,,,,,2
+696,individuo_2_arm_1,,,,,,,,,10229,Del aguila,Vasquez,Magno,,5405450,5405450,11/15/1976,,0,,,0,,,,,,,,2
+696,individuo_3_arm_1,,,,,,,,,10229,Lozada,Mozombite,Ramiro,Iram,90152988,90152988,4/2/2017,,0,,,0,,,,,,,,2
+696,individuo_4_arm_1,,,,,,,,,10229,Torres ,Mozombite,Hellen,Julieth,62710074,62710074,10/22/2010,,1,0,,0,,,,,,,,2
+696,individuo_5_arm_1,,,,,,,,,10229,Shapiama,Velasquez,Stefano,Giuseppe,76115682,76115682,10/16/2010,,0,,,0,,,,,,,,2
+696,individuo_6_arm_1,,,,,,,,,10229,Shapiama,Velasquez,Alexander,Luzbel,77927225,77927225,9/29/2008,,1,0,,1,0,,,,,,,2
+697,familia_arm_1,9/7/2023,1,10,234,10234,2,Alberto damaso noriega navarro,2,,,,,,,,,,,,,,,,,,,,,
+697,individuo_1_arm_1,,,,,,,,,10234,Noriega,Navarro,Alverto,Damaso,10140109,10140109,12/27/1975,,0,,,0,,,,,,,,2
+697,individuo_2_arm_1,,,,,,,,,10234,Rojas,Torres,Rosa,Maribel,5375240,5375240,10/15/1976,,1,0,,0,,,,,,,,2
+698,familia_arm_1,9/8/2023,4,10,502,10502,5,Javier Cristhian Piro Urquia,2,,,,,,,,,,,,,,,,,,,,,
+698,individuo_1_arm_1,,,,,,,,,10502,Piro,Urquia,Javier,Cristhian,46681210,46681210,3/31/1984,,0,,,0,,,,,,,,2
+698,individuo_2_arm_1,,,,,,,,,10502,Urquia,Barbaran,Guillermina,,122070,122070,9/2/1943,,1,0,,999,,,,,,,,2
+698,individuo_3_arm_1,,,,,,,,,10502,Piro,Arevalo,Ariana,Carolina,74103034,74103034,2/23/2005,,1,0,,0,,,,,,,,2
+698,individuo_4_arm_1,,,,,,,,,10502,Piro,Arevalo,Lexxy,Damaris,74103052,74103052,11/5/2008,,1,0,,0,,,,,,,,2
+698,individuo_5_arm_1,,,,,,,,,10502,Piro,Morales,Robay,,99999999,99999999,10/7/1954,,0,,,999,,,,,,,,2
+699,familia_arm_1,9/8/2023,4,10,327,10327,1,Ulises Gil Ortega,2,,,,,,,,,,,,,,,,,,,,,
+699,individuo_1_arm_1,,,,,,,,,10327,Gil,Ortega,Ulises,,44102249,44102249,4/6/1979,,0,,,0,,,,,,,,2
+700,familia_arm_1,9/8/2023,4,10,328,10328,2,Patrik Samir Ramirez La torre,2,,,,,,,,,,,,,,,,,,,,,
+700,individuo_1_arm_1,,,,,,,,,10328,Ramirez,La torre,Patrik,Samir,76037170,76037170,7/10/2003,,0,,,0,,,,,,,,2
+700,individuo_2_arm_1,,,,,,,,,10328,Sanchez,Calampa,Milagros,De Jesus,76018711,76018711,4/25/2005,,1,0,,0,,,,,,,,2
+701,familia_arm_1,9/8/2023,4,10,606,10606,3,Daniel Arirama Arevalo,2,,,,,,,,,,,,,,,,,,,,,
+701,individuo_1_arm_1,,,,,,,,,10606,Arirama,Arevalo,Daniel,,47929643,47929643,5/20/1993,,0,,,1,0,,,,,,,2
+701,individuo_2_arm_1,,,,,,,,,10606,La torre,La torre,Gina,Maribel,76037171,76037171,12/3/1999,,1,0,,0,,,,,,,,2
+701,individuo_3_arm_1,,,,,,,,,10606,Arirama,La torre,Jhon,Smith,91476680,91476680,8/31/2019,,0,,,0,,,,,,,,2
+702,familia_arm_1,9/8/2023,4,10,326,10326,3,Adriano Vasquez Chavez,2,,,,,,,,,,,,,,,,,,,,,
+702,individuo_1_arm_1,,,,,,,,,10326,Vasquez,Chavez,Adriano,,42467686,42467686,9/7/1981,,0,,,1,0,,,,,,,2
+702,individuo_2_arm_1,,,,,,,,,10326,Manihuari,Melendez,Rosa,Merly,5393407,5393407,6/17/1976,,1,0,,0,,,,,,,,2
+702,individuo_3_arm_1,,,,,,,,,10326,Ubillus,Manihuari,Alondra,,79319878,79319878,9/24/2015,,1,0,,0,,,,,,,,2
+703,familia_arm_1,9/8/2023,4,10,245,10245,3,Alex Arirama Ahuanari,2,,,,,,,,,,,,,,,,,,,,,
+703,individuo_1_arm_1,,,,,,,,,10245,Arirama,Ahuanari,Alex,,45398881,45398881,12/2/1972,,0,,,0,,,,,,,,2
+703,individuo_2_arm_1,,,,,,,,,10245,Valles,Fasabi,Milca,,44918846,44918846,10/10/1977,,1,0,,0,,,,,,,,2
+703,individuo_3_arm_1,,,,,,,,,10245,Arirama,Valles,Jessenia,,77894179,77894179,11/24/2012,,1,0,,0,,,,,,,,2
+704,familia_arm_1,9/8/2023,4,10,603,10603,8,Marco Antonio Tello Arevalo,2,,,,,,,,,,,,,,,,,,,,,
+704,individuo_1_arm_1,,,,,,,,,10603,Tello,Arevalo,Marco,Antonio,70894880,70894880,6/18/1995,28,0,,,999,,,,,,,,2
+704,individuo_2_arm_1,,,,,,,,,10603,Noa,Ahuanari,Doris,,73996080,73996080,5/16/1996,27,1,0,,0,,,,,,,,2
+704,individuo_3_arm_1,,,,,,,,,10603,Tello,Noa,Nerik,Dssziel,92354592,92354592,5/11/2021,2,0,,,0,,,,,,,,2
+704,individuo_4_arm_1,,,,,,,,,10603,Tello,Noa,Axel,,81534773,81534773,5/20/2014,9,0,,,0,,,,,,,,2
+704,individuo_5_arm_1,,,,,,,,,10603,Noa,Ahuanari,Julio,Cesar,99999999,99999999,4/29/1993,30,0,,,0,,,,,,,,2
+704,individuo_6_arm_1,,,,,,,,,10603,Rodriguez,Tapullima,Ruth,,99999999,99999999,11/13/1997,25,1,0,,999,,,,,,,,2
+704,individuo_7_arm_1,,,,,,,,,10603,Noa,Rodriguez,Isabel,Jilieta,99999999,99999999,4/17/2012,11,1,0,,0,,,,,,,,2
+704,individuo_8_arm_1,,,,,,,,,10603,Noa ,Rodriguez,Julio,Fernando,99999999,99999999,7/7/2016,7,0,,,0,,,,,,,,2
+705,familia_arm_1,9/8/2023,4,10,309,10309,4,Kelvin Jhonatan chumbe Ruiz,2,,,,,,,,,,,,,,,,,,,,,
+705,individuo_1_arm_1,,,,,,,,,10309,Chumbr,Ruiz,Kelvin,Jhonatan,48023376,48023376,4/22/1993,,0,,,1,0,,,,,,,2
+705,individuo_2_arm_1,,,,,,,,,10309,Curitima,Maytahuari,Martha,,77507140,77507140,12/29/1998,,1,0,,0,,,,,,,,2
+705,individuo_3_arm_1,,,,,,,,,10309,Chumbe,Curitima,Nick,Alex,79474668,79474668,1/16/2016,,0,,,0,,,,,,,,2
+705,individuo_4_arm_1,,,,,,,,,10309,Chumbe,Curitima,Ohanna,Alexia,91592055,91592055,11/14/2019,,1,0,,0,,,,,,,,2
+706,familia_arm_1,9/8/2023,4,10,313,10313,4,Rogelia Fasabi Pinto,2,,,,,,,,,,,,,,,,,,,,,
+706,individuo_1_arm_1,,,,,,,,,10313,Fasabi,Pinto,Rogelia,,80545241,80545241,8/3/1947,,1,0,,0,,,,,,,,2
+706,individuo_2_arm_1,,,,,,,,,10313,Valles,Fasabi,Miguel,,80656251,80656251,8/7/1971,,0,,,0,,,,,,,,2
+706,individuo_3_arm_1,,,,,,,,,10313,Valles,Fasabi,Mirtha,,99999999,99999999,5/27/1981,,1,0,,0,,,,,,,,2
+706,individuo_4_arm_1,,,,,,,,,10313,Arimuya,Valles,Iker,,99999999,99999999,6/20/2011,,0,,,0,,,,,,,,2
+707,familia_arm_1,9/8/2023,4,10,314,10314,8,Javier Guillermo Diaz Peñaherrera,2,,,,,,,,,,,,,,,,,,,,,
+707,individuo_1_arm_1,,,,,,,,,10314,Diaz,Peñaherrera,Javier,Guillermo,5845419,5845419,12/12/1970,52,0,,,0,,,,,,,,2
+707,individuo_2_arm_1,,,,,,,,,10314,Jipa,Siquihua,Carmen,,42285307,42285307,3/25/1983,40,1,0,,0,,,,,,,,2
+707,individuo_3_arm_1,,,,,,,,,10314,Diaz,Jipa,David,,62367767,62367767,12/31/2009,13,0,,,0,,,,,,,,2
+707,individuo_4_arm_1,,,,,,,,,10314,Diaz,Jipa,Simon,,62367769,62367769,11/13/2005,17,0,,,0,,,,,,,,2
+707,individuo_5_arm_1,,,,,,,,,10314,Diaz,Jipa,Angel,Andres,93357218,93357218,4/23/2023,0,0,,,0,,,,,,,,2
+707,individuo_6_arm_1,,,,,,,,,10314,Diaz,Jipa,Gian,Luca,91668884,91668884,1/6/2020,3,0,,,0,,,,,,,,2
+707,individuo_7_arm_1,,,,,,,,,10314,Diaz,Jipa,Moises,,92288197,92288197,6/1/2017,6,0,,,0,,,,,,,,2
+707,individuo_8_arm_1,,,,,,,,,10314,Diaz,Jipa,Maria,Del Carmen,99999999,99999999,9/17/1998,25,1,0,,0,,,,,,,,2
+708,familia_arm_1,9/8/2023,4,10,321,10321,3,Rick Mark Caballero Gonzales,2,,,,,,,,,,,,,,,,,,,,,
+708,individuo_1_arm_1,,,,,,,,,10321,Caballero,Gonzales,Rick,Mark,71645684,71645684,6/4/1993,,0,,,0,,,,,,,,2
+708,individuo_2_arm_1,,,,,,,,,10321,Aspajo,Bocanegra,Devora,,43253405,43253405,10/30/1985,,1,0,,0,,,,,,,,2
+708,individuo_3_arm_1,,,,,,,,,10321,Caballero ,Aspajo,Santos,Domingo,90275546,90275546,6/19/2017,,0,,,0,,,,,,,,2
+709,familia_arm_1,9/8/2023,4,10,322,10322,4,Noe Ayachi Manuyama,2,,,,,,,,,,,,,,,,,,,,,
+709,individuo_1_arm_1,,,,,,,,,10322,Ayachi,Manuyama,Noe,,48424012,48424012,4/25/1978,,0,,,1,0,,,,,,,2
+709,individuo_2_arm_1,,,,,,,,,10322,Lopez,Mendoza,Ayda,,42894124,42894124,3/28/1985,,1,0,,1,0,,,,,,,2
+709,individuo_3_arm_1,,,,,,,,,10322,Inga,Ayachi,Sherely,Rubi,92414014,92414014,7/11/2020,,1,0,,0,,,,,,,,2
+709,individuo_4_arm_1,,,,,,,,,10322,Ayachi,Lopez,Zen,Can,78316652,78316652,10/9/2013,,0,,,0,,,,,,,,2
+710,familia_arm_1,9/8/2023,4,10,323,10323,10,Jorge Trujillo Macayo,2,,,,,,,,,,,,,,,,,,,,,
+710,individuo_1_arm_1,,,,,,,,,10323,Trujillo,Macayo,Jorge,,46109972,46109972,2/6/1986,37,0,,,1,0,,,,,,,2
+710,individuo_2_arm_1,,,,,,,,,10323,Avila,Panaifo,Dora,Corina,61948442,61948442,2/13/1992,31,1,0,,1,0,,,,,,,2
+710,individuo_3_arm_1,,,,,,,,,10323,Trujillo,Avila,Jermeth,,62257154,62257154,9/4/2007,16,1,0,,1,0,,,,,,,2
+710,individuo_4_arm_1,,,,,,,,,10323,Trujillo,Avila,Judith,,62257153,62257153,8/5/2009,14,1,0,,1,0,,,,,,,2
+710,individuo_5_arm_1,,,,,,,,,10323,Trujillo,Avila,Eddy,,78093143,78093143,5/7/2013,10,0,0,,1,0,,,,,,,2
+710,individuo_6_arm_1,,,,,,,,,10323,Trujillo,Avila,Hellen,Gudelia,91789614,91789614,3/26/2020,3,1,0,,0,,,,,,,,2
+710,individuo_7_arm_1,,,,,,,,,10323,Trujillo,Avila,Eva,Luna,93374994,93374994,5/6/2023,0,1,0,,0,,,,,,,,2
+710,individuo_8_arm_1,,,,,,,,,10323,Trujillo,Ruiz,Jorge,,5355973,5355973,4/21/1953,70,0,,,1,0,,,,,,,2
+710,individuo_9_arm_1,,,,,,,,,10323,Macaya,Paima,Gudelia,,5355972,5355972,5/11/1967,56,1,0,,1,0,,,,,,,2
+710,individuo_10_arm_1,,,,,,,,,10323,Ramos ,Trujillo,Thiago,Estefano,99999999,99999999,5/23/2013,10,0,,,1,0,,,,,,,2
+711,familia_arm_1,9/7/2023,2,10,500,10500,5,Ilter alberto davila manihuri,0,,,,,,,,,,,,,,,,,,,,,
+711,individuo_1_arm_1,,,,,,,,,10500,Davila,Manihuari,Ilter,Alberto,48685557,48685557,11/10/1989,,0,,,0,,,,,,,,0
+711,individuo_2_arm_1,,,,,,,,,10500,Amasifuen,Zambrano,Carlita,,61590820,61590820,11/25/1991,,1,0,,1,0,,,,,,,0
+711,individuo_3_arm_1,,,,,,,,,10500,Davila ,Amacifuen,Hilter,,62814568,62814568,7/21/2011,,0,,,0,,,,,,,,0
+711,individuo_4_arm_1,,,,,,,,,10500,Davila,Amacifuen,Angie,Leyla,81443480,81443480,8/3/2014,,1,0,,0,,,,,,,,0
+711,individuo_5_arm_1,,,,,,,,,10500,Davila ,Amacifuen,Katherine,,92106458,92106458,11/12/2020,,1,0,,0,,,,,,,,0
+712,familia_arm_1,9/8/2023,2,10,275,10275,4,Teresa casanova fernandez,0,,,,,,,,,,,,,,,,,,,,,
+712,individuo_1_arm_1,,,,,,,,,10275,Casanova,Fernandez,Teresa,,44119240,44119240,3/25/1954,,1,0,,1,0,,,,,,,0
+712,individuo_2_arm_1,,,,,,,,,10275,Camayo,Casanova,Juanita,Liu,41854463,41854463,3/6/1983,,1,0,,1,0,,,,,,,0
+712,individuo_3_arm_1,,,,,,,,,10275,Canayo,Casanova,Katia ,Luz,46273444,46273444,4/21/1990,,1,0,,1,0,,,,,,,0
+712,individuo_4_arm_1,,,,,,,,,10275,Garcia,Canayo,Areliz,Ariana,77847286,77847286,9/30/2012,,1,0,,0,,,,,,,,0
+713,familia_arm_1,9/8/2023,2,10,257,10257,7,Lizardo omar canayo casanova,0,,,,,,,,,,,,,,,,,,,,,
+713,individuo_1_arm_1,,,,,,,,,10257,Canayo,Casanova,Lizardo,Omar,40233484,40233484,4/28/1979,,0,,,1,0,,,,,,,0
+713,individuo_2_arm_1,,,,,,,,,10257,Ramirez,Yahuarcani,Ofelia,,45093114,45093114,3/29/1986,,1,0,,1,0,,,,,,,0
+713,individuo_3_arm_1,,,,,,,,,10257,Canayo ,Ramirez,Neysi,Daylith,72608848,72608848,8/29/2000,,1,0,,1,0,,,,,,,0
+713,individuo_4_arm_1,,,,,,,,,10257,Canayo,Ramirez,Sleyter,Josias,61228308,61228308,11/12/2007,,0,,,0,,,,,,,,0
+713,individuo_5_arm_1,,,,,,,,,10257,Canayo,Ramirez,Jinna,Brianny,77859610,77859610,10/22/2012,,1,0,,0,,,,,,,,0
+713,individuo_6_arm_1,,,,,,,,,10257,Canayo,Ramirez,Xiomy,Ashly,78346641,78346641,11/27/2013,,1,0,,0,,,,,,,,0
+713,individuo_7_arm_1,,,,,,,,,10257,Canayo,Ramirez,Deyther,Omar,92657754,92657754,12/7/2021,,0,,,0,,,,,,,,0
+714,familia_arm_1,9/8/2023,2,10,256,10256,5,Edilberto inuma chavez,0,,,,,,,,,,,,,,,,,,,,,
+714,individuo_1_arm_1,,,,,,,,,10256,Inuma,Chavez,Edilberto,,43212121,43212121,10/28/1982,40,0,,,1,0,,,,,,,0
+714,individuo_2_arm_1,,,,,,,,,10256,Noa,Ahuanari,Rosa,Isaura,44046674,44046674,7/7/1984,39,1,0,,1,1,1,,1,NI,,,0
+714,individuo_3_arm_1,,,,,,,,,10256,Inuma,Noa,Jany,Milagros,73983011,73983011,8/1/2003,20,1,0,,1,0,,,,,,,0
+714,individuo_4_arm_1,,,,,,,,,10256,Inuma,Noa,Amy,Samara,92086321,92086321,10/30/2020,2,1,0,,0,,,,,,,,0
+714,individuo_5_arm_1,,,,,,,,,10256,Ahuanari,Tang,Martha,,44593812,44593812,8/6/1960,63,1,0,,0,,,,,,,,0
+715,familia_arm_1,9/8/2023,2,10,255,10255,6,Himer  amasifuen saboya,0,,,,,,,,,,,,,,,,,,,,,
+715,individuo_1_arm_1,,,,,,,,,10255,Amasifuen,Saboya,Himer,,5383017,5383017,10/21/1975,47,0,,,0,,,,,,,,0
+715,individuo_2_arm_1,,,,,,,,,10255,Inuma,Chavez,Ana,Maria,80656891,80656891,3/11/1977,46,1,0,,0,,,,,,,,0
+715,individuo_3_arm_1,,,,,,,,,10255,Amasifuen,Inuma,Maria,Ester,61266344,61266344,5/14/2006,17,1,0,,0,,,,,,,,0
+715,individuo_4_arm_1,,,,,,,,,10255,Amasifuen,Inuma,Daniel,Aron,79836217,79836217,6/11/2014,9,0,,,0,,,,,,,,0
+715,individuo_5_arm_1,,,,,,,,,10255,Amasifuen,Inuma,Milagros,,62582311,62582311,8/28/1999,24,1,0,,1,1,2,Nauta,1,NI,,,0
+715,individuo_6_arm_1,,,,,,,,,10255,Chavez,Amasifuen,Maroh,Issac,93124472,93124472,11/3/2022,0,0,,,0,,,,,,,,0
+716,familia_arm_1,9/8/2023,2,10,251,10251,3,Menger valles fasabi,0,,,,,,,,,,,,,,,,,,,,,
+716,individuo_1_arm_1,,,,,,,,,10251,Valles,Fasabi,Menger,,42662331,42662331,5/25/1976,,0,,,1,0,,,,,,,0
+716,individuo_2_arm_1,,,,,,,,,10251,Torres,Murayari,Nayla,,44111552,44111552,4/23/1980,,1,0,,1,0,,,,,,,0
+716,individuo_3_arm_1,,,,,,,,,10251,Valles,Torres,Menger,,75856483,75856483,1/31/2006,,0,,,0,,,,,,,,0
+717,familia_arm_1,9/8/2023,2,10,119,10119,5,Dalia del pilar tello tulumba,0,,,,,,,,,,,,,,,,,,,,,
+717,individuo_1_arm_1,,,,,,,,,10119,Tello,Tulumba,Dalia,Del pilar,46456048,46456048,3/18/1981,,1,0,,0,,,,,,,,0
+717,individuo_2_arm_1,,,,,,,,,10119,Tulumba,Mozombite,Lupe,,48964498,48964498,5/19/1947,,1,0,,0,,,,,,,,0
+717,individuo_3_arm_1,,,,,,,,,10119,Paredes,Tello,Angie,Candy,76816032,76816032,2/23/2004,,1,0,,0,,,,,,,,0
+717,individuo_4_arm_1,,,,,,,,,10119,Paredes,Tello,Arianaly,Smith,60943657,60943657,11/10/2006,,1,0,,0,,,,,,,,0
+717,individuo_5_arm_1,,,,,,,,,10119,Paredes,Vasquez,Angel,Francisco,92023201,92023201,9/19/2020,,0,,,0,,,,,,,,0
+718,familia_arm_1,9/8/2023,2,10,116,10116,2,Emerico ramirez pinedo,0,,,,,,,,,,,,,,,,,,,,,
+718,individuo_1_arm_1,,,,,,,,,10116,Ramirez,Pinedo,Emerico,,5263491,5263491,10/3/1961,,0,,,1,0,,,,,,,0
+718,individuo_2_arm_1,,,,,,,,,10116,Flores,Montes,Isabel,,5243087,5243087,5/14/1947,,1,0,,0,,,,,,,,0
+719,familia_arm_1,9/8/2023,2,10,113,10113,3,Segundo diodoro santoyo pinedo,0,,,,,,,,,,,,,,,,,,,,,
+719,individuo_1_arm_1,,,,,,,,,10113,Santoyo,Pinedo,Segundo,Diodoro,5382150,5382150,8/13/1973,,0,,,0,,,,,,,,0
+719,individuo_2_arm_1,,,,,,,,,10113,Perea,Arevalo,Pamelita,Atuanet,41065526,41065526,9/10/1980,,1,0,,0,,,,,,,,0
+719,individuo_3_arm_1,,,,,,,,,10113,Santoyo,Perea,Sharon,Yanella,90407009,90407009,9/13/2017,,1,0,,0,,,,,,,,0
+720,familia_arm_1,9/7/2023,2,10,501,10501,3,Zeus aldair amacifuen zambrano,0,,,,,,,,,,,,,,,,,,,,,
+720,individuo_1_arm_1,,,,,,,,,10501,Amacifuen,Zambrano,Zeus,Aldair,61590821,61590821,4/5/1994,,0,,,1,0,,,,,,,0
+720,individuo_2_arm_1,,,,,,,,,10501,Ahuanari,Murayari,Lluly,Estefany,70936960,70936960,12/13/1994,,1,0,,0,,,,,,,,0
+720,individuo_3_arm_1,,,,,,,,,10501,Ajon,Ahuanari,Anderson,Adriel,78454907,78454907,2/5/2014,,0,,,0,,,,,,,,0
+721,familia_arm_1,9/7/2023,2,10,233,10233,4,Cristian luvamba moreno,0,,,,,,,,,,,,,,,,,,,,,
+721,individuo_1_arm_1,,,,,,,,,10233,Lumba,Moreno,Cristian,,46940152,46940152,11/15/1990,32,0,,,1,0,,,,,,,0
+721,individuo_2_arm_1,,,,,,,,,10233,Putpaña,Tanger,Marveli,,47960665,47960665,3/21/1992,31,1,0,,1,0,,,,,,,0
+721,individuo_3_arm_1,,,,,,,,,10233,Lumba,Putpaña,Joissy,Marilin,78711506,78711506,6/12/2014,9,1,0,,0,,,,,,,,0
+721,individuo_4_arm_1,,,,,,,,,10233,Lumba,Putpaña,Wagner,Andre,61125217,61125217,8/12/2007,16,0,,,0,,,,,,,,0
+722,familia_arm_1,9/7/2023,2,10,237,10237,3,Antonio gabriel vasquez rios,0,,,,,,,,,,,,,,,,,,,,,
+722,individuo_1_arm_1,,,,,,,,,10237,Vasquez,Rios,Antonio,Gabriel,74646616,74646616,9/18/1997,,0,,,1,0,,,,,,,0
+722,individuo_2_arm_1,,,,,,,,,10237,Armas,Mozombite,Libaña,,60342790,60342790,6/14/2001,,1,0,,1,1,2,Milagros,1,6,,,0
+722,individuo_3_arm_1,,,,,,,,,10237,Vasquez,Armas,Sammy,Gabriel,92189659,92189659,1/11/2021,,0,,,0,,,,,,,,0
+723,familia_arm_1,9/7/2023,2,10,284,10284,6,Wilson guevarra delgado,0,,,,,,,,,,,,,,,,,,,,,
+723,individuo_1_arm_1,,,,,,,,,10284,Guevara,Delgado,Wilson,,40210166,40210166,10/26/1978,44,0,,,0,,,,,,,,0
+723,individuo_2_arm_1,,,,,,,,,10284,Diaz,Muñoz,Louise,Tarina,42426689,42426689,4/14/1981,42,1,0,,0,,,,,,,,0
+723,individuo_3_arm_1,,,,,,,,,10284,Guevara,Diaz,Wilson,Mesias,77398953,77398953,10/31/2011,11,0,,,0,,,,,,,,0
+723,individuo_4_arm_1,,,,,,,,,10284,Guevarra,Diaz,Adali,Johana,60243567,60243567,2/23/2007,16,1,0,,0,,,,,,,,0
+723,individuo_5_arm_1,,,,,,,,,10284,Nuñez,Guevara,Marco,Antonio patricio,81529208,81529208,4/7/2016,7,0,,,0,,,,,,,,0
+723,individuo_6_arm_1,,,,,,,,,10284,Diaz,Chapinequen,Zaide,,99999999,99999999,4/1/1933,90,1,0,,0,,,,,,,,0
+724,familia_arm_1,9/8/2023,2,10,279,10279,3,Lindaura marlena huaymana coelo,0,,,,,,,,,,,,,,,,,,,,,
+724,individuo_1_arm_1,,,,,,,,,10279,Huaymana,Coelo,Lindaura,Marlena,5345635,5345635,3/23/1970,53,1,0,,1,0,,,,,,,0
+724,individuo_2_arm_1,,,,,,,,,10279,Garcia,Saldañ,Gonzalo,,5337433,5337433,7/15/1970,53,0,,,1,0,,,,,,,0
+724,individuo_3_arm_1,,,,,,,,,10279,Macedo,Huaymana,Glendi,,49039977,49039977,2/3/1995,28,1,0,,1,0,,,,,,,0
+725,familia_arm_1,9/8/2023,2,10,280,10280,3,Randy pool perez huaymana,0,,,,,,,,,,,,,,,,,,,,,
+725,individuo_1_arm_1,,,,,,,,,10280,Perez,Huaymana,Randy,Pool,47615024,47615024,8/3/1990,,0,,,0,,,,,,,,0
+725,individuo_2_arm_1,,,,,,,,,10280,Saldaña,Careajano,Maria,Cristina,73896375,73896375,2/25/1999,,1,0,,1,0,,,,,,,0
+725,individuo_3_arm_1,,,,,,,,,10280,Perez,Saldaña,Yosef,Abdiel,92250405,92250405,2/27/2021,,1,0,,0,,,,,,,,0
+726,familia_arm_1,9/8/2023,2,10,503,10503,1,Aladino garcia gavirino,0,,,,,,,,,,,,,,,,,,,,,
+726,individuo_1_arm_1,,,,,,,,,10503,Garcia,Gaviria,Aladino,,5240918,5240918,12/12/1940,,0,,,0,,,,,,,,0
+727,familia_arm_1,9/8/2023,2,10,277,10277,3,Angel manuel paredes pinedo,0,,,,,,,,,,,,,,,,,,,,,
+727,individuo_1_arm_1,,,,,,,,,10277,Paredes,Pinedo,Angel,Manuel,5362587,5362587,8/21/1972,,0,,,1,0,,,,,,,0
+727,individuo_2_arm_1,,,,,,,,,10277,Ramos,Rodriguez,Olga,Marina,5410865,5410865,10/25/1970,,1,0,,1,0,,,,,,,0
+727,individuo_3_arm_1,,,,,,,,,10277,Paredes,Ramos,Westerni,Leisi,61227502,61227502,10/7/2007,,1,0,,0,,,,,,,,0
+728,familia_arm_1,9/7/2023,3,10,300,10300,5,Jorge Macedo Marichi,2,,,,,,,,,,,,,,,,,,,,,
+728,individuo_1_arm_1,,,,,,,,,10300,Macedo,Marichi,Jorge,,48245401,48245401,10/11/1991,,0,,,0,,,,,,,,2
+728,individuo_2_arm_1,,,,,,,,,10300,Marichi,Zambrano,Jhorvy,Ediht,60647543,60647543,9/11/1993,,1,0,,0,,,,,,,,2
+728,individuo_3_arm_1,,,,,,,,,10300,Diaz,Marichi,Danni,Aron,78699087,78699087,5/29/2012,,0,,,0,,,,,,,,2
+728,individuo_4_arm_1,,,,,,,,,10300,Macedo,Marichi,Adriel,Keilor,79298152,79298152,9/20/2015,,0,,,0,,,,,,,,2
+728,individuo_5_arm_1,,,,,,,,,10300,Macedo,Marichi,Rouss,Alessandra,92299424,92299424,7/16/2022,,1,0,,0,,,,,,,,2
+729,familia_arm_1,9/8/2023,3,10,238,10238,5,Eglinton Muñoz Shupingahua,2,,,,,,,,,,,,,,,,,,,,,
+729,individuo_1_arm_1,,,,,,,,,10238,Muñoz,Shupingahua,Eglinton,,5322840,5322840,12/21/1967,,0,,,0,,,,,,,,2
+729,individuo_2_arm_1,,,,,,,,,10238,Mañez,Orbe,Carmen,Patricia,48191424,48191424,10/4/1993,,1,1,3,0,,,,,,,,2
+729,individuo_3_arm_1,,,,,,,,,10238,Sajami,Mañez,Anghelo,Jeam pier,63327148,63327148,4/11/2009,,0,,,0,,,,,,,,2
+729,individuo_4_arm_1,,,,,,,,,10238,Torres,Mañez,Luis,Manuel,77885853,77885853,10/27/2012,,0,,,0,,,,,,,,2
+729,individuo_5_arm_1,,,,,,,,,10238,Muñoz,Mañez,Kevin,Jose,79851176,79851176,9/14/2016,,0,,,0,,,,,,,,2
+730,familia_arm_1,9/8/2023,3,10,243,10243,4,Grecia Santillan Cahuaza,2,,,,,,,,,,,,,,,,,,,,,
+730,individuo_1_arm_1,,,,,,,,,10243,Santillan,Cahuaza,Grecia,,48622760,48622760,6/15/1995,28,1,0,,0,,,,,,,,2
+730,individuo_2_arm_1,,,,,,,,,10243,Tuanama,Santillan,Jaime,Joseph,63809643,63809643,11/2/2012,10,0,,,0,,,,,,,,2
+730,individuo_3_arm_1,,,,,,,,,10243,Villanueva,Santillan,Eiza,Kataleya,90823604,90823604,6/15/2018,5,1,0,,0,,,,,,,,2
+730,individuo_4_arm_1,,,,,,,,,10243,Shapiama,Santillan,Aimi,Itzayana,93228846,93228846,1/21/2023,0,1,0,,0,,,,,,,,2
+731,familia_arm_1,9/8/2023,3,10,249,10249,3,Rony Silvano Reategui,2,,,,,,,,,,,,,,,,,,,,,
+731,individuo_1_arm_1,,,,,,,,,10249,Silvano,Reategui,Rony,,44067651,44067651,9/15/1983,,0,,,1,0,,,,,,,2
+731,individuo_2_arm_1,,,,,,,,,10249,Laman,Iñapi,Sheyla,Marita,48072180,48072180,11/16/1987,,1,0,,1,0,,,,,,,2
+731,individuo_3_arm_1,,,,,,,,,10249,Silvano,Laman,Segundo,Rony,62582305,62582305,7/10/2004,,0,,,0,,,,,,,,2
+732,familia_arm_1,9/8/2023,3,10,296,10296,6,Rosita Mercedes Trujillo Macayo,2,,,,,,,,,,,,,,,,,,,,,
+732,individuo_1_arm_1,,,,,,,,,10296,Trujillo,Macayo,Rosita,Mercedes,41871157,41871157,7/17/1983,,1,0,,0,,,,,,,,2
+732,individuo_2_arm_1,,,,,,,,,10296,Manuyama,Trujillo,Jhonny,Einsten,72664888,72664888,6/8/2002,,0,,,1,0,,,,,,,2
+732,individuo_3_arm_1,,,,,,,,,10296,Manuyama,Trujillo,Piero,D Alessandro,72664889,72664889,12/15/2003,,0,,,1,0,,,,,,,2
+732,individuo_4_arm_1,,,,,,,,,10296,Manuyama,Trujillo,Lionel,,61985267,61985267,5/24/2009,,0,,,0,,,,,,,,2
+732,individuo_5_arm_1,,,,,,,,,10296,Manuyama,Trujillo,Paola,Sharin,63095202,63095202,9/24/2012,,1,0,,0,,,,,,,,2
+732,individuo_6_arm_1,,,,,,,,,10296,Manuyama,Trujillo,David,Luis,78612302,78612302,6/10/2014,,0,,,0,,,,,,,,2
+733,familia_arm_1,9/8/2023,3,10,297,10297,3,Cristian David Tecco Aspajo,2,,,,,,,,,,,,,,,,,,,,,
+733,individuo_1_arm_1,,,,,,,,,10297,Tecco,Aspajo,Cristian ,David,61074903,61074903,11/3/1999,,0,,,1,1,1,,1,3,,,2
+733,individuo_2_arm_1,,,,,,,,,10297,Huaratapairo,Celis,Anita,Dolores,77437112,77437112,4/18/1998,,1,0,,0,,,,,,,,2
+733,individuo_3_arm_1,,,,,,,,,10297,Tecco,Huaratapairo,Josenit,Yamileth,92785069,92785069,3/5/2022,,1,0,,0,,,,,,,,2
+734,familia_arm_1,9/8/2023,3,10,298,10298,6,Eder Edber Vargas Martinez,2,,,,,,,,,,,,,,,,,,,,,
+734,individuo_1_arm_1,,,,,,,,,10298,Vargas,Martinez,Eder,Edber,70455762,70455762,1/4/1993,,0,,,0,,,,,,,,2
+734,individuo_2_arm_1,,,,,,,,,10298,Pacaya,Melendez,Juana,Orfuita,72864546,72864546,9/14/1991,,1,0,,1,0,,,,,,,2
+734,individuo_3_arm_1,,,,,,,,,10298,Galdos,Pacaya,Andrey,Mathias,60519628,60519628,8/25/2007,,0,,,1,0,,,,,,,2
+734,individuo_4_arm_1,,,,,,,,,10298,Ruiz,Pacaya,Bruno,Alexander,63697026,63697026,5/20/2012,,0,,,1,0,,,,,,,2
+734,individuo_5_arm_1,,,,,,,,,10298,Vargas,Pacaya,Michael,Emir,79837709,79837709,8/29/2016,,0,,,1,1,1,,1,20,,,2
+734,individuo_6_arm_1,,,,,,,,,10298,Vargas,Pacaya,Dilan,Heytan,92565477,92565477,10/2/2021,,0,,,0,,,,,,,,2
+735,familia_arm_1,9/8/2023,3,10,299,10299,2,Lida Arevalo Sandoval,2,,,,,,,,,,,,,,,,,,,,,
+735,individuo_1_arm_1,,,,,,,,,10299,Arevalo,Sandoval,Lida,,47997382,47997382,1/16/1989,,1,0,,0,,,,,,,,2
+735,individuo_2_arm_1,,,,,,,,,10299,Pilco,Arevalo,Marixa,Nicol,63235919,63235919,6/24/2008,,1,0,,0,,,,,,,,2
+736,familia_arm_1,9/8/2023,3,10,302,10302,5,Mercy Yahuarcani Garcia de Long,2,,,,,,,,,,,,,,,,,,,,,
+736,individuo_1_arm_1,,,,,,,,,10302,Yahuarcani,Garcia de long,Mercy,,5410626,5410626,12/4/1977,,1,0,,1,0,,,,,,,2
+736,individuo_2_arm_1,,,,,,,,,10302,Long,Melendez,Winston,Alexander,80656398,80656398,11/6/1979,,0,,,1,0,,,,,,,2
+736,individuo_3_arm_1,,,,,,,,,10302,Long,Yahuarcani,Kareth,Zuceth,73667090,73667090,11/6/2004,,1,0,,1,0,,,,,,,2
+736,individuo_4_arm_1,,,,,,,,,10302,Long,Yahuarcani,Jhany,Smith,73667089,73667089,10/3/2005,,1,0,,1,0,,,,,,,2
+736,individuo_5_arm_1,,,,,,,,,10302,Long,Yahuarcani,Jiuston ,Gahet,79817436,79817436,8/9/2016,,0,,,0,,,,,,,,2
+737,familia_arm_1,9/8/2023,3,10,306,10306,4,Walter David Rubio Macedo,2,,,,,,,,,,,,,,,,,,,,,
+737,individuo_1_arm_1,,,,,,,,,10306,Rubio,Macedo,Walter,David,47797973,47797973,3/16/1982,,0,,,0,,,,,,,,2
+737,individuo_2_arm_1,,,,,,,,,10306,Panduro,Cardenas,Luz,Maria,45949015,45949015,4/14/1988,,1,0,,0,,,,,,,,2
+737,individuo_3_arm_1,,,,,,,,,10306,Rubio,Panduro,Deivis,Snayder,79993195,79993195,12/22/2016,,0,,,0,,,,,,,,2
+737,individuo_4_arm_1,,,,,,,,,10306,Rubio,Panduro,Alana,Yomari,92691901,92691901,1/1/2022,,1,0,,0,,,,,,,,2
+738,familia_arm_1,9/8/2023,3,10,118,10118,4,Fabio Mereci Andy,2,,,,,,,,,,,,,,,,,,,,,
+738,individuo_1_arm_1,,,,,,,,,10118,Mecy,Andy,Fabio,,47698824,47698824,2/21/1993,,0,,,1,0,,,,,,,2
+738,individuo_2_arm_1,,,,,,,,,10118,Aricari,Arevalo,Wendy,Jhanela,76469708,76469708,10/29/1998,,1,0,,0,,,,,,,,2
+738,individuo_3_arm_1,,,,,,,,,10118,Mereci,Aricari,Anita,Jazmin,77977412,77977412,1/11/2013,,1,0,,0,,,,,,,,2
+738,individuo_4_arm_1,,,,,,,,,10118,Mereci,Aricari,Fabian,Thiago,91848682,91848682,5/11/2020,,0,,,0,,,,,,,,2
+739,familia_arm_1,9/7/2023,3,10,303,10303,4,Leysi Dosantos Ortega,2,,,,,,,,,,,,,,,,,,,,,
+739,individuo_1_arm_1,,,,,,,,,10303,Dosantos,Ortega,Leysi,,48302067,48302067,5/24/1994,,1,1,2,1,0,,,,,,,2
+739,individuo_2_arm_1,,,,,,,,,10303,Saboya,Zumba,Limber,,45386268,45386268,5/3/1988,,0,,,0,,,,,,,,2
+739,individuo_3_arm_1,,,,,,,,,10303,Saboya,Murayari,Kiose,,78369651,78369651,11/26/2013,,0,,,0,,,,,,,,2
+739,individuo_4_arm_1,,,,,,,,,10303,Saboya,Dosantos,Silvia,Ariel,79644427,79644427,4/30/2016,,1,0,,0,,,,,,,,2
+740,familia_arm_1,9/8/2023,3,10,117,10117,3,Richar Ferrey Rivas,2,,,,,,,,,,,,,,,,,,,,,
+740,individuo_1_arm_1,,,,,,,,,10117,Ferrey,Rivaa,Richar,,323407,323407,5/1/1992,31,0,,,0,,,,,,,,2
+740,individuo_2_arm_1,,,,,,,,,10117,Ramos,Perez,Edilmar,,327225,327225,12/29/1997,25,1,0,,0,,,,,,,,2
+740,individuo_3_arm_1,,,,,,,,,10117,Ramos,Perez,Misskay,,99999999,99999999,2/12/2015,8,1,0,,0,,,,,,,,2
+741,familia_arm_1,9/8/2023,3,10,112,10112,4,Lucas Valqui Flores,2,,,,,,,,,,,,,,,,,,,,,
+741,individuo_1_arm_1,,,,,,,,,10112,Valqui,Flores,Lucas,,5278184,5278184,8/19/1955,,0,,,1,0,,,,,,,2
+741,individuo_2_arm_1,,,,,,,,,10112,Arevalo,Sandoval,Luz,Erica,42855772,42855772,2/6/1985,,1,0,,0,,,,,,,,2
+741,individuo_3_arm_1,,,,,,,,,10112,Valqui,Arevalo,Laiza,Odeth,74402131,74402131,7/30/2004,,1,0,,0,,,,,,,,2
+741,individuo_4_arm_1,,,,,,,,,10112,Valqui,Arevalo,Kerla,Nadine,77300684,77300684,8/29/2011,,1,0,,0,,,,,,,,2
+742,familia_arm_1,9/7/2023,3,10,211,10211,4,Joisi Macedo Marichi,2,,,,,,,,,,,,,,,,,,,,,
+742,individuo_1_arm_1,,,,,,,,,10211,Macedo,Marichi,Joisi,,62815014,62815014,6/4/1994,,1,0,,0,,,,,,,,2
+742,individuo_2_arm_1,,,,,,,,,10211,Amacifuen ,Zambrano,Erick,Andres,46925782,46925782,7/3/1988,,0,,,0,,,,,,,,2
+742,individuo_3_arm_1,,,,,,,,,10211,Amacifuen,Macedo,Erick,Zeus,62915860,62915860,7/14/2010,,1,0,,0,,,,,,,,2
+742,individuo_4_arm_1,,,,,,,,,10211,Amacifuen,Macedo,Carlos ,Andres Camilo,79821869,79821869,8/9/2016,,1,0,,0,,,,,,,,2
+743,familia_arm_1,9/7/2023,3,10,215,10215,5,Rolando Chavez Cahuaza,2,,,,,,,,,,,,,,,,,,,,,
+743,individuo_1_arm_1,,,,,,,,,10215,Chavez,Cahuaza,Rolando,,5395135,5395135,12/24/1966,,0,,,1,0,,,,,,,2
+743,individuo_2_arm_1,,,,,,,,,10215,Rengifo,Guzman,Maria,,5360913,5360913,11/27/1971,,1,0,,1,0,,,,,,,2
+743,individuo_3_arm_1,,,,,,,,,10215,Chavez,Tuanama,Lelis,,62386731,62386731,1/31/2008,,1,0,,0,,,,,,,,2
+743,individuo_4_arm_1,,,,,,,,,10215,Chavez,Tuanama,Denilson,Gabriel,81104328,81104328,4/13/2013,,0,,,0,,,,,,,,2
+743,individuo_5_arm_1,,,,,,,,,10215,Chavez,Rengifo,Rousbel,Rolando,45166177,45166177,5/24/1988,,0,,,1,0,,,,,,,2
+744,familia_arm_1,9/7/2023,3,10,217,10217,3,Roger Torres Bardales,2,,,,,,,,,,,,,,,,,,,,,
+744,individuo_1_arm_1,,,,,,,,,10217,Torres,Bardales,Roger,,45182839,45182839,12/15/1981,41,0,,,1,0,,,,,,,2
+744,individuo_2_arm_1,,,,,,,,,10217,Lopez,Perez,Maria del Carmen,,80304378,80304378,8/25/1974,49,1,0,,1,0,,,,,,,2
+744,individuo_3_arm_1,,,,,,,,,10217,Torres,Lopez,Jhonatan,Jaime,76266053,76266053,9/21/2002,20,0,,,0,,,,,,,,2
+745,familia_arm_1,9/7/2023,3,10,227,10227,3,Maria Magdalena Rubio Siquihua,2,,,,,,,,,,,,,,,,,,,,,
+745,individuo_1_arm_1,,,,,,,,,10227,Rubio,Siquihua,Maria,Magdalena,99999999,99999999,5/7/1975,,1,0,,0,,,,,,,,2
+745,individuo_2_arm_1,,,,,,,,,10227,Manama,Rubio,Piero,,99999999,99999999,5/16/2013,,0,,,0,,,,,,,,2
+745,individuo_3_arm_1,,,,,,,,,10227,Manama,Rubio,Gracy,,99999999,99999999,7/31/2016,,1,0,,0,,,,,,,,2
+746,familia_arm_1,9/7/2023,3,10,304,10304,3,Olinda Paima Rubio,2,,,,,,,,,,,,,,,,,,,,,
+746,individuo_1_arm_1,,,,,,,,,10304,Paima,Rubio,Olinda,,61888568,61888568,7/13/2000,23,1,0,,1,0,,,,,,,2
+746,individuo_2_arm_1,,,,,,,,,10304,Machoa,Paima,Maik,Jarry,99999999,99999999,4/30/2020,3,0,,,0,,,,,,,,2
+746,individuo_3_arm_1,,,,,,,,,10304,Machoa,Paima,Karin,Tadeo,99999999,99999999,5/23/2023,0,0,,,0,,,,,,,,2
+747,familia_arm_1,9/7/2023,3,10,231,10231,2,Ana Jesus Alvarez de Silvano,2,,,,,,,,,,,,,,,,,,,,,
+747,individuo_1_arm_1,,,,,,,,,10231,Alvarez,De silvano,Ana,Jesus,5229989,5229989,1/30/1960,,1,0,,1,0,,,,,,,2
+747,individuo_2_arm_1,,,,,,,,,10231,Silvano,Alvarez,Remigio,,72700092,72700092,10/7/1994,,0,,,1,0,,,,,,,2
+748,familia_arm_1,9/7/2023,3,10,236,10236,2,Sara Vargas Sanchez,2,,,,,,,,,,,,,,,,,,,,,
+748,individuo_1_arm_1,,,,,,,,,10236,Vargas,Sanchez,Sara,,99999999,99999999,4/17/1959,,1,0,,0,,,,,,,,2
+748,individuo_2_arm_1,,,,,,,,,10236,Mozombite,Jimenez,Jason,,99999999,99999999,9/17/2009,,0,,,0,,,,,,,,2
+749,familia_arm_1,9/8/2023,1,10,242,10242,7,Karla rodriguez montalvo,2,,,,,,,,,,,,,,,,,,,,,
+749,individuo_1_arm_1,,,,,,,,,10242,Rodriguez,Montalvo,Karla,,42192826,42192826,12/27/1983,,1,0,,0,,,,,,,,2
+749,individuo_2_arm_1,,,,,,,,,10242,Cardenas,Rodriguez,Luisa,Esther,72032847,72032847,10/30/2004,,1,0,,0,,,,,,,,2
+749,individuo_3_arm_1,,,,,,,,,10242,Del castillo,Rodriguez,Karla,Angelica,62439195,62439195,9/8/2009,,1,0,,0,,,,,,,,2
+749,individuo_4_arm_1,,,,,,,,,10242,Del castillo,Rodriguez,Perla,Sibila,78369638,78369638,11/23/2013,,1,0,,0,,,,,,,,2
+749,individuo_5_arm_1,,,,,,,,,10242,Zavaleta,Rodriguez,Lia,Mia zholey,79536913,79536913,12/17/2015,,1,0,,0,,,,,,,,2
+749,individuo_6_arm_1,,,,,,,,,10242,Del castillo,Rodriguez,Iam,Ronald mateo,90508063,90508063,11/24/2017,,0,,,0,,,,,,,,2
+749,individuo_7_arm_1,,,,,,,,,10242,Arimuya,Cardenas,Sol,Alasli laomi,92350972,92350972,5/8/2021,,1,0,,0,,,,,,,,2
+750,familia_arm_1,9/8/2023,1,10,291,10291,5,Kely inuma soria,2,,,,,,,,,,,,,,,,,,,,,
+750,individuo_1_arm_1,,,,,,,,,10291,Inuma,Soria,Kely,,44712506,44712506,8/2/1980,,1,0,,0,,,,,,,,2
+750,individuo_2_arm_1,,,,,,,,,10291,Saboya,Fatama,Mamerto,,44712508,44712508,4/11/1978,,0,,,0,,,,,,,,2
+750,individuo_3_arm_1,,,,,,,,,10291,Saboya,Inuma,Lenis,Brillit,63095159,63095159,9/26/2007,,1,0,,0,,,,,,,,2
+750,individuo_4_arm_1,,,,,,,,,10291,Saboya,Inuma,Becky,Marianita,91581698,91581698,11/7/2019,,1,0,,0,,,,,,,,2
+750,individuo_5_arm_1,,,,,,,,,10291,Saboya,Inuma,Mamerto,,81227308,81227308,9/6/2013,,0,,,0,,,,,,,,2
+751,familia_arm_1,9/8/2023,1,10,701,10701,3,Jecenia aspajo yahuarcani,2,,,,,,,,,,,,,,,,,,,,,
+751,individuo_1_arm_1,,,,,,,,,10701,Aspajo,Yahuarcani,Jecenia,,46743580,46743580,2/6/1972,,1,0,,1,0,,,,,,,2
+751,individuo_2_arm_1,,,,,,,,,10701,Pinchy,Manuyama,Angel,,49080959,49080959,5/19/1999,,0,,,1,0,,,,,,,2
+751,individuo_3_arm_1,,,,,,,,,10701,Tecco,Panaifo,Christian,Bastian,90982782,90982782,9/28/2018,,0,,,0,,,,,,,,2
+752,familia_arm_1,9/8/2023,1,10,301,10301,1,Nurzon pilco shahuano,2,,,,,,,,,,,,,,,,,,,,,
+752,individuo_1_arm_1,,,,,,,,,10301,Pilco,Shahuano,Nurzon (cuidador),,47413810,47413810,12/15/1982,,0,,,0,,,,,,,,2
+753,familia_arm_1,9/8/2023,1,10,702,10702,4,Marianela arevalo mozombite,2,,,,,,,,,,,,,,,,,,,,,
+753,individuo_1_arm_1,,,,,,,,,10702,Arevalo,Mozombite,Marianela,,5395433,5395433,10/12/1976,,1,0,,0,,,,,,,,2
+753,individuo_2_arm_1,,,,,,,,,10702,Vasquez,Chavez,Richard,,5252690,5252690,11/25/1962,,0,,,0,,,,,,,,2
+753,individuo_3_arm_1,,,,,,,,,10702,Reategui,Arevalo,Jeff,Camell,78656477,78656477,7/4/2014,,0,,,0,,,,,,,,2
+753,individuo_4_arm_1,,,,,,,,,10702,Reategui,Arevalo,Sven,Huvertus jeys,61489811,61489811,7/29/2008,,0,,,0,,,,,,,,2
+754,familia_arm_1,9/8/2023,1,10,703,10703,4,Eleonor trujillo macaya,2,,,,,,,,,,,,,,,,,,,,,
+754,individuo_1_arm_1,,,,,,,,,10703,Trujillo,Macaya,Eleonor,,72662764,72662764,4/17/1993,,1,0,,1,0,,,,,,,2
+754,individuo_2_arm_1,,,,,,,,,10703,Chanchari,Marrero,Alvaro,,44094630,44094630,4/24/1980,,0,,,1,1,1,,1,3,,,2
+754,individuo_3_arm_1,,,,,,,,,10703,Chanchari,Trujillo,Rosario,Sofia,79358110,79358110,10/19/2015,,1,0,,1,0,,,,,,,2
+754,individuo_4_arm_1,,,,,,,,,10703,Chanchari,Trujillo,Victoria,Valentina,92918524,92918524,6/2/2022,,1,0,,0,,,,,,,,2
+755,familia_arm_1,9/8/2023,1,10,325,10325,4,Ibis diana la torre yaicate,2,,,,,,,,,,,,,,,,,,,,,
+755,individuo_1_arm_1,,,,,,,,,10325,La torre,Yaicate,Ibis,Diana,42468231,42468231,6/14/1982,,1,0,,0,,,,,,,,2
+755,individuo_2_arm_1,,,,,,,,,10325,Ramirez,Castro,Samir,,46345614,46345614,2/7/1978,,0,,,1,0,,,,,,,2
+755,individuo_3_arm_1,,,,,,,,,10325,Ramirez,La torre,Reyser,Paula,60499498,60499498,5/5/2007,,0,,,0,,,,,,,,2
+755,individuo_4_arm_1,,,,,,,,,10325,Ramirez,La torre,Ana,Iyanela,61702106,61702106,2/26/2010,,1,0,,0,,,,,,,,2
+756,familia_arm_1,9/8/2023,1,10,329,10329,1,Juan david hernandez flores,2,,,,,,,,,,,,,,,,,,,,,
+756,individuo_1_arm_1,,,,,,,,,10329,Hernandez,Flores,Juan,David,10238427,10238427,6/26/1943,,0,,,0,,,,,,,,2
+757,familia_arm_1,9/8/2023,1,10,330,10330,7,Rosa angelica panduro ferreira,2,,,,,,,,,,,,,,,,,,,,,
+757,individuo_1_arm_1,,,,,,,,,10330,Panduro ,Ferreyra,Rosa,Angelica,5214303,5214303,12/11/1964,58,1,0,,0,,,,,,,,2
+757,individuo_2_arm_1,,,,,,,,,10330,Flores ,Quintana,Perlita,Vanessa,43367796,43367796,11/2/1985,37,1,0,,0,,,,,,,,2
+757,individuo_3_arm_1,,,,,,,,,10330,Villavicencio,Panduro,George,Orson,45387386,45387386,10/16/1988,34,0,,,0,,,,,,,,2
+757,individuo_4_arm_1,,,,,,,,,10330,Villavicencio,Flores,Kalessia,Yelina,91229304,91229304,3/12/2019,4,1,0,,0,,,,,,,,2
+757,individuo_5_arm_1,,,,,,,,,10330,Villavicencio,Flores,Dylan,Ketzal jhared,79110742,79110742,4/26/2015,8,0,,,0,,,,,,,,2
+757,individuo_6_arm_1,,,,,,,,,10330,Panduro,Panduro,Giovani,Gilberto,74215820,74215820,2/28/2000,23,0,,,0,,,,,,,,2
+757,individuo_7_arm_1,,,,,,,,,10330,NI,NI,NI,,99999999,99999999,NI,,NI,,,NI,,,,,,,,2
+758,familia_arm_1,9/9/2023,4,10,334,10334,4,Jose Gomez Guerra,2,,,,,,,,,,,,,,,,,,,,,
+758,individuo_1_arm_1,,,,,,,,,10334,Gomez,Guerra,Jose,,5371361,5371361,4/9/1972,51,0,,,0,,,,,,,,2
+758,individuo_2_arm_1,,,,,,,,,10334,Arcentales,Valera,Amanda,Matilde,44125802,44125802,2/7/1987,36,1,0,,NI,0,,,,,,,2
+758,individuo_3_arm_1,,,,,,,,,10334,Crispin,Arcentales,Ana,Camila,79882984,79882984,10/4/2016,6,1,0,,0,,,,,,,,2
+758,individuo_4_arm_1,,,,,,,,,10334,Crispin,Arcentales,Larson,,73943718,73943718,11/21/2005,17,0,,,0,,,,,,,,2
+759,familia_arm_1,9/9/2023,4,10,263,10263,4,Capuena Andrade Cesar Augusto,2,,,,,,,,,,,,,,,,,,,,,
+759,individuo_1_arm_1,,,,,,,,,10263,Capuena,Andrade,Cesar,Augusto,5341621,5341621,8/17/1958,,0,,,0,,,,,,,,2
+759,individuo_2_arm_1,,,,,,,,,10263,Suta,Simara,Saida,,99999999,99999999,7/21/1962,,1,0,,0,,,,,,,,2
+759,individuo_3_arm_1,,,,,,,,,10263,Muro,Capuena,Treysi,Tamara,61385399,61385399,4/16/2008,,1,0,,0,,,,,,,,2
+759,individuo_4_arm_1,,,,,,,,,10263,Vasquez,Capuena,Sair,Dotan,62815102,62815102,7/8/2010,,0,,,0,,,,,,,,2
+760,familia_arm_1,9/9/2023,4,10,274,10274,4,Anael Encinas Montalvan,2,,,,,,,,,,,,,,,,,,,,,
+760,individuo_1_arm_1,,,,,,,,,10274,Encinas,Montalvo,Anael,,40574824,40574824,9/9/1979,44,0,,,0,,,,,,,,2
+760,individuo_2_arm_1,,,,,,,,,10274,Valles,Fasabi,Amanda,,42645118,42645118,9/20/1984,38,1,0,,1,0,,,,,,,2
+760,individuo_3_arm_1,,,,,,,,,10274,Encinas,Valles,Leyla,Almendra,61334698,61334698,5/31/2008,15,1,0,,0,,,,,,,,2
+760,individuo_4_arm_1,,,,,,,,,10274,Encinas,Valles,Jeremi,Caleb,78980287,78980287,2/12/2015,8,0,,,0,,,,,,,,2
+761,familia_arm_1,9/9/2023,4,10,331,10331,4,Pablo Carihuazairo Tapayuri,2,,,,,,,,,,,,,,,,,,,,,
+761,individuo_1_arm_1,,,,,,,,,10331,Carihuazairo,Tapayuri,Pablo,,5364591,5364591,7/22/1954,,0,,,0,,,,,,,,2
+761,individuo_2_arm_1,,,,,,,,,10331,Flores,Tapayuri,Elena,,80460764,80460764,10/22/1961,,1,0,,1,0,,,,,,,2
+761,individuo_3_arm_1,,,,,,,,,10331,Yuimachi,Amias,Augusto,,5396983,5396983,8/15/1963,,0,,,1,0,,,,,,,2
+761,individuo_4_arm_1,,,,,,,,,10331,Yuimachi,Tapullima,Meidely,Juliana,62582304,62582304,8/2/2009,,1,0,,1,0,,,,,,,2
+762,familia_arm_1,9/9/2023,4,10,332,10332,2,Carlinda Cahuachi Santana,2,,,,,,,,,,,,,,,,,,,,,
+762,individuo_1_arm_1,,,,,,,,,10332,Cahuachi,Santana,Carlinda,,47300524,47300524,8/29/1972,,1,0,,0,,,,,,,,2
+762,individuo_2_arm_1,,,,,,,,,10332,Manuyama,Cahuachi,Zahory,Julieth,62341701,62341701,12/8/2009,,1,0,,0,,,,,,,,2
+763,familia_arm_1,9/9/2023,4,10,335,10335,4,Alber Wily Garcia Cora,2,,,,,,,,,,,,,,,,,,,,,
+763,individuo_1_arm_1,,,,,,,,,10335,Garcia,Cora,Albert,Wily,45080243,45080243,4/15/1988,,0,,,1,0,,,,,,,2
+763,individuo_2_arm_1,,,,,,,,,10335,Panduro,Panduro,Cinthia,Sharon,46850461,46850461,11/28/1991,,1,0,,0,,,,,,,,2
+763,individuo_3_arm_1,,,,,,,,,10335,Silvano,Panduro,Marcos,Bonieth,77851774,77851774,10/8/2012,,0,,,0,,,,,,,,2
+763,individuo_4_arm_1,,,,,,,,,10335,Garcia,Panduro,Roussmary,Johansson,91969518,91969518,8/12/2020,,1,0,,0,,,,,,,,2
+764,familia_arm_1,9/9/2023,4,10,337,10337,5,Juan Manuel Rios Vasquez,2,,,,,,,,,,,,,,,,,,,,,
+764,individuo_1_arm_1,,,,,,,,,10337,Rios,Vasquez,Juan,Manuel,61489771,61489771,10/16/1993,29,0,,,0,,,,,,,,2
+764,individuo_2_arm_1,,,,,,,,,10337,Cansino,Manihuari,Jahaira,Semira,73531237,73531237,10/12/1994,28,1,0,,1,0,,,,,,,2
+764,individuo_3_arm_1,,,,,,,,,10337,Rios,Cansino,Jean ,Pool,78380380,78380380,2/27/2013,10,0,,,0,,,,,,,,2
+764,individuo_4_arm_1,,,,,,,,,10337,Rios,Cancino,Llaris,Ivana,79671517,79671517,5/6/2015,8,1,0,,0,,,,,,,,2
+764,individuo_5_arm_1,,,,,,,,,10337,Rios,Cancino,Alejandra,Darcy,93353305,93353305,4/20/2023,0,1,0,,0,,,,,,,,2
+765,familia_arm_1,9/9/2023,4,10,338,10338,3,Rios Garcia Ruiz Beltran,2,,,,,,,,,,,,,,,,,,,,,
+765,individuo_1_arm_1,,,,,,,,,10338,Rios,Garcia,Luis,Beltran,5293655,5293655,10/10/1950,,0,,,1,0,,,,,,,2
+765,individuo_2_arm_1,,,,,,,,,10338,Vasquez,Chumbe,Sara,,5295679,5295679,1/12/1952,,1,0,,1,0,,,,,,,2
+765,individuo_3_arm_1,,,,,,,,,10338,Rios,Rios,Yandira,Carolina,63365434,63365434,9/29/2012,,1,0,,0,,,,,,,,2
+766,familia_arm_1,9/9/2023,4,10,342,10342,7,Amalia Arcentales Valera,2,,,,,,,,,,,,,,,,,,,,,
+766,individuo_1_arm_1,,,,,,,,,10342,Arsentales,Valera,Amalia,,44565861,44565861,3/22/1985,,1,0,,1,0,,,,,,,2
+766,individuo_2_arm_1,,,,,,,,,10342,Curitima,Arsentales,Michel,,63057883,63057883,10/24/2003,,0,,,0,,,,,,,,2
+766,individuo_3_arm_1,,,,,,,,,10342,Peña,Arsentales,Vicaria,Luciana,81835582,81835582,10/24/2016,,1,0,,0,,,,,,,,2
+766,individuo_4_arm_1,,,,,,,,,10342,Peña,Arsentales,Liam,Yoris,93263785,93263785,2/14/2023,,0,,,0,,,,,,,,2
+766,individuo_5_arm_1,,,,,,,,,10342,Peña,Arsentales,Elton,Marco Antonio,81577905,81577905,1/10/2014,,0,,,0,,,,,,,,2
+766,individuo_6_arm_1,,,,,,,,,10342,Peña,Arsentales,Zoila,Ilda,63057884,63057884,5/3/2011,,1,0,,0,,,,,,,,2
+766,individuo_7_arm_1,,,,,,,,,10342,Curitima,Arsentales,Joisi,Carlita,99999999,99999999,2/9/2007,,1,0,,1,0,,,,,,,2
+767,familia_arm_1,9/9/2023,4,10,358,10358,2,Cindy Tuesta Marreros,2,,,,,,,,,,,,,,,,,,,,,
+767,individuo_1_arm_1,,,,,,,,,10358,Tuesta,Marreros,Cindy,,46614531,46614531,7/2/1990,,1,0,,0,,,,,,,,2
+767,individuo_2_arm_1,,,,,,,,,10358,Diaz,Tuesta,Maria,Guadalupe,77772145,77772145,4/29/2012,,1,0,,0,,,,,,,,2
+768,familia_arm_1,9/9/2023,4,10,261,10261,4,Arnulfo Pisco Saboya,2,,,,,,,,,,,,,,,,,,,,,
+768,individuo_1_arm_1,,,,,,,,,10261,Pisco,Saboya,Arnulfo,,955866,955866,10/11/1977,45,0,,,1,0,,,,,,,2
+768,individuo_2_arm_1,,,,,,,,,10261,Jimenez,Vargas,Jessica,,43181107,43181107,9/10/1984,39,1,0,,1,0,,,,,,,2
+768,individuo_3_arm_1,,,,,,,,,10261,Pisco,Jimenez,Antony,Lloel,61125749,61125749,10/15/2007,15,0,,,0,,,,,,,,2
+768,individuo_4_arm_1,,,,,,,,,10261,Pisco,Jimenez,Rayder,Valentin,79530380,79530380,2/14/2016,7,1,0,,0,,,,,,,,2
+769,familia_arm_1,9/11/2023,1,10,185,10185,5,Karina romero chujutalli,2,,,,,,,,,,,,,,,,,,,,,
+769,individuo_1_arm_1,,,,,,,,,10185,Romero,Chujutalli,Karina,,43864035,43864035,12/6/1983,39,1,0,,0,,,,,,,,2
+769,individuo_2_arm_1,,,,,,,,,10185,Flores,Reyna,Asencio,,5384536,5384536,11/28/1968,54,0,,,1,0,,,,,,,2
+769,individuo_3_arm_1,,,,,,,,,10185,Flores,Romero,Mily,Aliez karin,90373092,90373092,8/23/2017,6,1,0,,0,,,,,,,,2
+769,individuo_4_arm_1,,,,,,,,,10185,Flores,Romero,Deyvis,Lenin,76898438,76898438,4/14/2011,12,0,,,0,,,,,,,,2
+769,individuo_5_arm_1,,,,,,,,,10185,Flores,Romero,Fran,Frolth,61720475,61720475,6/9/2009,14,0,,,0,,,,,,,,2
+770,familia_arm_1,9/11/2023,1,10,183,10183,5,Marta luz macedo panduro,2,,,,,,,,,,,,,,,,,,,,,
+770,individuo_1_arm_1,,,,,,,,,10183,Macedo,Panduro,Marta,Liz,5276748,5276748,4/7/1962,,1,0,,1,0,,,,,,,2
+770,individuo_2_arm_1,,,,,,,,,10183,Del aguila,Paredes,Alberto ,,5277614,5277614,8/6/1949,,0,,,0,,,,,,,,2
+770,individuo_3_arm_1,,,,,,,,,10183,Del aguila,Macedo,Bruce,Pool,70408985,70408985,4/5/1990,,0,,,0,,,,,,,,2
+770,individuo_4_arm_1,,,,,,,,,10183,Tenazoa,Tangoa,Kiara,Yameli,75972743,75972743,1/23/2005,,1,0,,0,,,,,,,,2
+770,individuo_5_arm_1,,,,,,,,,10183,Del aguila,Tenazoa,Luz,Ayleem ,93488538,93488538,8/2/2023,,1,0,,0,,,,,,,,2
+771,familia_arm_1,9/11/2023,1,10,182,10182,2,Nelly vasquez garcia,2,,,,,,,,,,,,,,,,,,,,,
+771,individuo_1_arm_1,,,,,,,,,10182,Vasquez,Garcia,Nelly,,5344696,5344696,10/27/1971,,1,0,,0,,,,,,,,2
+771,individuo_2_arm_1,,,,,,,,,10182,Flores,Vasquez,Melissa,Emperatriz,61075049,61075049,4/24/2007,,1,0,,0,,,,,,,,2
+772,familia_arm_1,9/11/2023,1,10,174,10174,4,Gilberto chujutalli panduro,2,,,,,,,,,,,,,,,,,,,,,
+772,individuo_1_arm_1,,,,,,,,,10174,Chujutalli,Panduro,Gilberto,,5363552,5363552,4/23/1957,,0,,,1,0,,,,,,,2
+772,individuo_2_arm_1,,,,,,,,,10174,Torres,De chujutalli,Himelda,,5354058,5354058,12/4/1958,,1,0,,0,,,,,,,,2
+772,individuo_3_arm_1,,,,,,,,,10174,Chujutalli,Gutierrez,Mery,Leysi,74397684,74397684,7/30/2002,,1,0,,0,,,,,,,,2
+772,individuo_4_arm_1,,,,,,,,,10174,Chujutalli,Torres,Danilo,,99999999,99999999,1/27/1997,,0,,,0,,,,,,,,2
+773,familia_arm_1,9/11/2023,1,10,172,10172,4,Biomar soplin viuda valqui,2,,,,,,,,,,,,,,,,,,,,,
+773,individuo_1_arm_1,,,,,,,,,10172,Soplin,Viuda valqui,Biomar,,5280901,5280901,9/3/1949,,1,0,,1,0,,,,,,,2
+773,individuo_2_arm_1,,,,,,,,,10172,Zevallos,Valqui,Genesis,Nikoll,76156240,76156240,4/6/2006,,1,0,,0,,,,,,,,2
+773,individuo_3_arm_1,,,,,,,,,10172,Valqui,Soplin,Jiselina,,40563707,40563707,6/8/1980,,1,0,,0,,,,,,,,2
+773,individuo_4_arm_1,,,,,,,,,10172,Muñoz,Romaina,Watner,,99999999,99999999,2/27/1975,,0,,,999,,,,,,,,2
+774,familia_arm_1,9/11/2023,1,10,171,10171,4,Treicy carolina arirama santos,2,,,,,,,,,,,,,,,,,,,,,
+774,individuo_1_arm_1,,,,,,,,,10171,Arirama,Santos,Treicy,Carolina,76299410,76299410,7/1/1999,,1,0,,0,,,,,,,,2
+774,individuo_2_arm_1,,,,,,,,,10171,Caballero,Ojaicuro,Nick,Maldon,48509599,48509599,5/28/1993,,0,,,0,,,,,,,,2
+774,individuo_3_arm_1,,,,,,,,,10171,Caballero,Arirama,Liam,Benjamin,91080054,91080054,12/3/2018,,0,,,0,,,,,,,,2
+774,individuo_4_arm_1,,,,,,,,,10171,Caballero,Arirama,Saira,Jemima,93497985,93497985,8/10/2023,,1,0,,0,,,,,,,,2
+775,familia_arm_1,9/11/2023,1,10,704,10704,5,Eber santos puscan,2,,,,,,,,,,,,,,,,,,,,,
+775,individuo_1_arm_1,,,,,,,,,10704,Santos ,Puscan,Eber,,44169004,44169004,9/22/1986,,0,,,1,0,,,,,,,2
+775,individuo_2_arm_1,,,,,,,,,10704,Fasabi,Sanchez,Stefany,,76806606,76806606,3/13/2003,,1,0,,0,,,,,,,,2
+775,individuo_3_arm_1,,,,,,,,,10704,Santos,Yaicate,Diego,Leonardo,62402001,62402001,3/31/2010,,0,,,0,,,,,,,,2
+775,individuo_4_arm_1,,,,,,,,,10704,Santos,Fasabi,Abiud,,92881597,92881597,5/8/2022,,0,,,0,,,,,,,,2
+775,individuo_5_arm_1,,,,,,,,,10704,Santos,Yaicate,Hebert,Maic,62850141,62850141,5/3/2011,,0,,,0,,,,,,,,2
+776,familia_arm_1,9/11/2023,1,10,170,10170,3,Victoria monge teco,2,,,,,,,,,,,,,,,,,,,,,
+776,individuo_1_arm_1,,,,,,,,,10170,Monge,Teco,Victoria,,80481445,80481445,7/24/1968,,1,0,,0,,,,,,,,2
+776,individuo_2_arm_1,,,,,,,,,10170,Macahuachi,Flores,Diana,Cristina,62582324,62582324,3/1/2003,,1,1,28,0,,,,,,,,2
+776,individuo_3_arm_1,,,,,,,,,10170,Rucoba,Macahuachi,Alexa,Antonela,92190234,92190234,1/12/2021,,1,0,,0,,,,,,,,2
+777,familia_arm_1,9/11/2023,1,10,705,10705,2,Davila macedo francisco lliner,2,,,,,,,,,,,,,,,,,,,,,
+777,individuo_1_arm_1,,,,,,,,,10705,Davila,Macedo,Franscisco,Lliner,47262834,47262834,5/27/1980,,0,,,0,,,,,,,,2
+777,individuo_2_arm_1,,,,,,,,,10705,Manicer,Carrion,Liliana,,43933237,43933237,5/16/1983,,1,0,,1,0,,,,,,,2
+778,familia_arm_1,9/9/2023,3,10,109,10109,2,James Paredes Mozombite,2,,,,,,,,,,,,,,,,,,,,,
+778,individuo_1_arm_1,,,,,,,,,10109,Paredes,Mozombite,James,,5256364,5256364,8/8/1960,,0,,,0,,,,,,,,2
+778,individuo_2_arm_1,,,,,,,,,10109,Rodriguez,Morcera,Ninia,,5341343,5341343,9/6/1968,,1,0,,0,,,,,,,,2
+779,familia_arm_1,9/9/2023,3,10,105,10105,2,Sara Lopez Rodriguez,2,,,,,,,,,,,,,,,,,,,,,
+779,individuo_1_arm_1,,,,,,,,,10105,Lopez,Rodriguez,Sara,,99999999,99999999,11/7/1957,65,1,0,,1,0,,,,,,,2
+779,individuo_2_arm_1,,,,,,,,,10105,Tulumba,Lopez,Argelio,,45637902,45637902,9/3/1984,39,0,,,1,0,,,,,,,2
+780,familia_arm_1,9/9/2023,3,10,103,10103,2,Eulogio Tapayuri Canaquiri,2,,,,,,,,,,,,,,,,,,,,,
+780,individuo_1_arm_1,,,,,,,,,10103,Tapayuri,Canaquiri,Eulogio,,5603572,5603572,6/10/1949,,0,,,1,0,,,,,,,2
+780,individuo_2_arm_1,,,,,,,,,10103,Yahuarcani,Caritimari,Noelina,,5604133,5604133,8/26/1956,,1,0,,1,0,,,,,,,2
+781,familia_arm_1,9/9/2023,3,10,102,10102,4,Alfonso Tuesta Flores,2,,,,,,,,,,,,,,,,,,,,,
+781,individuo_1_arm_1,,,,,,,,,10102,Tuesta,Flores,Alfonso,Jeans pierre,99999999,99999999,9/14/1992,,0,,,999,,,,,,,,2
+781,individuo_2_arm_1,,,,,,,,,10102,Aguinda,Yshiza,Rosa,Teolinda,73670643,73670643,3/14/1999,,1,0,,1,0,,,,,,,2
+781,individuo_3_arm_1,,,,,,,,,10102,Tuesta,Aguinda,Saberia,Cataleya,93269942,93269942,2/19/2023,,1,0,,0,,,,,,,,2
+781,individuo_4_arm_1,,,,,,,,,10102,Tuesta,Aguinda,Nezareth,Alejandro,92287847,92287847,3/26/2021,,0,,,0,,,,,,,,2
+782,familia_arm_1,9/9/2023,3,10,307,10307,4,Edgar Mozombite del Aguila,2,,,,,,,,,,,,,,,,,,,,,
+782,individuo_1_arm_1,,,,,,,,,10307,Mozombite ,Del Aguila,Edgar,,5398081,5398081,9/10/1961,,0,,,1,0,,,,,,,2
+782,individuo_2_arm_1,,,,,,,,,10307,Lopez,Andrade,Ana de lourdes,,40189268,40189268,1/21/1979,,1,0,,0,,,,,,,,2
+782,individuo_3_arm_1,,,,,,,,,10307,Mozombite,Lopez,Exson,Andre,77317666,77317666,9/25/2011,,0,,,0,,,,,,,,2
+782,individuo_4_arm_1,,,,,,,,,10307,Mozombite,Lopez,Edgar,Junior,91497595,91497595,9/8/2019,,0,,,0,,,,,,,,2
+783,familia_arm_1,9/9/2023,3,10,124,10124,4,Pedro huamana cuello,2,,,,,,,,,,,,,,,,,,,,,
+783,individuo_1_arm_1,,,,,,,,,10124,Huaymana,Cuello,Pedro,,5239623,5239623,4/3/1955,,0,,,0,,,,,,,,2
+783,individuo_2_arm_1,,,,,,,,,10124,Villacorta,Torres,Marta,,99999999,99999999,9/25/1964,,1,0,,0,,,,,,,,2
+783,individuo_3_arm_1,,,,,,,,,10124,Huaymana,Vargas,Angie,Jimena,999999999,999999999,4/14/2005,,1,0,,0,,,,,,,,2
+783,individuo_4_arm_1,,,,,,,,,10124,Huaymana ,Vargas,Alexa,,99999999,99999999,3/23/2012,,1,0,,0,,,,,,,,2
+784,familia_arm_1,9/9/2023,3,10,128,10128,3,Francisco Muñoz Shupingahua,2,,,,,,,,,,,,,,,,,,,,,
+784,individuo_1_arm_1,,,,,,,,,10128,Muñoz,Shupingahua,Francisco,,5225830,5225830,6/20/1966,,0,,,1,0,,,,,,,2
+784,individuo_2_arm_1,,,,,,,,,10128,Proaño,Paredes,Toribia de jesus,,99999999,99999999,9/15/1972,,1,0,,0,,,,,,,,2
+784,individuo_3_arm_1,,,,,,,,,10128,Muñoz,Proaño,Jhon,Gabriel,99999999,99999999,4/12/2020,,0,,,0,,,,,,,,2
+785,familia_arm_1,9/11/2023,3,10,129,10129,6,Francisco Hidalgo Cevallos,2,,,,,,,,,,,,,,,,,,,,,
+785,individuo_1_arm_1,,,,,,,,,10129,Hidalgo,Cevallo,Francisco,,5321231,5321231,12/9/1967,,0,,,0,,,,,,,,2
+785,individuo_2_arm_1,,,,,,,,,10129,Correa,Murrieta,Zasareth,,99999999,99999999,6/28/1969,,1,0,,0,,,,,,,,2
+785,individuo_3_arm_1,,,,,,,,,10129,Sangama,Correa,Gender,,73897805,73897805,10/26/1999,,0,,,0,,,,,,,,2
+785,individuo_4_arm_1,,,,,,,,,10129,Palla,Cascarnoqui,Jazmin,,60954333,60954333,12/25/2006,,1,0,,0,,,,,,,,2
+785,individuo_5_arm_1,,,,,,,,,10129,Amasifen,Sangama,Micol,,99999999,99999999,1/11/2016,,1,0,,0,,,,,,,,2
+785,individuo_6_arm_1,,,,,,,,,10129,Sangama,Palla,Jerizabel,,99999999,99999999,11/17/2021,,1,0,,0,,,,,,,,2
+786,familia_arm_1,9/11/2023,3,10,210,10210,1,Jeferson,2,,,,,,,,,,,,,,,,,,,,,
+786,individuo_1_arm_1,,,,,,,,,10210,Garcia,Correa,Jeferson,,99999999,99999999,2/14/1997,26,0,,,1,0,,,,,,,2
+787,familia_arm_1,9/11/2023,3,10,130,10130,6,Amanda Garcia Saldaña,2,,,,,,,,,,,,,,,,,,,,,
+787,individuo_1_arm_1,,,,,,,,,10130,Garcia,Saldaña,Amanda,,5361188,5361188,7/15/1980,43,1,0,,1,1,1,,1,3,,,2
+787,individuo_2_arm_1,,,,,,,,,10130,Curinuqui,Ahuanari,Osvaldo,,5291549,5291549,5/8/1961,62,0,,,0,,,,,,,,2
+787,individuo_3_arm_1,,,,,,,,,10130,Curinuqui,Garcia,Jean marco,,99999999,99999999,8/23/2000,23,0,,,0,,,,,,,,2
+787,individuo_4_arm_1,,,,,,,,,10130,Curinuqui,Garcia,Milagros,,77817409,77817409,1/1/1997,26,1,0,,0,,,,,,,,2
+787,individuo_5_arm_1,,,,,,,,,10130,Curinuqui,Garcia,Jean pierre,,60807823,60807823,7/2/2006,17,0,,,0,,,,,,,,2
+787,individuo_6_arm_1,,,,,,,,,10130,Gabiria,Curinuqui,Angela,Milagros,90037296,90037296,1/20/2017,6,1,0,,0,,,,,,,,2
+788,familia_arm_1,9/11/2023,3,10,135,10135,5,George Gatica Garcia,2,,,,,,,,,,,,,,,,,,,,,
+788,individuo_1_arm_1,,,,,,,,,10135,Gatica,Garcia,George,,40194459,40194459,2/26/1942,,0,,,1,0,,,,,,,2
+788,individuo_2_arm_1,,,,,,,,,10135,Rengifo,De gatica,Luz,,5251062,5251062,11/25/1953,,1,0,,1,0,,,,,,,2
+788,individuo_3_arm_1,,,,,,,,,10135,Gatica,Rengifo,George,Russbel,99999999,99999999,2/12/1972,,0,,,0,,,,,,,,2
+788,individuo_4_arm_1,,,,,,,,,10135,Gatica,Rengifo,Jesabel,,99999999,99999999,3/7/1974,,1,0,,0,,,,,,,,2
+788,individuo_5_arm_1,,,,,,,,,10135,Gatica,Rengifo,Jessica,,99999999,99999999,3/18/1976,,1,0,,0,,,,,,,,2
+789,familia_arm_1,9/11/2023,3,10,405,10405,3,Silvia Gatica Salas,2,,,,,,,,,,,,,,,,,,,,,
+789,individuo_1_arm_1,,,,,,,,,10405,Gatica,Salas,Silvia,,1163002,1163002,1/10/1978,,1,0,,0,,,,,,,,2
+789,individuo_2_arm_1,,,,,,,,,10405,Becerra,Alvarado,Noe,Ivian,80627351,80627351,10/10/1972,,0,,,0,,,,,,,,2
+789,individuo_3_arm_1,,,,,,,,,10405,Steven,Gatica,Katerine,,99999999,99999999,7/7/2005,,1,0,,0,,,,,,,,2
+790,familia_arm_1,9/11/2023,3,10,149,10149,2,Jorge Soto Grandez,2,,,,,,,,,,,,,,,,,,,,,
+790,individuo_1_arm_1,,,,,,,,,10149,Soto,Grandez,Jorge,,5331315,5331315,5/24/1969,,0,,,1,0,,,,,,,2
+790,individuo_2_arm_1,,,,,,,,,10149,Ramirez,Canaquiri,Raquel,Alexia,76494585,76494585,6/29/2010,,1,0,,0,,,,,,,,2
+791,familia_arm_1,9/11/2023,3,10,150,10150,2,Martha Luz Ramos Piña,2,,,,,,,,,,,,,,,,,,,,,
+791,individuo_1_arm_1,,,,,,,,,10150,Ramos,Piña,Martha,Luz,5209090,5209090,3/17/1961,,1,0,,1,0,,,,,,,2
+791,individuo_2_arm_1,,,,,,,,,10150,Ramirez,Canaquiri,Raisa,Alondra,76494615,76494615,6/29/2010,,1,0,,0,,,,,,,,2
+792,familia_arm_1,9/11/2023,3,10,406,10406,2,Doris Celiz Java,2,,,,,,,,,,,,,,,,,,,,,
+792,individuo_1_arm_1,,,,,,,,,10406,Celiz,Java,Doria,,80168586,80168586,1/17/1969,,1,0,,0,,,,,,,,2
+792,individuo_2_arm_1,,,,,,,,,10406,Salas,Tamani,Deivis,,99999999,99999999,1/28/1988,,0,,,0,,,,,,,,2
+793,familia_arm_1,9/9/2023,2,10,107,10107,2, Milena chavez mandruma,0,,,,,,,,,,,,,,,,,,,,,
+793,individuo_1_arm_1,,,,,,,,,10107,Chavez,Mandruma ,Milena,,5402231,5402231,11/21/1966,,1,0,,0,,,,,,,,0
+793,individuo_2_arm_1,,,,,,,,,10107,Tuesta,Chavez,Patty,,41422735,41422735,7/9/1982,,1,0,,0,,,,,,,,0
+794,familia_arm_1,9/11/2023,2,10,177,10177,4,Mario roger alvarez yuyarima,0,,,,,,,,,,,,,,,,,,,,,
+794,individuo_1_arm_1,,,,,,,,,10177,Alvarez,Yuyarima,Mario,Roger,80586760,80586760,12/8/1977,,0,,,0,,,,,,,,0
+794,individuo_2_arm_1,,,,,,,,,10177,Gonzales,Linares,Bella,Cristina,45300231,45300231,9/6/1988,,1,0,,1,0,,,,,,,0
+794,individuo_3_arm_1,,,,,,,,,10177,Alvarez,Gonzales,Alberto,Mateo,61863507,61863507,9/22/2009,,0,,,0,,,,,,,,0
+794,individuo_4_arm_1,,,,,,,,,10177,Alvarez,Gonzales,Brithany,Cristel,77880102,77880102,10/23/2012,,1,0,,0,,,,,,,,0
+795,familia_arm_1,9/11/2023,2,10,175,10175,2,Cesar wilfredo  martinez villar,0,,,,,,,,,,,,,,,,,,,,,
+795,individuo_1_arm_1,,,,,,,,,10175,Martinez,Villar,Cesar ,Wilfedro,5274819,5274819,4/10/1959,,0,,,1,0,,,,,,,0
+795,individuo_2_arm_1,,,,,,,,,10175,Manihuari,Cuespan,Ester,,5367192,5367192,5/18/1968,,1,0,,0,,,,,,,,0
+796,familia_arm_1,9/11/2023,2,10,167,10167,5,Glori flores paima,0,,,,,,,,,,,,,,,,,,,,,
+796,individuo_1_arm_1,,,,,,,,,10167,Flores,Paima,Glori,,99999999,99999999,5/24/1985,,1,0,,1,0,,,,,,,0
+796,individuo_2_arm_1,,,,,,,,,10167,Canayo,Flores,Omar,Junior,62582320,62582320,5/20/2007,,0,,,0,,,,,,,,0
+796,individuo_3_arm_1,,,,,,,,,10167,Canayo,Flores,Felix,Marcelo,79056041,79056041,2/2/2012,,0,,,0,,,,,,,,0
+796,individuo_4_arm_1,,,,,,,,,10167,Ycahuate,Flores,Jack,Eduar,,91634094,12/12/2019,,0,,,0,,,,,,,,0
+796,individuo_5_arm_1,,,,,,,,,10167,Saldaña,Flores,Santiago,Gabriel,99999999,99999999,8/4/2022,,0,,,0,,,,,,,,0
+797,familia_arm_1,9/9/2023,2,10,104,10104,4,Tercero pedro espinoza yumbato,0,,,,,,,,,,,,,,,,,,,,,
+797,individuo_1_arm_1,,,,,,,,,10104,Espinoza,Yumbato,Tercero,Pedro,5357717,5357717,11/25/1971,,0,,,0,,,,,,,,0
+797,individuo_2_arm_1,,,,,,,,,10104,Rios,Ricopa,Doris,,47320042,47320042,11/11/1977,,1,0,,1,0,,,,,,,0
+797,individuo_3_arm_1,,,,,,,,,10104,Espinoza,Rios,Rodrigo,Alonso,75042766,75042766,1/17/2008,,0,,,1,0,,,,,,,0
+797,individuo_4_arm_1,,,,,,,,,10104,Espinoza,Rios,Adriana,Fernando,78983865,78983865,6/26/2013,,1,0,,1,0,,,,,,,0
+798,familia_arm_1,9/9/2023,2,10,121,10121,2,Rusber garcia saldaña,0,,,,,,,,,,,,,,,,,,,,,
+798,individuo_1_arm_1,,,,,,,,,10121,Garcia,Saldaña,Rusber,,80333698,80333698,2/13/1974,,0,,,1,0,,,,,,,0
+798,individuo_2_arm_1,,,,,,,,,10121,Garcia,Saldaña,Eris,,43574724,43574724,4/27/1986,,1,0,,1,0,,,,,,,0
+799,familia_arm_1,9/9/2023,2,10,126,10126,5,Erika rios tello,0,,,,,,,,,,,,,,,,,,,,,
+799,individuo_1_arm_1,,,,,,,,,10126,Rios,Tello,Erika,,47538443,47538443,11/5/1985,,1,0,,1,0,,,,,,,0
+799,individuo_2_arm_1,,,,,,,,,10126,Celiz,Rios,Gabriela,Paulina,91374613,91374613,1/5/2012,,1,0,,0,,,,,,,,0
+799,individuo_3_arm_1,,,,,,,,,10126,Murrieta,Rios,Cristofer,Eduardo,79356883,79356883,9/30/2013,,0,,,0,,,,,,,,0
+799,individuo_4_arm_1,,,,,,,,,10126,Murrieta,Rios,Erick,Sebastian,79907007,79907007,10/18/2016,,0,,,0,,,,,,,,0
+799,individuo_5_arm_1,,,,,,,,,10126,Murrieta,Rios,Claudia,Carlita,79356857,79356857,11/9/2014,,1,0,,0,,,,,,,,0
+800,familia_arm_1,9/9/2023,2,10,504,10504,2,Juan cieza diaz,0,,,,,,,,,,,,,,,,,,,,,
+800,individuo_1_arm_1,,,,,,,,,10504,Cieza,Diaz,Juan,,5406572,5406572,8/10/1956,,0,,,1,0,,,,,,,0
+800,individuo_2_arm_1,,,,,,,,,10504,Altamirano,Diaz,Maria,,48661616,48661616,8/3/1965,,1,0,,0,,,,,,,,0
+801,familia_arm_1,9/11/2023,2,10,505,10505,4,Rosileni yzuisa rios,0,,,,,,,,,,,,,,,,,,,,,
+801,individuo_1_arm_1,,,,,,,,,10505,Yzuisa,Rios,Rosileni,,45216135,45216135,5/21/1984,,1,0,,0,,,,,,,,0
+801,individuo_2_arm_1,,,,,,,,,10505,Flores,Yzuisa,Aitana,Aysell,93128359,93128359,11/6/2022,,1,0,,0,,,,,,,,0
+801,individuo_3_arm_1,,,,,,,,,10505,Castel,Yzuisa,Tevis,,99999999,99999999,9/24/2017,,0,,,0,,,,,,,,0
+801,individuo_4_arm_1,,,,,,,,,10505,Flores,Yzuisa,Miler,Alexander,99999999,99999999,8/2/2019,,0,,,0,,,,,,,,0
+802,familia_arm_1,9/11/2023,2,10,181,10181,3,Yuri vargas marin,0,,,,,,,,,,,,,,,,,,,,,
+802,individuo_1_arm_1,,,,,,,,,10181,Vargas,Marin,Yuri,,75047118,75047118,8/24/1999,,0,,,0,,,,,,,,0
+802,individuo_2_arm_1,,,,,,,,,10181,Del aguila ,Macedo,Danai,,44993974,44993974,4/12/1988,,1,0,,0,,,,,,,,0
+802,individuo_3_arm_1,,,,,,,,,10181,Malpartida,Del aguila,Gerard,David,77894389,77894389,11/23/2012,,0,,,0,,,,,,,,0
+803,familia_arm_1,9/11/2023,2,10,179,10179,5,Silvano isabel rios vasquez,0,,,,,,,,,,,,,,,,,,,,,
+803,individuo_1_arm_1,,,,,,,,,10179,Rios,Vasquez,Silvana,Isabel,46577632,46577632,8/24/1989,,1,0,,1,0,,,,,,,0
+803,individuo_2_arm_1,,,,,,,,,10179,Plaza,Java,Anderson,,47265143,47265143,3/14/1983,,0,,,0,,,,,,,,0
+803,individuo_3_arm_1,,,,,,,,,10179,Plazo,Rios,Briselli,Jazmin,91180113,91180113,1/29/2019,,1,0,,0,,,,,,,,0
+803,individuo_4_arm_1,,,,,,,,,10179,Plaza,Rios,Argel,Leandro,78765513,78765513,8/29/2014,,1,0,,0,,,,,,,,0
+803,individuo_5_arm_1,,,,,,,,,10179,Plaza,Rios,Anderson,,77720416,77720416,5/28/2012,,0,,,0,,,,,,,,0
+804,familia_arm_1,9/11/2023,2,10,178,10178,5,Flor de maria perez manuyama,0,,,,,,,,,,,,,,,,,,,,,
+804,individuo_1_arm_1,,,,,,,,,10178,Casanova,Perez,Freddy,,99999999,99999999,5/6/1994,29,0,,,1,0,,,,,,,0
+804,individuo_2_arm_1,,,,,,,,,10178,Casanova,Perez,Leo,,99999999,99999999,9/5/1998,25,0,,,0,,,,,,,,0
+804,individuo_3_arm_1,,,,,,,,,10178,Perz,Manuyama,Flor,De maria,80544477,80544477,11/18/1977,45,0,,,1,0,,,,,,,0
+804,individuo_4_arm_1,,,,,,,,,10178,Casanova,Perez,Eduar,,62582336,62582336,10/12/2006,16,0,,,0,,,,,,,,0
+804,individuo_5_arm_1,,,,,,,,,10178,Casanova,Ramirez,Leonardo,,80506497,80506497,11/27/1975,47,0,,,1,0,,,,,,,0
+805,familia_arm_1,9/11/2023,4,10,139,10139,3,Carlos Augusto Vega Tanchiva,2,,,,,,,,,,,,,,,,,,,,,
+805,individuo_1_arm_1,,,,,,,,,10139,Vega,Tanchiva,Carlos,Augusto,5239859,5239859,10/22/1957,65,0,,,0,,,,,,,,2
+805,individuo_2_arm_1,,,,,,,,,10139,Rengifo,Ramirez,LLiselita,Del Pilar,5403242,5403242,8/22/1963,60,1,0,,NI,0,,,,,,,2
+805,individuo_3_arm_1,,,,,,,,,10139,Vela,Rengifo,Evelin,Carolina,72762090,72762090,5/22/1993,30,1,0,,0,,,,,,,,2
+806,familia_arm_1,9/11/2023,4,10,190,10190,3,Hernan Lomas Casternaque,2,,,,,,,,,,,,,,,,,,,,,
+806,individuo_1_arm_1,,,,,,,,,10190,Lomas,Casternoque,Hernan,,48925030,48925030,1/2/1951,,0,,,1,0,,,,,,,2
+806,individuo_2_arm_1,,,,,,,,,10190,Insapillo,Pacaya,Hermilia,,5220459,5220459,10/11/1940,,1,0,,1,0,,,,,,,2
+806,individuo_3_arm_1,,,,,,,,,10190,Chota,Inuma,Andrea,Yurita,77674113,77674113,5/23/2003,,1,0,,0,,,,,,,,2
+807,familia_arm_1,9/11/2023,4,10,141,10141,3,Enith Flores vd de Flores,2,,,,,,,,,,,,,,,,,,,,,
+807,individuo_1_arm_1,,,,,,,,,10141,Flores,Vd De Flores,Enith,,5247379,5247379,7/24/1940,83,1,0,,1,0,,,,,,,2
+807,individuo_2_arm_1,,,,,,,,,10141,Ruiz,Flores,Percy,,99999999,99999999,5/19/1982,41,0,,,0,,,,,,,,2
+807,individuo_3_arm_1,,,,,,,,,10141,Flores,Flores,Maritza,Esther,99999999,99999999,5/22/1964,59,1,0,,0,,,,,,,,2
+808,familia_arm_1,9/11/2023,4,10,143,10143,4,Mercedes Galo Guerra,2,,,,,,,,,,,,,,,,,,,,,
+808,individuo_1_arm_1,,,,,,,,,10143,Galo,Guerra,Mercedez,,5610833,5610833,9/23/1967,,1,0,,0,,,,,,,,2
+808,individuo_2_arm_1,,,,,,,,,10143,Valles,Galo,Maria,De Jesus,99999999,99999999,2/19/1996,,1,0,,0,,,,,,,,2
+808,individuo_3_arm_1,,,,,,,,,10143,Magallanes,Velles,Mihaly,Antonio,99999999,99999999,4/27/2015,,0,,,0,,,,,,,,2
+808,individuo_4_arm_1,,,,,,,,,10143,Reategui,Valles,Justin,May,99999999,99999999,5/3/2019,,0,,,0,,,,,,,,2
+809,familia_arm_1,9/11/2023,4,10,144,10144,3,Sonia Jasmin Bardales Inuma,2,,,,,,,,,,,,,,,,,,,,,
+809,individuo_1_arm_1,,,,,,,,,10144,Bardales,Inuma,Sonia,Jasmin,99999999,99999999,2/22/1998,,1,0,,0,,,,,,,,2
+809,individuo_2_arm_1,,,,,,,,,10144,Bardales,Vela,Jenaro,,5353842,5353842,11/29/1961,,0,,,0,,,,,,,,2
+809,individuo_3_arm_1,,,,,,,,,10144,Inuma,Alvarado,Maritza,,99999999,99999999,6/16/1969,,1,0,,0,,,,,,,,2
+810,familia_arm_1,9/11/2023,4,10,145,10145,3,Lisardo Acosta Ruiz,2,,,,,,,,,,,,,,,,,,,,,
+810,individuo_1_arm_1,,,,,,,,,10145,Acosta,Ruiz,Lisardo,,5251150,5251150,8/3/1933,,0,,,1,0,,,,,,,2
+810,individuo_2_arm_1,,,,,,,,,10145,Vela ,Laulate,Yara,Meredith,99999999,99999999,4/17/1980,,1,0,,0,,,,,,,,2
+810,individuo_3_arm_1,,,,,,,,,10145,Saboya,Flores,Angel,Miguel,99999999,99999999,5/16/1974,,0,,,0,,,,,,,,2
+811,familia_arm_1,9/11/2023,4,10,146,10146,10,Vasquez Pacaya Julio,2,,,,,,,,,,,,,,,,,,,,,
+811,individuo_1_arm_1,,,,,,,,,10146,Vasquez,Pacaya,Julio,,5263373,5263373,12/6/1944,78,0,,,1,0,,,,,,,2
+811,individuo_2_arm_1,,,,,,,,,10146,Vasquez,Pinchi,Ney,,5384683,5384683,7/18/1974,49,0,,,1,0,,,,,,,2
+811,individuo_3_arm_1,,,,,,,,,10146,Sangama,Mendez,Katty,Loydith,45539477,45539477,5/16/1983,40,1,0,,1,0,,,,,,,2
+811,individuo_4_arm_1,,,,,,,,,10146,Vasquez,Sangama,Julio,Jarder,77164647,77164647,1/11/2004,19,0,,,0,,,,,,,,2
+811,individuo_5_arm_1,,,,,,,,,10146,Vasquez,Sangama,Luis,,61412588,61412588,5/30/2008,15,0,,,0,,,,,,,,2
+811,individuo_6_arm_1,,,,,,,,,10146,Vasquez,Sangama,Yare,Benjamin,90850345,90850345,5/30/2018,5,0,,,0,,,,,,,,2
+811,individuo_7_arm_1,,,,,,,,,10146,Vasquez,Sangama,Neymar,Riberi,77632627,77632627,4/16/2012,11,0,,,0,,,,,,,,2
+811,individuo_8_arm_1,,,,,,,,,10146,Vasquez,Sangama,Ezequiel,Orlando,78313985,78313985,10/20/2013,9,0,,,0,,,,,,,,2
+811,individuo_9_arm_1,,,,,,,,,10146,Arirua,Tamani,Wilma,Doris,99999999,99999999,1/16/1967,56,1,0,,0,,,,,,,,2
+811,individuo_10_arm_1,,,,,,,,,10146,Pinchi,Huaymacari,Elsa,,99999999,99999999,5/11/1952,71,1,0,,1,0,,,,,,,2
+812,familia_arm_1,9/11/2023,4,10,148,10148,5,Torres Guerra Prudencio,2,,,,,,,,,,,,,,,,,,,,,
+812,individuo_1_arm_1,,,,,,,,,10148,Torres,Guerra,Prudencio,,5317109,5317109,6/25/1960,63,0,,,1,0,,,,,,,2
+812,individuo_2_arm_1,,,,,,,,,10148,Huaya,Torres,Isabel,,5390495,5390495,4/3/1953,70,1,0,,1,0,,,,,,,2
+812,individuo_3_arm_1,,,,,,,,,10148,Torres,Huaya,Damaris,Magaly,61227596,61227596,3/12/1997,26,1,0,,0,,,,,,,,2
+812,individuo_4_arm_1,,,,,,,,,10148,Mendoza,Torres,Emir,Eyal,90607380,90607380,1/31/2018,5,0,,,0,,,,,,,,2
+812,individuo_5_arm_1,,,,,,,,,10148,Soto,Torres,Astrid,Diamir,81215979,81215979,10/1/2013,9,1,0,,0,,,,,,,,2
+813,familia_arm_1,9/11/2023,4,10,152,10152,2,Ayde Garay Cansino,2,,,,,,,,,,,,,,,,,,,,,
+813,individuo_1_arm_1,,,,,,,,,10152,Garay,Cansino,Ayde,,99999999,99999999,1/22/1957,66,1,0,,1,0,,,,,,,2
+813,individuo_2_arm_1,,,,,,,,,10152,Fachin,Garay,Luis,Daniel,99999999,99999999,4/22/2002,21,0,,,0,,,,,,,,2
+814,familia_arm_1,9/11/2023,4,10,605,10605,6,Jose pizango Yumbato,2,,,,,,,,,,,,,,,,,,,,,
+814,individuo_1_arm_1,,,,,,,,,10605,Pizango,Yumbato,Jose,,48792519,48792519,1/17/1989,,0,,,1,0,,,,,,,2
+814,individuo_2_arm_1,,,,,,,,,10605,Navarro,Icahuate,Sheyla,Hilary Danay,76963226,76963226,8/27/1997,,1,0,,1,0,,,,,,,2
+814,individuo_3_arm_1,,,,,,,,,10605,Rivas,Icahuate,Tony,Sebastian,61349488,61349488,3/19/2008,,0,,,0,,,,,,,,2
+814,individuo_4_arm_1,,,,,,,,,10605,Pizango,Navarro,Ruth,Margarita,79390449,79390449,1/24/2015,,1,0,,0,,,,,,,,2
+814,individuo_5_arm_1,,,,,,,,,10605,Pizango,Navarro,Maria,Jeniel,91648783,91648783,1/19/2019,,1,0,,0,,,,,,,,2
+814,individuo_6_arm_1,,,,,,,,,10605,Pizango,Navarro,Sara,Elizabeth,92957428,92957428,7/1/2022,,1,0,,0,,,,,,,,2
+833,familia_arm_1,9/12/2023,4,10,140,10140,3,Sandro Guerra Reyna,2,,,,,,,,,,,,,,,,,,,,,
+833,individuo_1_arm_1,,,,,,,,,10140,Guerra,Reyna,Sandro,,75301606,75301606,9/14/2000,,0,,,1,1,1,,1,9,,,2
+833,individuo_2_arm_1,,,,,,,,,10140,Tamani,Mariño,Nacira,,62060675,62060675,12/24/2003,,1,0,,1,0,,,,,,,2
+833,individuo_3_arm_1,,,,,,,,,10140,Guerra,Tamani,Moamet,MURATH,92244003,92244003,1/3/2021,,0,,,0,,,,,,,,2

@@ -1,0 +1,22 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1748,familia_arm_1,10/13/2023,5,32,300,32300,9,Amador mozombite bardalez,0,,,,,,,,,,,,,,,,,,,,,
+1748,individuo_1_arm_1,,,,,,,,,32300,Mozombite,Bardalez,Amador,,99999999,99999999,NI,,0,,,1,0,,,,,,,0
+1748,individuo_2_arm_1,,,,,,,,,32300,Pizango,Panaifo,Gina,,47957766,47957766,4/11/1993,30,1,0,,1,0,,,,,,,0
+1748,individuo_3_arm_1,,,,,,,,,32300, Mazombite,Pizango,Eduar,,99999999,99999999,5/26/2007,16,0,,,1,0,,,,,,,0
+1748,individuo_4_arm_1,,,,,,,,,32300,Mozombite,Pizango,Jaureth,Josmel,99999999,99999999,1/2/2011,12,0,,,1,0,,,,,,,0
+1748,individuo_5_arm_1,,,,,,,,,32300,Mozombite,Pizango,Daysi,Dalena,99999999,99999999,2/10/2012,11,1,0,,1,0,,,,,,,0
+1748,individuo_6_arm_1,,,,,,,,,32300,Mozombite,Pizango,Efrain,,99999999,99999999,5/17/2014,9,0,,,1,999,1,,2,,,,0
+1748,individuo_7_arm_1,,,,,,,,,32300,Mozombite,Pizango,Lulita,,99999999,99999999,7/23/2015,8,1,,,1,1,1,,1,22,Centro de salud sargento lores,,0
+1748,individuo_8_arm_1,,,,,,,,,32300,Mozombite,Pizango,Ines,,99999999,99999999,8/23/2018,5,1,,,1,999,1,,2,,,,0
+1748,individuo_9_arm_1,,,,,,,,,32300,Mozombite,Pizango,Haxobe,Divari,99999999,99999999,8/21/2021,2,0,,,0,,,,,,,,0
+1756,familia_arm_1,10/13/2023,3,32,106,32106,5,Carmela panaifo mozombite,2,,,,,,,,,,,,,,,,,,,,,
+1756,individuo_1_arm_1,,,,,,,,,32106,Panaifo,Mozombite,Carmela,,5414694,5414694,10/14/1975,48,1,0,,1,1,1,,1,17,,,2
+1756,individuo_2_arm_1,,,,,,,,,32106,Mozombite,Bardales,Pablo,,80305510,80305510,1/20/1976,47,0,,,1,0,,,,,,,2
+1756,individuo_3_arm_1,,,,,,,,,32106,Mozombite,Panaifo,Iverio,,99999999,99999999,6/26/2007,16,0,,,1,0,,,,,,,2
+1756,individuo_4_arm_1,,,,,,,,,32106,Mozombite,Panaifo,Milet,,78691499,78691499,7/5/2014,9,1,,,1,1,1,,1,17,,,2
+1756,individuo_5_arm_1,,,,,,,,,32106,Mozombite,Panaifo,Nataly,,62119950,62119950,12/4/2009,13,1,0,,1,0,,,,,,,2
+1757,familia_arm_1,10/13/2023,3,32,200,32200,1,Inea bardales torres,2,,,,,,,,,,,,,,,,,,,,,
+1757,individuo_1_arm_1,,,,,,,,,32200,Bardales,Torres,Ines,,5400948,5400948,4/11/1952,,1,,,1,0,,,,,,,2
+1767,familia_arm_1,10/13/2023,1,32,101,32101,2,Palmira hidalgo peña,2,,,,,,,,,,,,,,,,,,,,,
+1767,individuo_1_arm_1,,,,,,,,,32101,Hidalgo,Peña,Palmira,,80657853,80657853,4/4/1967,,1,,,1,0,,,,,,,2
+1767,individuo_2_arm_1,,,,,,,,,32101,Huani,Aspajo,Julio,Cesar,5401219,5401219,9/20/1961,,0,,,1,0,,,,,,,2

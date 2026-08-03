@@ -1,0 +1,49 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1740,familia_arm_1,10/13/2023,2,25,113,25113,2,Jetulio rasma ramirez,0,,,,,,,,,,,,,,,,,,,,,
+1740,individuo_1_arm_1,,,,,,,,,25113,Rasma,Ramirez,Jetulio,,42493499,42493499,3/23/1982,,0,,,1,0,,,,,,,0
+1740,individuo_2_arm_1,,,,,,,,,25113,Shuña,Davila,Nilda,,80953909,80953909,10/15/2003,,1,0,,1,0,,,,,,,0
+1741,familia_arm_1,10/13/2023,2,25,114,25114,2,Linorio maldonado pisco,0,,,,,,,,,,,,,,,,,,,,,
+1741,individuo_1_arm_1,,,,,,,,,25114,Maldonado,Pisco,Linorio,,5241938,5241938,3/7/1952,,0,,,1,0,,,,,,,0
+1741,individuo_2_arm_1,,,,,,,,,25114,Pinche,Rios,Leonor,,80531763,80531763,4/10/1952,,1,,,1,0,,,,,,,0
+1746,familia_arm_1,10/13/2023,5,25,102,25102,6,Angel pinche guerra,0,,,,,,,,,,,,,,,,,,,,,
+1746,individuo_1_arm_1,,,,,,,,,25102,Pinche ,Guerra,Angel,,43289453,43289453,7/5/1984,,0,,,1,0,,,,,,,0
+1746,individuo_2_arm_1,,,,,,,,,25102,Atias,Hualinga,Milena,,48809951,48809951,5/24/1988,,1,1,99,1,0,,,,,,,0
+1746,individuo_3_arm_1,,,,,,,,,25102,Guerra,Atias,Jeffry,Armando,77427447,77427447,1/10/2006,,0,,,1,0,,,,,,,0
+1746,individuo_4_arm_1,,,,,,,,,25102,Oliveira,Garcia,Luisa,Idolina,61120630,61120630,5/28/2006,,1,0,,0,,,,,,,,0
+1746,individuo_5_arm_1,,,,,,,,,25102,Pinche,Atias,Angel,,80953962,80953962,2/3/2014,,0,,,1,0,,,,,,,0
+1746,individuo_6_arm_1,,,,,,,,,25102,Guerra,Oliveira,Jenifer,Aysa,93504858,93504858,8/16/2023,,1,,,0,,,,,,,,0
+1747,familia_arm_1,10/13/2023,5,25,111,25111,3,Manuel shuña meza,0,,,,,,,,,,,,,,,,,,,,,
+1747,individuo_1_arm_1,,,,,,,,,25111,Shuña,Meza,Manuel,,5233624,5233624,6/15/1962,,0,,,1,1,1,,2,,,,0
+1747,individuo_2_arm_1,,,,,,,,,25111,Davila,Isurieta,Francisca,,49072758,49072758,12/15/1969,,1,,,0,,,,,,,,0
+1747,individuo_3_arm_1,,,,,,,,,25111,Shuña,Davila,Adiel,,62621890,62621890,4/13/2010,,0,,,1,1,1,,2,,,,0
+1754,familia_arm_1,10/13/2023,3,25,107,25107,6,Mario amasifien guerra,2,,,,,,,,,,,,,,,,,,,,,
+1754,individuo_1_arm_1,,,,,,,,,25107,Amasifuen,Guerra,Mario,,80460870,80460870,7/2/1975,48,0,,,1,1,1,,2,,,,2
+1754,individuo_2_arm_1,,,,,,,,,25107,Pizango,Macahuachi,Robith,,76682219,76682219,2/23/1995,28,1,0,,1,0,,,,,,,2
+1754,individuo_3_arm_1,,,,,,,,,25107,Maldonado,Pizango,Emerson,Johan,63025162,63025162,10/26/2011,11,0,,,1,0,,,,,,,2
+1754,individuo_4_arm_1,,,,,,,,,25107,Amasifuen,Pizango,Heydi,,81406699,81406699,11/23/2013,9,1,,,0,,,,,,,,2
+1754,individuo_5_arm_1,,,,,,,,,25107,NI,NI,NI,,99999999,99999999,NI,,NI,,,NI,,,,,,,,0
+1754,individuo_6_arm_1,,,,,,,,,25107,NI,NI,NI,,99999999,99999999,NI,,NI,,,NI,,,,,,,,0
+1755,familia_arm_1,10/13/2023,3,25,109,25109,7,Roque davila arirama,2,,,,,,,,,,,,,,,,,,,,,
+1755,individuo_1_arm_1,,,,,,,,,25109,Davila,Arirama,Roque,Arturo,80418087,80418087,12/29/1972,50,0,,,1,0,,,,,,,2
+1755,individuo_2_arm_1,,,,,,,,,25109,Fatama ,Momulada,Axcilda,,44039452,44039452,6/9/1981,42,1,0,,1,0,,,,,,,2
+1755,individuo_3_arm_1,,,,,,,,,25109,Davila,Fatama,Sheyla,,92004682,92004682,8/13/2012,11,1,0,,0,,,,,,,,2
+1755,individuo_4_arm_1,,,,,,,,,25109,Davila,Fatama,Angy,Vanesa,91413993,91413993,7/2/2019,4,1,,,0,,,,,,,,2
+1755,individuo_5_arm_1,,,,,,,,,25109,Davila,Fatama,Maribel,,92004781,92004781,5/14/2014,9,1,,,0,,,,,,,,2
+1755,individuo_6_arm_1,,,,,,,,,25109,Davila,Fatama,Maldo,Adolfo,92004462,92004462,10/30/2008,14,0,,,0,,,,,,,,2
+1755,individuo_7_arm_1,,,,,,,,,25109,Davila,Fatama,Aurora,,92004533,92004533,9/13/2010,13,1,0,,0,,,,,,,,2
+1762,familia_arm_1,10/13/2023,1,25,115,25115,1,Mani baus davila,2,,,,,,,,,,,,,,,,,,,,,
+1762,individuo_1_arm_1,,,,,,,,,25115,Baus,Davila,Mani,,99999999,99999999,NI,,0,,,999,,,,,,,,0
+1763,familia_arm_1,10/13/2023,1,25,116,25116,4,Rider maldonado pinchi,2,,,,,,,,,,,,,,,,,,,,,
+1763,individuo_1_arm_1,,,,,,,,,25116,Maldonado,Pinchi,Rider,,80531769,80531769,11/11/1977,,0,,,1,0,,,,,,,2
+1763,individuo_2_arm_1,,,,,,,,,25116,Shuña,Davila,Clara,,63025296,63025296,3/19/1997,,1,0,,1,1,1,,2,,,,2
+1763,individuo_3_arm_1,,,,,,,,,25116,Maldonado,Shuña,Cristiano,Patricio,79466881,79466881,11/23/2015,,0,,,1,1,1,,2,,,,2
+1763,individuo_4_arm_1,,,,,,,,,25116,Maldonado,Shuña,Jofre,Alexander,80953914,80953914,3/13/2013,,0,,,1,1,1,,2,,,,2
+1764,familia_arm_1,10/13/2023,1,25,117,25117,1,Gino pinchi alvan,2,,,,,,,,,,,,,,,,,,,,,
+1764,individuo_1_arm_1,,,,,,,,,25117,Pinchi,Alvan,Gino,,99999999,99999999,6/22/1985,,0,,,1,0,,,,,,,0
+1765,familia_arm_1,10/13/2023,1,25,118,25118,2,Raul pinchi rios,2,,,,,,,,,,,,,,,,,,,,,
+1765,individuo_1_arm_1,,,,,,,,,25118,Pinchi,Rios,Eaul,,80392162,80392162,2/3/1955,,0,,,1,0,,,,,,,2
+1765,individuo_2_arm_1,,,,,,,,,25118,Alvan,Peña,Glafis,,5385426,5385426,8/4/1965,,1,,,1,0,,,,,,,2
+1766,familia_arm_1,10/13/2023,1,25,119,25119,3,Naydith shuña davila,2,,,,,,,,,,,,,,,,,,,,,
+1766,individuo_1_arm_1,,,,,,,,,25119,Shuña,Davila,Naydith,,48722410,48722410,4/5/1995,28,1,0,,1,1,1,,2,,,,2
+1766,individuo_2_arm_1,,,,,,,,,25119,Cahuacho,Turinuqui,Vicente,,99999999,99999999,NI,,0,,,1,0,,,,,,,0
+1766,individuo_3_arm_1,,,,,,,,,25119,Garcia,Grandez,Elsa,,80531760,80531760,10/25/1955,67,1,,,1,0,,,,,,,2

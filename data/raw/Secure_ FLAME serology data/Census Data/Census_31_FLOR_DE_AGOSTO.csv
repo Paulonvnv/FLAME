@@ -1,0 +1,31 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1738,familia_arm_1,10/12/2023,2,31,107,31107,5,Raul mozombite yahuarcani,0,,,,,,,,,,,,,,,,,,,,,
+1738,individuo_1_arm_1,,,,,,,,,31107,Mozombite,Yahuarcani,Raul,,5410453,5410453,6/10/1975,,0,,,1,0,,,,,,,0
+1738,individuo_2_arm_1,,,,,,,,,31107,Shapiama,Chota,Enith,,5394477,5394477,5/14/1963,,1,,,1,0,,,,,,,0
+1738,individuo_3_arm_1,,,,,,,,,31107,Mori,Shapiama,Segundo,Alberto,61194562,61194562,4/11/1990,,0,,,1,0,,,,,,,0
+1738,individuo_4_arm_1,,,,,,,,,31107,Mori,Pizango,Katerin,Micaela,81362219,81362219,3/8/2016,,1,,,1,0,,,,,,,0
+1738,individuo_5_arm_1,,,,,,,,,31107,Mori,Shapiama,Jefferson,May,61194565,61194565,9/30/2008,,0,,,1,0,,,,,,,0
+1739,familia_arm_1,10/12/2023,2,31,104,31104,2,Ana yumbato shapiama,0,,,,,,,,,,,,,,,,,,,,,
+1739,individuo_1_arm_1,,,,,,,,,31104,Yumbato,Shapiama,Ana,,44538230,44538230,1/24/1981,,1,0,,1,0,,,,,,,0
+1739,individuo_2_arm_1,,,,,,,,,31104,Macahuachi,Yumbato,Said,Osmar,91330247,91330247,3/12/2019,,0,,,0,,,,,,,,0
+1744,familia_arm_1,10/12/2023,5,31,106,31106,4,Marcial macahuachi brito,0,,,,,,,,,,,,,,,,,,,,,
+1744,individuo_1_arm_1,,,,,,,,,31106,Macahuachi,Brito,Marcial,,5297711,5297711,1/17/1958,,0,,,1,0,,,,,,,0
+1744,individuo_2_arm_1,,,,,,,,,31106,Rodriguez,Montalvan,Irma,Victoria,62619268,62619268,2/18/2002,,1,1,99,1,0,,,,,,,0
+1744,individuo_3_arm_1,,,,,,,,,31106,Macahuachi,Shapiama,Jeymi,Marcial,47563156,47563156,10/14/1990,,0,,,1,0,,,,,,,0
+1744,individuo_4_arm_1,,,,,,,,,31106,Macahuachi,Rodriguez,Cristofer,Mateo,90100957,90100957,2/28/2017,,0,,,1,0,,,,,,,0
+1745,familia_arm_1,10/12/2023,5,31,102,31102,4,Guido manihuari greffo,0,,,,,,,,,,,,,,,,,,,,,
+1745,individuo_1_arm_1,,,,,,,,,31102,Manihuari,Greffo,Guido,,99999999,99999999,NI,,0,,,1,1,1,,2,,,,0
+1745,individuo_2_arm_1,,,,,,,,,31102,Chumbe,Nolorbe,Carmen,Rosa,99999999,99999999,2/15/2002,21,1,0,,0,,,,,,,,0
+1745,individuo_3_arm_1,,,,,,,,,31102,Manihuari,Chumbe,Fabio,Jhordano,99999999,99999999,10/17/2017,5,0,,,0,,,,,,,,0
+1745,individuo_4_arm_1,,,,,,,,,31102,Manihuari,Chumbe,Camila,Alexandra,99999999,99999999,11/28/2019,3,1,,,0,,,,,,,,0
+1752,familia_arm_1,10/12/2023,3,31,105,31105,4,Ajon pinedo juanita,2,,,,,,,,,,,,,,,,,,,,,
+1752,individuo_1_arm_1,,,,,,,,,31105,Ajon,Pinedo,Juanita,,47509791,47509791,6/23/1991,,1,1,4,1,0,,,,,,,2
+1752,individuo_2_arm_1,,,,,,,,,31105,Pezo,Ajon,Jessica,Vianca,61151166,61151166,10/1/2006,,1,0,,1,1,1,,2,,,,2
+1752,individuo_3_arm_1,,,,,,,,,31105,Saavedra,Ajon,Anderson,Andres,78876491,78876491,11/30/2014,,0,,,0,,,,,,,,2
+1752,individuo_4_arm_1,,,,,,,,,31105,Macahuachi,Ajon,Genesis,Sofia,91436701,91436701,8/1/2019,,1,,,0,,,,,,,,2
+1753,familia_arm_1,10/12/2023,3,31,101,31101,1,Angulo lavis dionicio,2,,,,,,,,,,,,,,,,,,,,,
+1753,individuo_1_arm_1,,,,,,,,,31101,Angulo,Lavi,Dionicio,,5248974,5248974,3/8/1961,,0,,,1,0,,,,,,,2
+1760,familia_arm_1,10/12/2023,1,31,111,31111,1,Rosaacipali sandoval,2,,,,,,,,,,,,,,,,,,,,,
+1760,individuo_1_arm_1,,,,,,,,,31111,Acipali,Sandoval,Risa,,5413586,5413586,7/20/1956,,1,,,1,1,2,Padre cocha,1,15,,,2
+1761,familia_arm_1,10/12/2023,1,31,200,31200,1,Luz marina cristanchi,2,,,,,,,,,,,,,,,,,,,,,
+1761,individuo_1_arm_1,,,,,,,,,31200,Cristanchi,NI,Luz,Marina,99999999,99999999,NI,,1,,,999,,,,,,,,0

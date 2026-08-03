@@ -1,0 +1,67 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1639,familia_arm_1,10/9/2023,5,21,101,21101,4,Jair lozano barrantes,0,,,,,,,,,,,,,,,,,,,,,
+1639,individuo_1_arm_1,,,,,,,,,21101,Lozano,Barrantes,Jair,,70257376,70257376,6/18/1989,,0,,,1,0,,,,,,,0
+1639,individuo_2_arm_1,,,,,,,,,21101,Rios,Marina,Cynthia,,44099558,44099558,12/18/1985,,1,0,,1,0,,,,,,,0
+1639,individuo_3_arm_1,,,,,,,,,21101,Lozano,Rios,Triana,Valentina,91369836,91369836,11/4/2017,,1,,,1,1,1,,2,,,,0
+1639,individuo_4_arm_1,,,,,,,,,21101,Lozano,Rios,Brus,Jair,60712322,60712322,4/28/2009,,0,,,0,,,,,,,,0
+1640,familia_arm_1,10/9/2023,5,21,102,21102,9,Saul puertas siri,0,,,,,,,,,,,,,,,,,,,,,
+1640,individuo_1_arm_1,,,,,,,,,21102,Puertas,Siri,Saul,,5205389,5205389,NI,,0,,,1,0,,,,,,,0
+1640,individuo_2_arm_1,,,,,,,,,21102,Rodriguez,Tamani,Leyly,Archely,72105188,72105188,2/11/2004,19,1,0,,999,,,,,,,,0
+1640,individuo_3_arm_1,,,,,,,,,21102,Puertas,Lozano,Thipson,Saul,47009279,47009279,12/21/1990,32,0,,,999,,,,,,,,0
+1640,individuo_4_arm_1,,,,,,,,,21102,Puertas,Rodriguez,Ostin,,91657537,91657537,12/29/2019,3,0,,,0,,,,,,,,0
+1640,individuo_5_arm_1,,,,,,,,,21102,Puertas,Rodriguez,Alison,Nijan,90849959,90849959,7/2/2018,5,1,,,1,1,1,,2,,,,0
+1640,individuo_6_arm_1,,,,,,,,,21102,Lozano,Barrantes,Monica,,99999999,99999999,NI,,1,,,999,,,,,,,,0
+1640,individuo_7_arm_1,,,,,,,,,21102,Puertas,Lozano,Gabriela,,99999999,99999999,NI,,1,,,999,,,,,,,,0
+1640,individuo_8_arm_1,,,,,,,,,21102,Ramirez,Puertas,Aixe,Jazmin,99999999,99999999,9/19/2015,8,1,,,1,1,2,Ciudad de iquitos,2,,,,0
+1640,individuo_9_arm_1,,,,,,,,,21102,Barreto,Maldonado,Bladimir,,99999999,99999999,NI,,0,,,999,,,,,,,,0
+1641,familia_arm_1,10/9/2023,5,21,103,21103,4,Carlos rios vela,0,,,,,,,,,,,,,,,,,,,,,
+1641,individuo_1_arm_1,,,,,,,,,21103,Rios,Vela,Carlos,,44099589,44099589,5/13/1983,40,0,,,1,0,,,,,,,0
+1641,individuo_2_arm_1,,,,,,,,,21103,Chota,Aquituari,Cintia,,99999999,99999999,NI,,1,,,1,0,,,,,,,0
+1641,individuo_3_arm_1,,,,,,,,,21103,Rios,Chota,Axel,,99999999,99999999,5/27/2023,0,0,,,0,,,,,,,,0
+1641,individuo_4_arm_1,,,,,,,,,21103,Tuanama,Chota,Jeferson,,99999999,99999999,NI,,0,,,1,0,,,,,,,0
+1642,familia_arm_1,10/9/2023,5,21,104,21104,3,Octavio zarate guerra,0,,,,,,,,,,,,,,,,,,,,,
+1642,individuo_1_arm_1,,,,,,,,,21104,Zarate,Guerra,Octavio,,99999999,99999999,NI,,0,,,1,1,1,,2,,,,0
+1642,individuo_2_arm_1,,,,,,,,,21104,Rios,Marina,Jheymi,Magdalena,99999999,99999999,9/4/2004,19,1,0,,1,1,1,,2,,,,0
+1642,individuo_3_arm_1,,,,,,,,,21104,Zarate,Rios,Octavio,Alejandro,99999999,99999999,2/14/2022,1,0,,,0,,,,,,,,0
+1643,familia_arm_1,10/9/2023,5,21,105,21105,2,Alejandro rios vela,0,,,,,,,,,,,,,,,,,,,,,
+1643,individuo_1_arm_1,,,,,,,,,21105,Rios,Vela,Alejandro,,44958032,44958032,5/17/1949,74,0,,,1,0,,,,,,,0
+1643,individuo_2_arm_1,,,,,,,,,21105,Marina,Fasanando,Maria,,99999999,99999999,NI,,1,,,1,0,,,,,,,0
+1644,familia_arm_1,10/9/2023,5,21,107,21107,1,Ladislao alvarado shateja,0,,,,,,,,,,,,,,,,,,,,,
+1644,individuo_1_arm_1,,,,,,,,,21107,Alvarado,Shateja,Ladislao,,5296171,5296171,3/27/1936,,0,,,1,0,,,,,,,0
+1645,familia_arm_1,10/9/2023,5,21,300,21300,1,Jose atilio rios lopez,0,,,,,,,,,,,,,,,,,,,,,
+1645,individuo_1_arm_1,,,,,,,,,21300,Rios,Lopez,Jose,Atilio,5856860,5856860,7/22/1964,,0,,,0,,,,,,,,0
+1646,familia_arm_1,10/9/2023,5,21,109,21109,3,Juan iñape shahuano,0,,,,,,,,,,,,,,,,,,,,,
+1646,individuo_1_arm_1,,,,,,,,,21109,Iñape,Shahuano,Juan,,5242891,5242891,NI,,0,,,1,1,1,,2,,,,0
+1646,individuo_2_arm_1,,,,,,,,,21109,Paima,Saldaña,Yolanda,,10584675,10584675,6/24/1961,62,1,,,1,0,,,,,,,0
+1646,individuo_3_arm_1,,,,,,,,,21109,Rimarichin,Paima,Simion,Grimaldo,44973326,44973326,1/2/1987,36,0,,,1,1,2,Cuidad de iquitos,1,22,No recuerda,,0
+1647,familia_arm_1,10/9/2023,5,21,120,21120,2,Reynaldo Lozano Diaz,0,,,,,,,,,,,,,,,,,,,,,
+1647,individuo_1_arm_1,,,,,,,,,21120,Lozano,Diaz,Reynaldo,,44698706,44698706,3/7/1952,,0,,,1,0,,,,,,,0
+1647,individuo_2_arm_1,,,,,,,,,21120,Barrantes,Flores,Juana,,5406674,5406674,6/24/1955,,1,,,1,0,,,,,,,0
+1648,familia_arm_1,10/9/2023,5,21,119,21119,4,Claiser Del Aguila,0,,,,,,,,,,,,,,,,,,,,,
+1648,individuo_1_arm_1,,,,,,,,,21119,Del Aguila,Cumapa,Kleiser,,44099586,44099586,8/3/1982,41,0,,,1,0,,,,,,,0
+1648,individuo_2_arm_1,,,,,,,,,21119,Nuñez,Zambrano,Elsa,Mercedes,43474459,43474459,3/29/1982,41,1,0,,1,0,,,,,,,0
+1648,individuo_3_arm_1,,,,,,,,,21119,Del Aguila,Nuñez,Kleiser,Manuel,62850918,62850918,12/9/2011,11,0,,,1,1,1,,1,7,,,0
+1648,individuo_4_arm_1,,,,,,,,,21119,Del Aguila,Nuñez,Jeyco,Emir,79658717,79658717,5/6/2016,7,0,,,1,1,1,,1,13,,,0
+1649,familia_arm_1,10/9/2023,5,21,117,21117,4,Kiuler Del Aguila,0,,,,,,,,,,,,,,,,,,,,,
+1649,individuo_1_arm_1,,,,,,,,,21117,Del Aguila,Cumapa,Kihuler,,80418117,80418117,3/20/1976,,0,,,1,0,,,,,,,0
+1649,individuo_2_arm_1,,,,,,,,,21117,Lozano,Barrantes,Jenny,,44099588,44099588,7/8/1984,,1,0,,1,0,,,,,,,0
+1649,individuo_3_arm_1,,,,,,,,,21117,Del Aguila,Lozano,Jeisen,Kihuler,72105189,72105189,9/13/2004,,0,,,1,0,,,,,,,0
+1649,individuo_4_arm_1,,,,,,,,,21117,Del Aguila,Lozano,Odro,Aracely,63269734,63269734,5/19/2011,,1,0,,1,0,,,,,,,0
+1650,familia_arm_1,10/9/2023,5,21,114,21114,1,Felipe Vasquez,0,,,,,,,,,,,,,,,,,,,,,
+1650,individuo_1_arm_1,,,,,,,,,21114,Vasquez,Garcia,Felipe,,45184743,45184743,3/23/1952,,0,,,1,0,,,,,,,0
+1651,familia_arm_1,10/9/2023,5,21,113,21113,1,Limber Valles,0,,,,,,,,,,,,,,,,,,,,,
+1651,individuo_1_arm_1,,,,,,,,,21113,Valles,Perez,Limber,,44698708,44698708,9/29/1971,,0,,,1,0,,,,,,,0
+1652,familia_arm_1,10/9/2023,5,21,111,21111,8,Isaias Tamani Rimachi,0,,,,,,,,,,,,,,,,,,,,,
+1652,individuo_1_arm_1,,,,,,,,,21111,Tamani,Rimachi,Isaias,,80418100,80418100,7/8/1977,,0,,,1,0,,,,,,,0
+1652,individuo_2_arm_1,,,,,,,,,21111,Salinas,Guerra,Shirle,,45414217,45414217,12/18/1978,,1,0,,1,0,,,,,,,0
+1652,individuo_3_arm_1,,,,,,,,,21111,Tamani,Salinas,Watson,,62912756,62912756,12/20/1997,,0,,,1,0,,,,,,,0
+1652,individuo_4_arm_1,,,,,,,,,21111,Tamani,Salinas,Willer,Rider,70844108,70844108,10/5/2002,,0,,,1,0,,,,,,,0
+1652,individuo_5_arm_1,,,,,,,,,21111,Tamani,Salinas,Isaias,Manuel,61101523,61101523,2/21/2008,,0,,,1,0,,,,,,,0
+1652,individuo_6_arm_1,,,,,,,,,21111,Tamani,Salinas,Alber,Augusto,62118969,62118969,2/17/2010,,0,,,1,0,,,,,,,0
+1652,individuo_7_arm_1,,,,,,,,,21111,Tamani,Salinas,Anita,Malena,62912878,62912878,1/26/2012,,1,0,,1,1,1,,2,,,Actualmente con malaria,0
+1652,individuo_8_arm_1,,,,,,,,,21111,Yuyarima,Zambrano,Lea,,60911347,60911347,2/1/2007,,1,0,,0,,,,,,,,0
+1653,familia_arm_1,10/9/2023,5,21,110,21110,4,Diana Rimarachi Paima,0,,,,,,,,,,,,,,,,,,,,,
+1653,individuo_1_arm_1,,,,,,,,,21110,Rimarachi,Paima,Diana,Carolina,43176988,43176988,10/2/1985,,1,0,,1,1,1,,2,,,Actualmente con malaria,0
+1653,individuo_2_arm_1,,,,,,,,,21110,Isla,Flores,Luis,Felipe,75318828,75318828,7/10/1994,,0,,,1,1,1,,2,,,Hace 1 mes,0
+1653,individuo_3_arm_1,,,,,,,,,21110,Isla,Rimarachi,Tilza,De Jesus,78574703,78574703,3/3/2014,,1,,,1,1,1,,2,,,Hace 3 meses,0
+1653,individuo_4_arm_1,,,,,,,,,21110,Isla,Rimarachi,Dayanny,,79465336,79465336,5/12/2015,,1,,,1,1,1,,2,,,Febrero 23,0

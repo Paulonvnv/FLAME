@@ -1,0 +1,76 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1478,familia_arm_1,10/4/2023,2,28,103,28103,3,Ronaldo cachique murrieta,0,,,,,,,,,,,,,,,,,,,,,
+1478,individuo_1_arm_1,,,,,,,,,28103,Cachique,Murrieta,Ronaldo,,76663631,76663631,2/27/2000,23,0,,,0,,,,,,,,0
+1478,individuo_2_arm_1,,,,,,,,,28103,Lopez,Pezo ,Luciola,Rosaura,76927830,76927830,3/17/2004,19,1,0,,1,0,,,,,,,0
+1478,individuo_3_arm_1,,,,,,,,,28103,Cachique,Lopez,Mileth,Hayset,92015745,92015745,9/13/2020,3,1,,,1,1,2,San martin,1,NI,,,0
+1484,familia_arm_1,10/4/2023,2,28,116,28116,2,Rocky huayunga canaquiri,0,,,,,,,,,,,,,,,,,,,,,
+1484,individuo_1_arm_1,,,,,,,,,28116,Huayunga ,Canaquiri,Rocky,,5376687,5376687,8/15/1973,,0,,,1,0,,,,,,,0
+1484,individuo_2_arm_1,,,,,,,,,28116,Ramirez,Ferreyra,Misi,,44618685,44618685,6/22/1982,,1,0,,1,0,,,,,,,0
+1485,familia_arm_1,10/4/2023,2,28,121,28121,4,Fidencio zuta flores,0,,,,,,,,,,,,,,,,,,,,,
+1485,individuo_1_arm_1,,,,,,,,,28121,Zuta,Flores,Fidencio,,48089091,48089091,3/22/1991,,0,,,1,0,,,,,,,0
+1485,individuo_2_arm_1,,,,,,,,,28121,Llerena,Huesember,Tania,,99999999,99999999,10/28/2006,,1,0,,1,0,,,,,,,0
+1485,individuo_3_arm_1,,,,,,,,,28121,Zuta,Llerena,Vivian,Verenise,92857521,92857521,5/22/2022,,1,,,0,,,,,,,,0
+1485,individuo_4_arm_1,,,,,,,,,28121,Zuta,Llerena,Ruth,,91918500,91918500,7/6/2020,,1,,,0,,,,,,,,0
+1486,familia_arm_1,10/4/2023,2,28,105,28105,4,Israel lopez gomez,0,,,,,,,,,,,,,,,,,,,,,
+1486,individuo_1_arm_1,,,,,,,,,28105,Lopez,Gomez,Israel,,42885912,42885912,4/29/1982,,0,,,0,,,,,,,,0
+1486,individuo_2_arm_1,,,,,,,,,28105,Pezo,Silva,Nathalia,,44119257,44119257,5/26/1985,,1,0,,1,0,,,,,,,0
+1486,individuo_3_arm_1,,,,,,,,,28105,Lopez,Pezo,Annett,Valentina,99999999,99999999,8/16/2010,,1,0,,1,0,,,,,,,0
+1486,individuo_4_arm_1,,,,,,,,,28105,Lopez,Pezo,Anderjan,Lian,79616718,79616718,4/13/2016,,0,,,1,0,,,,,,,0
+1488,familia_arm_1,10/4/2023,5,28,110,28110,1,Bernardino alcantara huayunga,0,,,,,,,,,,,,,,,,,,,,,
+1488,individuo_1_arm_1,,,,,,,,,28110,Alcantara,Huayunga,Bernardino,,1140203,1140203,12/13/1970,,0,,,1,999,1,,1,22,Centro de salud san juan de miraflores - san juan bautista,,0
+1489,familia_arm_1,10/4/2023,5,28,109,28109,4,Miguel rios alcantara,0,,,,,,,,,,,,,,,,,,,,,
+1489,individuo_1_arm_1,,,,,,,,,28109,Rios,Alcantara,Miguel,,46148836,46148836,6/17/1989,,0,,,1,0,,,,,,,0
+1489,individuo_2_arm_1,,,,,,,,,28109,Gonzales,Pezo,Kity,Maricela,75213346,75213346,9/17/1997,,1,0,,1,0,,,,,,,0
+1489,individuo_3_arm_1,,,,,,,,,28109,Rios,Gonzales,Beyly,Sasha,79887225,79887225,10/8/2016,,1,,,1,0,,,,,,,0
+1489,individuo_4_arm_1,,,,,,,,,28109,Rios,Gonzales,Eva,Anyeli,91361021,91361021,6/8/2019,,1,,,1,0,,,,,,,0
+1490,familia_arm_1,10/4/2023,5,28,102,28102,5,Widner amasifuen amasifuen,0,,,,,,,,,,,,,,,,,,,,,
+1490,individuo_1_arm_1,,,,,,,,,28102,Amasifuen,Amasifuen,Widner,,930485,930485,12/9/1970,,0,,,0,,,,,,,,0
+1490,individuo_2_arm_1,,,,,,,,,28102,Amasifuen,Pashanasi,Bethy,,44701725,44701725,2/15/1982,,1,0,,0,,,,,,,,0
+1490,individuo_3_arm_1,,,,,,,,,28102,Amasifuen,Amasifuen,Holsen,,60436195,60436195,10/20/2001,,0,,,0,,,,,,,,0
+1490,individuo_4_arm_1,,,,,,,,,28102,Amasifuen,Amasifuen,Jhulinio,,60436194,60436194,12/25/2005,,0,,,1,0,,,,,,,0
+1490,individuo_5_arm_1,,,,,,,,,28102,Amasifuen,Amasifuen,Shyrley,Hibeths,79943506,79943506,10/24/2016,,1,,,1,0,,,,,,,0
+1498,familia_arm_1,10/4/2023,5,28,118,28118,2,Sergio lozano arirama,0,,,,,,,,,,,,,,,,,,,,,
+1498,individuo_1_arm_1,,,,,,,,,28118,Lozano,Arirama,Sergio,,99999999,99999999,NI,,0,,,1,0,,,,,,,0
+1498,individuo_2_arm_1,,,,,,,,,28118,Alcantara,Huayunga,Lina,Luz,5362082,5362082,1/12/1963,60,1,,,1,0,,,,,,,0
+1506,familia_arm_1,10/4/2023,4,28,111,28111,2,Benjamin Ramirez Flores,2,,,,,,,,,,,,,,,,,,,,,
+1506,individuo_1_arm_1,,,,,,,,,28111,Ramirez,Flores,Benjamin,,5384503,5384503,10/16/1966,,0,,,1,0,,,,,,,2
+1506,individuo_2_arm_1,,,,,,,,,28111,Piña,Aguilar,Alicia,,40420905,40420905,7/6/1968,,1,,,1,0,,,,,,,2
+1507,familia_arm_1,10/4/2023,4,28,120,28120,6,Pedro Gonzales Ramirez,2,,,,,,,,,,,,,,,,,,,,,
+1507,individuo_1_arm_1,,,,,,,,,28120,Gonzales,Ramirez,Pedro,,43888536,43888536,3/9/1974,,0,,,1,0,,,,,,,2
+1507,individuo_2_arm_1,,,,,,,,,28120,Zuta,Flores,Aura,Luz,44829869,44829869,11/29/1983,,1,0,,1,0,,,,,,,2
+1507,individuo_3_arm_1,,,,,,,,,28120,Gonzales,Zuta,Amber,Judy,74795222,74795222,10/20/2010,,1,0,,0,,,,,,,,2
+1507,individuo_4_arm_1,,,,,,,,,28120,Gonzales,Zuta,Saria,Mical,61734858,61734858,7/7/2009,,1,0,,1,0,,,,,,,2
+1507,individuo_5_arm_1,,,,,,,,,28120,Gonzales,Zuta,Pedro,,78535972,78535972,4/2/2014,,0,,,1,1,1,,2,,,,2
+1507,individuo_6_arm_1,,,,,,,,,28120,Gonzales,Zuta,Adriana,Ruby,90215185,90215185,5/11/2017,,1,,,1,1,1,,2,,,,2
+1517,familia_arm_1,10/4/2023,1,28,122,28122,1,Tomas huayunga pinedo,2,,,,,,,,,,,,,,,,,,,,,
+1517,individuo_1_arm_1,,,,,,,,,28122,Huayunga,Pinedo,Tomas,,99999999,99999999,9/1/1949,,0,,,999,,,,,,,,2
+1518,familia_arm_1,10/4/2023,1,28,104,28104,4,Jairo ramirez piña,2,,,,,,,,,,,,,,,,,,,,,
+1518,individuo_1_arm_1,,,,,,,,,28104,Ramirez,Piña,Jairo,,44363973,44363973,3/8/1986,,0,,,1,0,,,,,,,2
+1518,individuo_2_arm_1,,,,,,,,,28104,Zuta,Flores,Rosa,,44869402,44869402,6/3/1985,,1,0,,1,0,,,,,,,2
+1518,individuo_3_arm_1,,,,,,,,,28104,Ramirez,Zuta,Harol,Gadiel,91751000,91751000,2/28/2020,,0,,,0,,,,,,,,2
+1518,individuo_4_arm_1,,,,,,,,,28104,Ramirez,Zuta,Flavio,Ali,78216242,78216242,7/18/2013,,0,,,1,1,1,,2,,,,2
+1526,familia_arm_1,10/4/2023,1,28,112,28112,3,Jose hernan gonzales,2,,,,,,,,,,,,,,,,,,,,,
+1526,individuo_1_arm_1,,,,,,,,,28112,Hernando,Gonzales,Jose,,48885933,48885933,3/30/1999,,0,,,1,0,,,,,,,2
+1526,individuo_2_arm_1,,,,,,,,,28112,Galvez,Ramirez,Juanita,Yolanda,60963699,60963699,1/25/2003,,1,0,,1,0,,,,,,,2
+1526,individuo_3_arm_1,,,,,,,,,28112,Gonzales,Galvez,Alex,,91906144,91906144,6/25/2020,,0,,,0,,,,,,,,2
+1529,familia_arm_1,10/4/2023,3,28,114,28114,4,Fidencio zuta pua,2,,,,,,,,,,,,,,,,,,,,,
+1529,individuo_1_arm_1,,,,,,,,,28114,Zuta,Pua,Fidencio,,5336570,5336570,5/5/1961,,0,,,1,0,,,,,,,2
+1529,individuo_2_arm_1,,,,,,,,,28114,Flores,Pizango,Melita,,99999999,99999999,6/20/1969,,1,,,1,0,,,,,,,2
+1529,individuo_3_arm_1,,,,,,,,,28114,Zuta,Flores,Martin,,99999999,99999999,7/17/2004,,0,,,0,,,,,,,,2
+1529,individuo_4_arm_1,,,,,,,,,28114,Venegri,Zuta,Jesus,,99999999,99999999,4/18/2020,,1,,,0,,,,,,,,2
+1530,familia_arm_1,10/4/2023,3,28,119,28119,2,Jimy lozano alcantara,2,,,,,,,,,,,,,,,,,,,,,
+1530,individuo_1_arm_1,,,,,,,,,28119,Lozano,Alcantara,Jimy,Jacson,77274485,77274485,5/13/1997,,0,,,0,,,,,,,,2
+1530,individuo_2_arm_1,,,,,,,,,28119,Llucema,Gomez,Emisa,,80387422,80387422,5/23/1976,,1,0,,0,,,,,,,,2
+1531,familia_arm_1,10/4/2023,3,28,108,28108,4,Jhon cachique murrieta,2,,,,,,,,,,,,,,,,,,,,,
+1531,individuo_1_arm_1,,,,,,,,,28108,Cachique,Murrieta,Jhon,,76696657,76696657,7/17/1995,,0,,,0,,,,,,,,2
+1531,individuo_2_arm_1,,,,,,,,,28108,Lopez,Gomez,Mayra,Rosalva,75460131,75460131,8/17/1996,,1,0,,1,0,,,,,,,2
+1531,individuo_3_arm_1,,,,,,,,,28108,Cachique,Lopez,Tihago,Jeronimo,78244820,78244820,8/20/2013,,0,,,1,0,,,,,,,2
+1531,individuo_4_arm_1,,,,,,,,,28108,Cachique,Lopez,Bruno,Nain,92421729,92421729,6/26/2021,,0,,,0,,,,,,,,2
+1532,familia_arm_1,10/4/2023,3,28,200,28200,3,Silvia murriera saldaña,2,,,,,,,,,,,,,,,,,,,,,
+1532,individuo_1_arm_1,,,,,,,,,28200,Murrieta,Saldaña,Silvia,,80418368,80418368,10/12/1962,,1,,,1,1,1,,1,22,Botiquin comunal de mishana,,2
+1532,individuo_2_arm_1,,,,,,,,,28200,Cachique ,Amasifuen,Wagner,,80433575,80433575,11/24/1968,,0,,,1,0,,,,,,,2
+1532,individuo_3_arm_1,,,,,,,,,28200,Cachique,Murrieta,Iraida,,62679773,62679773,5/12/2009,,1,0,,1,0,,,,,,,2
+1533,familia_arm_1,10/4/2023,3,28,201,28201,3,Sergio luis lozano alcantara,2,,,,,,,,,,,,,,,,,,,,,
+1533,individuo_1_arm_1,,,,,,,,,28201,Lozano ,Alcantara,Sergio,Luis,48482271,48482271,1/25/1995,,0,,,1,0,,,,,,,2
+1533,individuo_2_arm_1,,,,,,,,,28201,Amasifuen,Amasifuen,Jane,Tay,60437196,60437196,10/18/2003,,1,0,,0,,,,,,,,2
+1533,individuo_3_arm_1,,,,,,,,,28201,Lozano,Amasifuen,Hyun chu ,Thuister,92164516,92164516,5/1/2020,,0,,,0,,,,,,,,2

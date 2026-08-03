@@ -1,0 +1,106 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1375,familia_arm_1,9/30/2023,2,20,108,20108,4,Christian paolo tangoa sanchez,0,,,,,,,,,,,,,,,,,,,,,
+1375,individuo_1_arm_1,,,,,,,,,20108,Tangoa ,Sanchez,Christian,Paolo,46372780,46372780,5/15/1990,,0,,,0,,,,,,,,0
+1375,individuo_2_arm_1,,,,,,,,,20108,Arebeley,Torre,Natalhia,,78110143,78110143,12/24/1999,,1,0,,1,0,,,,,,,0
+1375,individuo_3_arm_1,,,,,,,,,20108,Tangoa,Arebeley,Adriano,Khaleth,91574833,91574833,10/19/2019,,0,,,0,,,,,,,,0
+1375,individuo_4_arm_1,,,,,,,,,20108,Angulo,Arebeley,Genesis,Alondra,90841745,90841745,6/29/2016,,1,,,0,,,,,,,,0
+1376,familia_arm_1,9/30/2023,2,20,109,20109,5,Samuel arebeley torres,0,,,,,,,,,,,,,,,,,,,,,
+1376,individuo_1_arm_1,,,,,,,,,20109,Arebeley,Torres,Samuel,,76799773,76799773,12/15/2003,,0,,,1,0,,,,,,,0
+1376,individuo_2_arm_1,,,,,,,,,20109,Bancho,Magin,Karina,,77489584,77489584,6/7/2001,,1,0,,1,0,,,,,,,0
+1376,individuo_3_arm_1,,,,,,,,,20109,Arebeley,Bancho,Dilan,Karin,93531040,93531040,9/7/2023,,0,,,0,,,,,,,,0
+1376,individuo_4_arm_1,,,,,,,,,20109,Arebeley,Pancho,Lian,Joseph,91322028,91322028,3/26/2019,,0,,,0,,,,,,,,0
+1376,individuo_5_arm_1,,,,,,,,,20109,Ojanama,Bancho,Layla,Ibis,90003803,90003803,12/29/2016,,1,,,0,,,,,,,,0
+1377,familia_arm_1,9/30/2023,2,20,110,20110,1,Diego martin ojanama linares,0,,,,,,,,,,,,,,,,,,,,,
+1377,individuo_1_arm_1,,,,,,,,,20110,Ojanama ,Linares,Diego,Martin,99999999,99999999,9/18/2003,,0,,,1,0,,,,,,,0
+1378,familia_arm_1,9/30/2023,2,20,111,20111,3,Enoc jose ojanama linares,0,,,,,,,,,,,,,,,,,,,,,
+1378,individuo_1_arm_1,,,,,,,,,20111,Ojanama,Linares,Enoc,Jose,99999999,99999999,9/22/2001,,0,,,0,,,,,,,,0
+1378,individuo_2_arm_1,,,,,,,,,20111,Ayambo,Yaicate,Linda,Angely,48821650,48821650,4/24/1997,,1,1,9,0,,,,,,,,0
+1378,individuo_3_arm_1,,,,,,,,,20111,Lomas,Ayambo,Maia ,Cristell,90199355,90199355,5/2/2017,,1,,,0,,,,,,,,0
+1379,familia_arm_1,9/30/2023,2,20,112,20112,9,Rosario manya tuituy,0,,,,,,,,,,,,,,,,,,,,,
+1379,individuo_1_arm_1,,,,,,,,,20112,Manya,Tuituy,Rosario,,80531293,80531293,4/15/1982,,1,0,,1,0,,,,,,,0
+1379,individuo_2_arm_1,,,,,,,,,20112,Panduro,Manya,Gabriel,,48526685,48526685,3/1/1994,,0,,,1,0,,,,,,,0
+1379,individuo_3_arm_1,,,,,,,,,20112,Panduro,Manya,Bill,Climton,77390465,77390465,5/15/1997,,0,,,1,0,,,,,,,0
+1379,individuo_4_arm_1,,,,,,,,,20112,Magipo,Manya,Scarleh,,62911799,62911799,11/19/2008,,1,0,,1,0,,,,,,,0
+1379,individuo_5_arm_1,,,,,,,,,20112,Magipo,Manya,Alipse,Jasen,62911797,62911797,3/16/2007,,0,,,1,0,,,,,,,0
+1379,individuo_6_arm_1,,,,,,,,,20112,Magipo,Manya,Alipse,Jasen,62911797,62911797,3/16/2007,,0,,,1,0,,,,,,,0
+1379,individuo_7_arm_1,,,,,,,,,20112,Magipo,Manya,Patrick,Cliver,62911798,62911798,6/23/2005,,0,,,1,0,,,,,,,0
+1379,individuo_8_arm_1,,,,,,,,,20112,Magipo,Manya,Bredy,,63685141,63685141,3/11/2013,,0,,,1,0,,,,,,,0
+1379,individuo_9_arm_1,,,,,,,,,20112,Magipo,Manya,Neverlan,,81578084,81578084,7/30/2014,,0,,,1,0,,,,,,,0
+1380,familia_arm_1,9/30/2023,2,20,200,20200,1,Javier valles mermao,0,,,,,,,,,,,,,,,,,,,,,
+1380,individuo_1_arm_1,,,,,,,,,20200,Valles,Mermao,Javier,,45055390,45055390,6/3/1961,,0,,,1,0,,,,,,,0
+1391,familia_arm_1,9/30/2023,4,20,123,20123,5,Marcelo Mozombite Pacaya,2,,,,,,,,,,,,,,,,,,,,,
+1391,individuo_1_arm_1,,,,,,,,,20123,Mozombite,Pacaya,Marcelo,,48107239,48107239,3/24/1987,,0,,,0,,,,,,,,2
+1391,individuo_2_arm_1,,,,,,,,,20123,Torres,Ceopa,Libni,,45997965,45997965,10/15/1989,,1,0,,1,0,,,,,,,2
+1391,individuo_3_arm_1,,,,,,,,,20123,Mozombite,Torres,Carlos,Daniel,77656542,77656542,1/24/2011,,0,,,0,,,,,,,,2
+1391,individuo_4_arm_1,,,,,,,,,20123,Mozombite,Torres,Jose,Francisco,90997090,90997090,2/19/2014,,0,,,0,,,,,,,,2
+1391,individuo_5_arm_1,,,,,,,,,20123,Mozombite,Torres,Marcelo,,79340814,79340814,9/30/2015,,0,,,0,,,,,,,,2
+1392,familia_arm_1,9/30/2023,4,20,122,20122,5,Agler Ojanama Tarazona,2,,,,,,,,,,,,,,,,,,,,,
+1392,individuo_1_arm_1,,,,,,,,,20122,Ojanama,Tarazona,Agler,,46416510,46416510,1/18/1984,,0,,,1,0,,,,,,,2
+1392,individuo_2_arm_1,,,,,,,,,20122,Linares,Torres,Eneida,Janela,46389575,46389575,2/11/1983,,1,0,,1,0,,,,,,,2
+1392,individuo_3_arm_1,,,,,,,,,20122,Ojanama,Linares,Maria,Magdalena,62554669,62554669,2/2/2010,,1,0,,0,,,,,,,,2
+1392,individuo_4_arm_1,,,,,,,,,20122,Ojanama,Linares,Ruth,,62554404,62554404,12/12/2007,,1,0,,1,0,,,,,,,2
+1392,individuo_5_arm_1,,,,,,,,,20122,Ojanama,Linares,Deiza,Rashel,91273022,91273022,2/7/2019,,1,,,0,,,,,,,,2
+1393,familia_arm_1,9/30/2023,4,20,121,20121,1,Elasio Fatama Polo,2,,,,,,,,,,,,,,,,,,,,,
+1393,individuo_1_arm_1,,,,,,,,,20121,Fatama,Polo,Elasio,,99999999,99999999,7/24/1970,,0,,,999,,,,,,,,2
+1394,familia_arm_1,9/30/2023,4,20,115,20115,2,Jose Torres Fasabi,2,,,,,,,,,,,,,,,,,,,,,
+1394,individuo_1_arm_1,,,,,,,,,20115,Torres,Fasabi,Jose,,5384511,5384511,4/21/1951,,0,,,1,0,,,,,,,2
+1394,individuo_2_arm_1,,,,,,,,,20115,Seopa,Saboya,Victoria,,99999999,99999999,11/25/1947,,1,,,1,0,,,,,,,2
+1395,familia_arm_1,9/30/2023,4,20,117,20117,2,Sarina Torres seopa,2,,,,,,,,,,,,,,,,,,,,,
+1395,individuo_1_arm_1,,,,,,,,,20117,Torres,Seopa,Sarina,,40838522,40838522,4/10/1981,,1,0,,1,1,1,,1,22,Centro de salud santa clara de nanay,,2
+1395,individuo_2_arm_1,,,,,,,,,20117,Panaifo,Torres,Sebastian,,76484644,76484644,10/10/2009,,0,,,1,1,1,,1,22,Centro de salud santa clara de nanay,,2
+1405,familia_arm_1,9/30/2023,1,20,118,20118,1,Ana tanchiva melendez,2,,,,,,,,,,,,,,,,,,,,,
+1405,individuo_1_arm_1,,,,,,,,,20118,Tanchiva,Melendez,Ana,,80333284,80333284,11/6/1965,,1,,,1,0,,,,,,,2
+1406,familia_arm_1,9/30/2023,1,20,119,20119,1,Lizardo pezo vela,2,,,,,,,,,,,,,,,,,,,,,
+1406,individuo_1_arm_1,,,,,,,,,20119,Pezo,Vela,Lizardo,,5274416,5274416,4/14/1962,,0,,,1,0,,,,,,,2
+1407,familia_arm_1,9/30/2023,1,20,120,20120,6,Elizabeth ayambo yaicate,2,,,,,,,,,,,,,,,,,,,,,
+1407,individuo_1_arm_1,,,,,,,,,20120,Ayambo,Yaicate,Elizabeth,,70666077,70666077,1/17/1999,,1,0,,1,0,,,,,,,2
+1407,individuo_2_arm_1,,,,,,,,,20120,Huansi,Silvano,Robert,Wilson,47992372,47992372,11/18/1985,,0,,,1,0,,,,,,,2
+1407,individuo_3_arm_1,,,,,,,,,20120,Yaicate,Curico,Wilma,,49035986,49035986,4/9/1977,,1,0,,1,0,,,,,,,2
+1407,individuo_4_arm_1,,,,,,,,,20120,Ayambo,Yaicate,Ruth,Danay,79706751,79706751,7/22/2000,,1,0,,1,0,,,,,,,2
+1407,individuo_5_arm_1,,,,,,,,,20120,Arebeley,Ayambo,Segundo,Alexander,93134420,93134420,11/10/2022,,0,,,0,,,,,,,,2
+1407,individuo_6_arm_1,,,,,,,,,20120,Condori,Ayambo,Robert,Esaul,90758706,90758706,5/4/2018,,0,,,0,,,,,,,,2
+1414,familia_arm_1,9/30/2023,1,20,113,20113,3,Iris natali bancho cumapa,2,,,,,,,,,,,,,,,,,,,,,
+1414,individuo_1_arm_1,,,,,,,,,20113,Bancho,Cumapa,Iris,Natali,77644352,77644352,7/26/1996,,1,0,,1,1,1,,1,22,Posta de santa clara,,2
+1414,individuo_2_arm_1,,,,,,,,,20113,Torres,Bancho,Fatima,Nicol,78695675,78695675,5/5/2014,,1,,,0,,,,,,,,2
+1414,individuo_3_arm_1,,,,,,,,,20113,Torres,Bancho,Bryan,Christopher,92091591,92091591,11/2/2020,,0,,,0,,,,,,,,2
+1415,familia_arm_1,9/30/2023,1,20,114,20114,8,Lindaura torres ceopa,2,,,,,,,,,,,,,,,,,,,,,
+1415,individuo_1_arm_1,,,,,,,,,20114,Torres,Ceopa,Lindaura,,40182555,40182555,3/21/1979,,1,0,,1,0,,,,,,,2
+1415,individuo_2_arm_1,,,,,,,,,20114,Mermao,Torres,Moises,,75593831,75593831,10/15/2004,,0,,,1,0,,,,,,,2
+1415,individuo_3_arm_1,,,,,,,,,20114,Chota,Mozombite,Krincesa,,78198228,78198228,9/11/2005,,1,0,,1,0,,,,,,,2
+1415,individuo_4_arm_1,,,,,,,,,20114,Canayo,Torres,Aracely,,75648896,75648896,1/14/2011,,1,0,,1,0,,,,,,,2
+1415,individuo_5_arm_1,,,,,,,,,20114,Canayo,Torres,Yuncor,Steen,77985532,77985532,1/25/2013,,0,,,1,0,,,,,,,2
+1415,individuo_6_arm_1,,,,,,,,,20114,Mermao,Torres,Josue,,61228567,61228567,11/9/2006,,0,,,1,0,,,,,,,2
+1415,individuo_7_arm_1,,,,,,,,,20114,Mermao,Chota,Estefani,Valentina,92351632,92351632,5/9/2021,,1,,,0,,,,,,,,2
+1415,individuo_8_arm_1,,,,,,,,,20114,Canayo,Torres,Jairo,Luis,90806161,90806161,5/23/2018,,0,,,0,,,,,,,,2
+1417,familia_arm_1,9/30/2023,5,20,105,20105,4,Aquelino melendez catang,0,,,,,,,,,,,,,,,,,,,,,
+1417,individuo_1_arm_1,,,,,,,,,20105,Melendez,Catang,Aquelino,,46629732,46629732,10/3/1981,,0,,,1,0,,,,,,,0
+1417,individuo_2_arm_1,,,,,,,,,20105,Alcantara,Lopez,Carlita,Anabeli,63330870,63330870,3/11/1995,,1,0,,1,0,,,,,,,0
+1417,individuo_3_arm_1,,,,,,,,,20105,Melendez,Alcantara,Kimberly,,78068532,78068532,3/2/2012,,1,0,,1,0,,,,,,,0
+1417,individuo_4_arm_1,,,,,,,,,20105,Melendez,Alcantara,Tilza,Janeth,91196197,91196197,9/3/2013,,1,0,,0,,,,,,,,0
+1418,familia_arm_1,9/30/2023,5,20,104,20104,5,Sheila danitza salas rios,0,,,,,,,,,,,,,,,,,,,,,
+1418,individuo_1_arm_1,,,,,,,,,20104,Salas,Rios,Sheila,Danitza,47942209,47942209,9/4/1981,42,1,0,,1,0,,,,,,,0
+1418,individuo_2_arm_1,,,,,,,,,20104,Candamo,Salas,Mari,Soraida,62118980,62118980,2/28/2009,14,1,0,,1,1,1,,2,,,,0
+1418,individuo_3_arm_1,,,,,,,,,20104,Candamo,Salas,Danitza,Wendy,63418151,63418151,6/7/2011,12,1,0,,1,1,1,,2,,,,0
+1418,individuo_4_arm_1,,,,,,,,,20104,Candamo,Salas,Sarai,,79382173,79382173,7/17/2015,8,1,,,1,1,1,,2,,,,0
+1418,individuo_5_arm_1,,,,,,,,,20104,Salas,Tuanama,Maximiliano,,99999999,99999999,NI,,0,,,1,1,1,,2,,,,0
+1419,familia_arm_1,9/30/2023,5,20,102,20102,2,Max barbaran guzman,0,,,,,,,,,,,,,,,,,,,,,
+1419,individuo_1_arm_1,,,,,,,,,20102,Barbaran,Guzman,Max,,80331242,80331242,2/5/1978,,0,,,1,1,1,,1,22,Centro de salud santa clara,,0
+1419,individuo_2_arm_1,,,,,,,,,20102,Bancho,Nolorbe,Aurelia,,5395157,5395157,10/24/1966,,1,,,1,0,,,,,,,0
+1426,familia_arm_1,9/30/2023,5,20,107,20107,1,Ricardo usuiza ramirez,0,,,,,,,,,,,,,,,,,,,,,
+1426,individuo_1_arm_1,,,,,,,,,20107,Isuiza,Ramirez,Ricardo,,928457,928457,4/24/1966,,0,,,1,0,,,,,,,0
+1427,familia_arm_1,9/30/2023,5,20,106,20106,2,Alejandro rene tanchiva melendez,0,,,,,,,,,,,,,,,,,,,,,
+1427,individuo_1_arm_1,,,,,,,,,20106,Tanchiva,Melendez,Alejandro,Rene,5212420,5212420,11/18/1957,,0,,,1,0,,,,,,,0
+1427,individuo_2_arm_1,,,,,,,,,20106,Laiche,Paima,Rosa,Consuelo,5259824,5259824,6/29/1949,,1,,,1,0,,,,,,,0
+1429,familia_arm_1,9/30/2023,3,20,130,20130,1,Francisca ojanama reategui,2,,,,,,,,,,,,,,,,,,,,,
+1429,individuo_1_arm_1,,,,,,,,,20130,Ojanama,Reategui,Francisca,,99999999,99999999,10/5/2005,,1,0,,1,0,,,,,,,2
+1430,familia_arm_1,9/30/2023,3,20,128,20128,1,Luz candamo salas,2,,,,,,,,,,,,,,,,,,,,,
+1430,individuo_1_arm_1,,,,,,,,,20128,Candamo,Salas,Luz,Clarita,99999999,99999999,6/28/1999,24,1,0,,0,,,,,,,,2
+1431,familia_arm_1,9/30/2023,3,20,103,20103,1,Wagner ojanama sangama,2,,,,,,,,,,,,,,,,,,,,,
+1431,individuo_1_arm_1,,,,,,,,,20103,Ojanama,Sangama,Wagner,,99999999,99999999,4/12/1968,,0,,,1,0,,,,,,,2
+1432,familia_arm_1,9/30/2023,3,20,131,20131,1,Elva sangama canayo,2,,,,,,,,,,,,,,,,,,,,,
+1432,individuo_1_arm_1,,,,,,,,,20131,Sangama,Canayo,Elva,,76170405,76170405,2/24/1995,,1,0,,1,0,,,,,,,2
+1440,familia_arm_1,9/30/2023,3,20,127,20127,4,Carmen magin laiche,2,,,,,,,,,,,,,,,,,,,,,
+1440,individuo_1_arm_1,,,,,,,,,20127,Magin,Laiche,Carmen,Rosa,80431790,80431790,12/11/1974,,1,0,,1,1,1,,1,22,Santa clara,,2
+1440,individuo_2_arm_1,,,,,,,,,20127,Reategui,Magin,Francisco,,99999999,99999999,12/10/1991,,0,,,1,0,,,,,,,2
+1440,individuo_3_arm_1,,,,,,,,,20127,Reategui,Magin,Juan,,99999999,99999999,4/28/1995,,0,,,1,0,,,,,,,2
+1440,individuo_4_arm_1,,,,,,,,,20127,Mozombite,Magin,Jack,,61810081,61810081,6/30/2007,,1,0,,1,1,1,,1,22,Santa clara,,2

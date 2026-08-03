@@ -1,0 +1,35 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1593,familia_arm_1,10/7/2023,1,26,111,26111,6,Misael ramires nashnato,2,,,,,,,,,,,,,,,,,,,,,
+1593,individuo_1_arm_1,,,,,,,,,26111,Ramieres,Nashnato,Misael,,80390236,80390236,8/3/1977,,0,,,1,0,,,,,,,2
+1593,individuo_2_arm_1,,,,,,,,,26111,Angulo,Pacaya,Shirley,Abigahi,46409177,46409177,3/23/1990,,1,0,,1,0,,,,,,,2
+1593,individuo_3_arm_1,,,,,,,,,26111,Saquiray,Angulo,Wilger,,61101544,61101544,3/30/2008,,0,,,1,0,,,,,,,2
+1593,individuo_4_arm_1,,,,,,,,,26111,Ramires,Angulo,Lilia , Agdalena,78973862,78973862,5/13/2014,,1,,,0,,,,,,,,2
+1593,individuo_5_arm_1,,,,,,,,,26111,Saquiray,Angulo,Fidel,,63269671,63269671,4/4/2010,,0,,,0,,,,,,,,2
+1593,individuo_6_arm_1,,,,,,,,,26111,Ramirez,Angulo,Eliso,Isael,90042816,90042816,4/13/2016,,0,,,0,,,,,,,,2
+1594,familia_arm_1,10/7/2023,1,26,108,26108,2,Miguel garibaldo cachique,2,,,,,,,,,,,,,,,,,,,,,
+1594,individuo_1_arm_1,,,,,,,,,26108,Garibaldo,Cachique,Miguel,,45193785,45193785,8/19/1952,,0,,,1,0,,,,,,,2
+1594,individuo_2_arm_1,,,,,,,,,26108,Pacaya,Lavinto,Ester,Beatrix,5296124,5296124,6/27/1958,,1,,,1,0,,,,,,,2
+1595,familia_arm_1,10/7/2023,1,26,105,26105,7,Artidoro pacaya lavinto,2,,,,,,,,,,,,,,,,,,,,,
+1595,individuo_1_arm_1,,,,,,,,,26105,Pacaya,Lavinto,Artidoro,,5406616,5406616,5/14/1974,,0,,,1,0,,,,,,,2
+1595,individuo_2_arm_1,,,,,,,,,26105,Peña,Ruiz,Merly,,44099572,44099572,6/29/1985,,1,0,,1,0,,,,,,,2
+1595,individuo_3_arm_1,,,,,,,,,26105,Paima,Isuiza,Tercero,Marcisl,42624059,42624059,2/26/1975,,0,,,1,0,,,,,,,2
+1595,individuo_4_arm_1,,,,,,,,,26105,Pacaya,Peña,Jheyson,,62240119,62240119,12/8/2010,,0,,,1,1,1,,1,12,,,2
+1595,individuo_5_arm_1,,,,,,,,,26105,Pacaya,Peña,Nery,,79122187,79122187,11/29/2014,,1,,,1,0,,,,,,,2
+1595,individuo_6_arm_1,,,,,,,,,26105,Pacaya,Peña,Daniel,,90646052,90646052,11/9/2017,,0,,,1,1,1,,1,12,,,2
+1595,individuo_7_arm_1,,,,,,,,,26105,Pacaya,Peña,Rosmery,,60673476,60673476,8/25/2008,,1,0,,1,1,1,,1,12,,,2
+1596,familia_arm_1,10/7/2023,2,26,110,26110,1,Luzmila lavinto mozombite,0,,,,,,,,,,,,,,,,,,,,,
+1596,individuo_1_arm_1,,,,,,,,,26110,Lavinto,Mozombite,Luzmila,,48666489,48666489,8/30/1934,,1,,,1,0,,,,,,,0
+1597,familia_arm_1,10/7/2023,2,26,107,26107,2,Luzmila pacaya lavinto,0,,,,,,,,,,,,,,,,,,,,,
+1597,individuo_1_arm_1,,,,,,,,,26107,Pacaya,Lavinto,Luzmila,,80422061,80422061,6/29/1969,,1,,,1,0,,,,,,,0
+1597,individuo_2_arm_1,,,,,,,,,26107,Rios,Pacaya,Melania,,99999999,99999999,9/10/2010,,1,0,,1,1,1,,1,12,,,0
+1598,familia_arm_1,10/7/2023,2,26,106,26106,4,Oscar reategui pisco,0,,,,,,,,,,,,,,,,,,,,,
+1598,individuo_1_arm_1,,,,,,,,,26106,Reategui,Pisco,Oscar,,5296638,5296638,1/15/1965,,0,,,1,0,,,,,,,0
+1598,individuo_2_arm_1,,,,,,,,,26106,Encinas,Noa,Isabel,,80422703,80422703,9/24/1970,,1,,,1,0,,,,,,,0
+1598,individuo_3_arm_1,,,,,,,,,26106,Reategui,Encinas,Rosario,Del pilar,60712311,60712311,3/27/2009,,1,0,,1,0,,,,,,,0
+1598,individuo_4_arm_1,,,,,,,,,26106,Reategui,Encinas,Anayra,Itzet,99999999,99999999,10/3/2023,,1,,,0,,,,,,,,0
+1599,familia_arm_1,10/7/2023,2,26,112,26112,2,Clever lealate pacaya,0,,,,,,,,,,,,,,,,,,,,,
+1599,individuo_1_arm_1,,,,,,,,,26112,Laulate ,Pacaya,Cleber,Raul,41357540,41357540,9/27/1980,,0,,,1,0,,,,,,,0
+1599,individuo_2_arm_1,,,,,,,,,26112,Rios,Amaringo,Zoila,,5406651,5406651,8/28/1961,,1,,,1,0,,,,,,,0
+1600,familia_arm_1,10/7/2023,2,26,101,26101,2,Jose adan soria gomez,0,,,,,,,,,,,,,,,,,,,,,
+1600,individuo_1_arm_1,,,,,,,,,26101,Soria,Gomez,Jose,Adan,5308386,5308386,6/20/1949,,0,,,1,0,,,,,,,0
+1600,individuo_2_arm_1,,,,,,,,,26101,Noa,Siquihua,Isaura,,80429431,80429431,7/2/1955,,1,,,1,0,,,,,,,0

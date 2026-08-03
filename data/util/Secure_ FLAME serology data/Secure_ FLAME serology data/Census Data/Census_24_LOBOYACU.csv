@@ -1,0 +1,47 @@
+﻿autonum,redcap_event_name,intdate,nombre_entre,community,hhcode,unihh,pnum,hhhead,encuesta_censal_familia_complete,unihh_p,paternal_p,maternal_p,firstname_p,middlename_p,dni_p,dni2_p,dob_p,age_p,sex_p,preg_p,pregwk_p,diag_p,his2y_p,loc_p,specif_whe,dect_mal,otro_deteccion,otro_salud,comentario,encuesta_del_censo_individuo_por_familia_complete
+1466,familia_arm_1,10/2/2023,2,24,122,24122,6,Linder ahuite manuyama,0,,,,,,,,,,,,,,,,,,,,,
+1466,individuo_1_arm_1,,,,,,,,,24122,Ahuite,Manuyama,Linder,,80380536,80380536,5/20/1975,,0,,,1,0,,,,,,,0
+1466,individuo_2_arm_1,,,,,,,,,24122,Caritimari,Canaquiri,Neiva,,46079909,46079909,8/17/1980,,1,0,,1,0,,,,,,,0
+1466,individuo_3_arm_1,,,,,,,,,24122,Ahuite,Caritimari,Neimar,,81170359,81170359,3/4/2012,,0,,,1,1,1,,1,22,Cuyana,,0
+1466,individuo_4_arm_1,,,,,,,,,24122,Ahuite,Caritimari,Maricielo,,77742055,77742055,2/23/2010,,1,0,,0,,,,,,,,0
+1466,individuo_5_arm_1,,,,,,,,,24122,Ahuite,Caritimari,Carlos,Miguel,81170358,81170358,12/4/2005,,0,,,0,,,,,,,,0
+1466,individuo_6_arm_1,,,,,,,,,24122,Ahuite,Caritimari,Itali,Astri,79488490,79488490,12/29/2015,,1,,,0,,,,,,,,0
+1467,familia_arm_1,10/2/2023,2,24,121,24121,2,Alfredo sanchez tangoa,0,,,,,,,,,,,,,,,,,,,,,
+1467,individuo_1_arm_1,,,,,,,,,24121,Sanchez,Tangoa,Alfredo,,5286854,5286854,1/5/1957,,0,,,1,0,,,,,,,0
+1467,individuo_2_arm_1,,,,,,,,,24121,Chota,Maca,Juana,Elena,5286527,5286527,8/13/1948,,1,,,1,0,,,,,,,0
+1468,familia_arm_1,10/2/2023,2,24,105,24105,7,Ner romañol ramirez,0,,,,,,,,,,,,,,,,,,,,,
+1468,individuo_1_arm_1,,,,,,,,,24105,Romañol,Ramirez,Ner,,41850609,41850609,12/30/1980,,0,,,1,0,,,,,,,0
+1468,individuo_2_arm_1,,,,,,,,,24105,Chota,Ynga,Ysabel,,45592041,45592041,2/8/1989,,1,1,8,1,0,,,,,,,0
+1468,individuo_3_arm_1,,,,,,,,,24105,Romañol,Chota,Jazmin,,76322041,76322041,12/17/2003,,1,0,,1,0,,,,,,,0
+1468,individuo_4_arm_1,,,,,,,,,24105,Romañol,Chota,Victoria,,91897786,91897786,6/18/2020,,1,,,0,,,,,,,,0
+1468,individuo_5_arm_1,,,,,,,,,24105,Romañol,Chota,Nelver,,78422303,78422303,1/1/2014,,0,,,1,0,,,,,,,0
+1468,individuo_6_arm_1,,,,,,,,,24105,Romañol,Chota,Liliana,,62760271,62760271,3/28/2011,,1,0,,1,0,,,,,,,0
+1468,individuo_7_arm_1,,,,,,,,,24105,Romañol,Chota,Oscar,,61986039,61986039,6/12/2009,,0,,,1,0,,,,,,,0
+1469,familia_arm_1,10/2/2023,2,24,112,24112,1,Maria isabel ramirez vasquez,0,,,,,,,,,,,,,,,,,,,,,
+1469,individuo_1_arm_1,,,,,,,,,24112,Ramirez,Vasquez,Maria ,Isabel,5240150,5240150,5/7/1949,74,1,,,NI,0,,,,,,,0
+1470,familia_arm_1,10/2/2023,2,24,115,24115,5,Hector yahuarcani lopez,0,,,,,,,,,,,,,,,,,,,,,
+1470,individuo_1_arm_1,,,,,,,,,24115,Yahuarcani,Lopez,Hector,,48603715,48603715,9/20/1969,54,0,,,1,0,,,,,,,0
+1470,individuo_2_arm_1,,,,,,,,,24115,Pereyra,Manuyama,Rosa,Maritza,49028381,49028381,2/17/1971,52,1,,,1,1,1,,1,NI,,,0
+1470,individuo_3_arm_1,,,,,,,,,24115,Yahuarcani,Pereyra,Jilmer,,91341432,91341432,3/24/2009,14,0,,,1,1,1,,1,NI,,,0
+1470,individuo_4_arm_1,,,,,,,,,24115,Yahuacani,Pereyra,Roberto,,91341424,91341424,9/18/2007,16,0,,,0,,,,,,,,0
+1470,individuo_5_arm_1,,,,,,,,,24115,Yahuarcani,Pereyra,Erika,Jazmin,91588925,91588925,9/6/2019,4,1,,,1,0,,,,,,,0
+1471,familia_arm_1,10/2/2023,3,24,126,24126,2,Francisco caritimari yuyarima,2,,,,,,,,,,,,,,,,,,,,,
+1471,individuo_1_arm_1,,,,,,,,,24126,Caritimari,Yuyarima,Franciaco,,5339681,5339681,12/22/1945,,0,,,1,0,,,,,,,2
+1471,individuo_2_arm_1,,,,,,,,,24126,Canaquiri,Curitima,Rosa,Angela,5339680,5339680,8/17/1951,,1,,,0,,,,,,,,2
+1472,familia_arm_1,10/2/2023,3,24,104,24104,2,Nemecio chota macca,2,,,,,,,,,,,,,,,,,,,,,
+1472,individuo_1_arm_1,,,,,,,,,24104,Chota,Macca,Nemecio,,99999999,99999999,6/18/1945,,0,,,1,0,,,,,,,2
+1472,individuo_2_arm_1,,,,,,,,,24104,Inga,Calongos,Isabel,,99999999,99999999,11/19/1947,,1,,,1,0,,,,,,,2
+1473,familia_arm_1,10/2/2023,3,24,102,24102,3,Maria amparo gomez inga,2,,,,,,,,,,,,,,,,,,,,,
+1473,individuo_1_arm_1,,,,,,,,,24102,Gomez,Inga,Maria,Amparo,99999999,99999999,2/10/1974,,1,0,,0,,,,,,,,2
+1473,individuo_2_arm_1,,,,,,,,,24102,Caritimari,Yuyarima,Leonardo,,99999999,99999999,5/12/1971,,1,,,0,,,,,,,,2
+1473,individuo_3_arm_1,,,,,,,,,24102,Caritimari,Goñez,Moises,,99999999,99999999,5/12/2000,,0,,,0,,,,,,,,2
+1474,familia_arm_1,10/2/2023,3,24,111,24111,5,Enith alvan gonzales,2,,,,,,,,,,,,,,,,,,,,,
+1474,individuo_1_arm_1,,,,,,,,,24111,Alvan,Gonzales,Enith,,48245556,48245556,12/30/1985,,1,0,,1,1,1,,1,22,San pablo de cuyana,,2
+1474,individuo_2_arm_1,,,,,,,,,24111,Aparicio,Roman,Magno,,45408919,45408919,12/7/1977,,0,,,1,1,1,,1,22,San pablo de cuyana,,2
+1474,individuo_3_arm_1,,,,,,,,,24111,Aparicio,Alvan,Luz,Celeste,61986072,61986072,5/8/2009,,1,0,,1,1,1,,1,22,San pablo de cuyana,,2
+1474,individuo_4_arm_1,,,,,,,,,24111,Aparico,Alvan,Everlin,,61307861,61307861,11/30/2003,,1,0,,1,0,,,,,,,2
+1474,individuo_5_arm_1,,,,,,,,,24111,Tuanama,Aparicio,Jayler,Mateyus,92640054,92640054,11/24/2021,,0,,,0,,,,,,,,2
+1475,familia_arm_1,10/2/2023,3,24,116,24116,1,Leoncio calampa rios,2,,,,,,,,,,,,,,,,,,,,,
+1475,individuo_1_arm_1,,,,,,,,,24116,Calampa,Rios,Leoncio,,99999999,99999999,3/13/1959,64,0,,,1,0,,,,,,,2
+1476,familia_arm_1,10/2/2023,3,24,114,24114,1,Juger calampa pipa,2,,,,,,,,,,,,,,,,,,,,,
+1476,individuo_1_arm_1,,,,,,,,,24114,Calampa,Pipa,Juger,,99999999,99999999,3/8/1990,,0,,,1,0,,,,,,,2

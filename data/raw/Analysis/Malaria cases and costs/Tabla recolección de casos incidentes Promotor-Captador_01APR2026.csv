@@ -1,0 +1,334 @@
+﻿N,Codigo,Promotor_PDR,Captador_Microscopia,Caso_captado_extemporaneamente,mues_rec_dur_suspen,Papel_filtro,Lamina_rec,CRF_caso_rec,CRF_costos_red,Comunidad
+1,13196-8,19/10/2024,21/10/2024,no,no,si,si*,si,si,Puerto Almendra
+2,02653-8,31/10/2024,02/11/2024,no,no,si,si,si,si,Zungarococha
+3,01033-0,no,07/11/2024,no,no,si,si**,si,si,Nina Rumi
+4,01334-8,no,07/11/2024,no,no,si,si,si,si,Nina Rumi
+5,01623-8,no,07/11/2024,no,no,si,si,si,si,Nina Rumi
+6,01339-8,no,13/11/2024,no,no,si,si,si,si,Nina Rumi
+7,01619-8,no,13/11/2024,no,no,si,si,si,si,Nina Rumi
+8,01134-8,no,14/11/2024,no,no,si,si,si,si,Nina Rumi
+9,01322-8,no,14/11/2024,no,no,si,si,si,si,Nina Rumi
+10,01628-8,no,18/11/2024,no,no,si,si,si,si,Nina Rumi
+11,01618-8,no,18/11/2024,no,no,si,si,si,si,Nina Rumi
+12,02457-8,no,22/11/2024,no,no,si,si,si,si,Zungarococha
+13,13047-8,22/11/2024,23/11/2024,no,no,si,si,si,si,Puerto Almendra
+14,01217-8,no,23/11/2024,no,no,si,si,si,si,Nina Rumi
+15,01227-8,no,25/11/2024,no,no,si,si,si,si,Nina Rumi
+16,01668-8,no,27/11/2024,no,no,si,si,si,si,Nina Rumi
+17,02181-8,27/11/2024,27/11/2024,no,no,si,si,si,si,Zungarococha
+18,16201-8,no,28/11/2024,no,no,no***,si,si,si,San Antonio SJB
+19,01404-8,no,30/11/2024,no,no,si,si,si,si,Nina Rumi
+20,01507-8,no,04/12/2024,no,no,si,si,si,si,Nina Rumi
+21,01682-8,no,04/12/2024,no,no,si,si,si,si,Nina Rumi
+22,01526-8,no,10/12/2024,no,no,si,si,si,si,Nina Rumi
+23,01307-8,no,10/12/2024,no,no,si,si,si,si,Nina Rumi
+24,01205-8,no,11/12/2024,no,no,si,si,si,si,Nina Rumi
+25,09068-8,no,12/12/2024,no,no,si,si,si,si,Moralillo
+26,14129-8,17/12/2024,17/12/2024,no,no,si,si,si,si,Tarapoto
+27,01654-8,no,18/12/2024,no,no,si,si,si,si,Nina Rumi
+28,14186-8,20/12/2024,21/12/2024,no,no,si,si,si,si,Tarapoto
+29,13206-8,25/12/2024,26/12/2024,no,no,si,si,si,si,Puerto Almendra
+30,13091-8,25/12/2024,26/12/2024,no,no,si,si,si,si,Puerto Almendra
+31,01233-8,no,26/12/2024,no,no,si,si,si,si,Nina Rumi
+32,01206-8,27/12/2024,28/12/2024,no,no,si,si,si,si,Nina Rumi
+33,02317-8,no,27/12/2024,no,no,si,si,si,si,Zungarococha
+34,13117-8,no,28/12/2024,no,no,si,si,si,si,Puerto Almendra
+35,01411-8,no,28/12/2024,no,no,si,si,si,si,Nina Rumi
+36,16213-8,no,30/12/2024,no,no,si,si,si,si,San Antonio SJB
+37,16129-8,no,30/12/2024,no,no,si,si,si,si,san Antonio SJB
+38,15008-8,no,30/12/2024,no,no,si,si,si,si,Nuevo Milagro
+39,01418-8,no,02/01/2025,no,no,si,si,si,si,Nina Rumi
+40,01716-8,no,03/01/2025,no,no,si,si,si,si,Nina Rumi
+41,01673-8,no,03/01/2025,no,no,si,si,si,si,Nina Rumi
+42,14042-8,no,08/01/2025,no,no,si,si,si,si,Tarapoto
+43,12180-8,no,10/01/2025,no,no,si****,si,si,si,Libertad
+44,12083-8,no,10/01/2025,no,no,si****,si,si,si,Libertad
+45,12183-8,no,10/01/2025,no,no,si****,si,si,si,Libertad
+46,02181-8B,10/01/2025,11/01/2025,no,no,si,si,si,si,Zungarococha
+47,14212-8,11/01/2025,13/01/2025,no,no,si,si,si,si,Tarapoto
+48,14099-8,12/01/2025,13/01/2025,no,no,si,si,si,si,Tarapoto
+49,14064-8,12/01/2025,13/01/2025,no,no,si,si,si,si,Tarapoto
+50,14228-8,14/01/2025,15/01/2025,no,no,si,si,si,si,Tarapoto
+51,14188-8,15/01/2025,16/01/2025,no,no,si,si,si,si,Tarapoto
+52,24042-8,no,15/01/2025,no,no,si,si,si,si,Loboyacu
+53,02026-8,17/01/2025,18/01/2025,no,no,si,si,si,si,Zungarococha
+54,14013-8,18/01/2025,20/01/2025,no,no,si,si,si,si,Tarapoto
+55,01618-8B,no,18/01/2025,no,no,si,si,si,si,Nina Rumi
+56,14006-8,19/01/2025,20/01/2025,no,no,si,si,si,si,Tarapoto
+57,13002-8,no,20/01/2025,no,no,si,si,si,si,Puerto Almendra
+58,01023-8,no,20/01/2025,no,no,si,si,si,si,Nina Rumi
+59,24024-8,20/01/2025,21/01/2025,no,no,si,si,si,si,Loboyacu
+60,14214-8,no,21/01/2025,no,no,si,si,si,si,Tarapoto
+61,13040-8,no,22/01/2025,no,no,si,si,si,si,Puerto Almendra
+62,02663-8,no,23/01/2025,no,no,si,si,si,si,Zungarococha
+63,02384-8,no,24/01/2025,no,no,si,si,si,si,Zungarococha
+64,12140-8,no,27/01/2025,no,no,si,si,si,si,Libertad
+65,12084-8,no,27/01/2025,no,no,si,si,si,si,Libertad
+66,12085-8,no,27/01/2025,no,no,si,si,si,si,libertad
+67,01102-8,no,27/01/2025,no,no,si,si,si,si,Nina Rumi
+68,04288-8,no,27/01/2025,no,no,si,si,si,si,13 de Febrero
+69,12139-8,no,28/01/2025,no,no,si,si,si,si,Libertad
+70,02457-8B,no,28/01/2025,no,no,si,si,si,si,Zungarococha
+71,24036-8,28/01/2025,29/01/2025,no,no,si,si,si,si,Loboyacu
+72,02221-8,no,29/01/2025,no,no,si,si,si,si,Zungarococha
+73,01233-8B,no,29/01/2025,no,no,si,si,si,si,Nina Rumi
+74,13003-8,no,31/01/2025,no,no,si,si,si,si,Puerto Almendra
+75,01656-8,no,03/02/2025,no,no,si,si,si,si,Nina Rumi
+76,14121-8,04/02/2025,05/02/2025,no,no,si,si,si,si,Tarapoto
+77,01677-8,no,05/02/2025,no,no,si,si,si,si,Nina Rumi
+78,12007-8,no,06/02/2025,no,no,si,si,si,si,Libertad
+79,12013-8,no,06/02/2025,no,no,si,si,si,si,Libertad
+80,13165-8,no,11/02/2025,no,no,si,si,si,si,Puerto Almendra
+81,01622-8,no,11/02/2025,no,no,si,si,si,si,Nina Rumi
+82,01338-8,no,12/02/2025,no,no,si,si,si,si,Nina Rumi
+83,14035-8,12/02/2025,13/02/2025,no,no,si,si,si,si,Tarapoto
+84,14225-8,12/02/2025,13/02/2025,no,no,si,si,si,si,Tarapoto
+85,01227-8B,no,14/02/2025,no,no,si,si,si,si,Nina Rumi
+86,05577-8,18/02/2025,19/02/2025,no,no,si,si,si,si,Ex Petroleros
+87,05578-8,18/02/2025,19/02/2025,no,no,si,si,si,si,Ex Petroleros
+88,14099-8B,17/02/2025,18/02/2025,no,no,si,si,si,si,Tarapoto
+89,14100-8,17/02/2025,18/02/2025,no,no,si,si,si,si,Tarapoto
+90,01140-8,no,18/02/2025,no,no,si,si,si,si,Nina Rumi
+91,01526-8B,no,21/02/2025,no,no,si,si,si,si,Nina Rumi
+92,24003-8,23/03/2025,24/02/2025,no,no,si,si,si,si,Loboyacu
+93,14064-8B,24/02/2025,25/02/2025,no,no,si,si,si,si,Tarapoto
+94,18074-8,no,24/02/2025,no,no,si,si,si,si,Paujil
+95,02353-8,no,27/02/2025,no,no,si,si,si,si,Zungarococha
+96,12184-8,27/02/2025,06/03/2025,no,no,si*****,si,si,si,Libertad
+97,01239-8,no,28/02/2025,no,no,si,si,si,si,Nina Rumi
+98,13232-8,28/02/2025,28/02/2025,no,no,si,si,si,si,Puerto Almendra
+99,01444-8,28/02/2025,01/03/2025,no,no,si,si,si,si,Nina Rumi
+100,01304-8,no,01/03/2025,no,no,si,si,si,si,Nina Rumi
+101,16053-8,05/03/2025,05/03/2025,no,no,si,si,si,si,San Antonio SJB
+102,12007-8B,05/03/2025,06/03/2025,no,no,si,si,si,si,Libertad
+103,02265-8,no,06/03/2025,no,no,si,si,si,si,Zungarococha
+104,27154-8,07/03/2025,07/03/2025,no,no,si,si,si,si,Picuroyacu
+105,14216-8,no,08/03/2025,no,no,si,si,si,si,Tarapoto
+106,13118-8,no,08/03/2025,no,no,si,si,si,si,Puerto Almendra
+107,13165-8B,09/03/2025,10/03/2025,no,no,si,si,si,si,Puerto Almendra
+108,01334-8B,no,12/03/2025,no,no,si,si,si,si,Nina Rumi
+109,24085-8,12/03/2025,13/03/2025,no,no,si,si,si,si,Loboyacu
+110,12144-8,12/03/2025,18/03/2025,no,no,si,si,si,si,Libertad
+111,03749-8,no,18/03/2025,no,no,si,si,si,si,Cahuide
+112,24003-8B,19/03/2025,20/03/2025,no,no,si,si,si,si,Loboyacu
+113,14232-8,19/03/2025,20/03/2025,no,no,si,si,si,si,Tarapoto
+114,14228-8B,19/03/2025,20/03/2025,no,no,si,si,si,si,Tarapoto
+115,14076-8,20/03/2025,20/03/2025,no,no,si,si,si,si,Tarapoto
+116,01316-8,no,20/03/2025,no,no,si,si,si,si,Nina Rumi
+117,06001-8,16/03/2025,17/03/2025,no,no,si,si,si,si,Samito
+118,06272-8,no,20/03/2025,no,no,si,si,si,si,Samito
+119,06367-8,no,18/03/2025,no,no,si,si,si,si,Samito
+120,01181-8,no,21/03/2025,no,no,si,si,si,si,Nina Rumi
+121,07104-8,no,24/03/2025,no,no,si,si,si,si,Diamante Azul
+122,07095-8,no,25/03/2025,no,no,si,si,si,si,Diamante Azul
+123,16056-8,24/03/2025,24/03/2025,no,no,si,si,si,si,San Antonio SJB
+124,13119-8,no,24/03/2025,no,no,si,si,si,si,Puerto Almendra
+125,13042-8,24/03/2025,24/03/2025,no,no,si,si,si,si,Puerto Almendra
+126,02282-8,no,24/03/2025,no,no,si,si,si,si,Zungarococha
+127,06357-8,no,23/03/2025,no,no,si,si,si,si,Samito
+128,06359-8,no,24/03/2025,no,no,si,si,si,si,Samito
+129,06287-8,no,24/03/2025,no,no,si,si,si,si,Samito
+130,06089-8,no,26/03/2025,no,no,si,si,si,si,Samito
+131,13129-8,28/03/2025,29/05/2025,no,no,si,si,si,si,Puerto Almendra
+132,13086-8,29/03/2025,31/05/2025,no,no,si,si,si,si,Puerto Almendra
+133,01656-8B,no,29/03/2025,no,no,si,si,si,si,Nina Rumi
+134,01418-8B,no,29/03/2025,no,no,si,si,si,si,Nina Rumi
+135,01253-8,no,29/03/2025,no,no,si,si,si,si,Nina Rumi
+136,01141-8,no,29/03/2025,no,no,si,si,si,si,Nina Rumi
+137,21011-8,no,29/03/2025,no,no,si,si,si,si,Pava Quevada
+138,07237-8,no,29/03/2025,no,no,si,si,si,si,Diamante Azul
+139,13039-8,no,31/03/2025,no,no,si,si,si,si,Puerto Almendra
+140,02036-8,30/03/2025,31/03/2025,no,no,si,si,si,si,Zungarococha
+141,01721-8,no,31/03/2025,no,no,si,si,si,si,Nina Rumi
+142,14003-8,31/03/2025,01/04/2025,no,no,si,si,si,si,Tarapoto
+143,01444-8B,31/03/2025,01/04/2025,no,no,si,si,si,si,Nina Rumi
+144,01716-8B,no,02/04/2025,no,no,si,si,si,si,Nina Rumi
+145,06017-8,no,06/04/2025,no,no,si,si,si,si,Samito
+146,06293-8,no,09/04/2025,no,no,si,si,si,si,Samito
+147,12174-8,no,09/04/2025,no,no,si,si,si,si,Libertad
+148,21094-8,09/04/2025,10/04/2025,no,no,si,si,si,si,Pava Quevada
+149,21084-8,10/04/2025,11/04/2025,no,no,si,si,si,si,Pava Quevada
+150,07008-8,no,11/04/2025,no,no,si,si,si,si,Diamante Azul
+151,06265-8,11/04/2025,11/04/2025,no,no,si,si,si,si,samito
+152,06105-8,14/04/2025,14/04/2025,no,no,si,si,si,si,samito
+153,14233-8,no,14/04/2025,no,no,si,si,si,si,Tarapoto
+154,07239-8,no,15/04/2025,no,no,si,si,si,si,Diamante Azul
+155,14064-8C,15/04/2025,16/04/2025,no,no,si,si,si,si,Tarapoto
+156,06386-8,no,15/04/2025,no,no,si,si,si,si,samito
+157,07425-8,no,16/04/2025,no,no,si,si,si,si,Diamante Azul
+158,14035-8B,17/04/2025,19/04/2025,no,no,si,si,si,si,Tarapoto
+159,14189-8,22/04/2025,23/04/2025,no,no,si,si,si,si,Tarapoto
+160,26008-8,23/04/2025,23/04/2025,no,no,si,si,si,si,Pisco
+161,13203-8,24/04/2025,24/04/2025,no,no,si,si,si,si,Puerto Almendra
+162,16204-8,no,25/04/2025,no,no,si******,si,si,si,San Antonio SJB
+163,14190-8,26/04/2025,28/04/2025,no,no,si,si,si,si,Tarapoto
+164,02353-8B,26/04/2025,28/04/2025,no,no,si,si,si,si,Zungarococha
+165,14188-8B,28/04/2025,29/04/2025,no,no,si,si,si,si,Tarapoto
+166,14003-8B,08/05/2025,08/05/2025,no,no,si,si,si,si,Tarapoto
+167,06007-8,08/05/2025,08/05/2025,no,no,si,si,si,si,Samito
+168,14044-8,10/05/2025,12/05/2025,no,no,si,si,si,si,Tarapoto
+169,13081-8,13/05/2025,12/05/2025,no,no,si,si,si,si,Puerto Almendra
+170,12083-8B,no,12/05/2025,no,no,si,si,si,si,Libertad
+171,12141-8,no,12/05/2025,no,no,si,si,si,si,Libertad
+172,16207-8,12/05/2025,12/05/2025,no,no,si,si,si,si,San Antonio SJB
+173,13239-8,no,12/05/2025,no,no,si,si,si,si,Puerto Almendra
+174,09051-8,no,13/05/2025,no,no,si,si,si,si,Moralillo
+175,14153-8,13/05/2025,14/05/2025,no,no,si,si,si,si,Tarapoto
+176,13040-8B,14/05/2025,15/05/2025,no,no,si,si,si,si,Puerto Almendra
+177,13275-8,no,14/05/2025,no,no,si,si,si,si,Puerto Almendra
+178,14215-8,15/05/2025,16/05/2025,no,no,si,si,si,si,Tarapoto
+179,01028-8,no,15/05/2025,no,no,si,si,si,si,Nina Rumi
+180,16126-8,no,15/05/2025,no,no,si,si,si,si,San antonio SJB
+181,16178-8,16/05/2025,19/05/2025,no,no,si,si,si,si,San antonio SJB
+182,14219-8,16/05/2025,17/05/2025,no,no,si,si,si,si,Tarapoto
+183,14042-8B,16/05/2025,17/05/2025,no,no,si,si,si,si,Tarapoto
+184,14070-8,no,17/05/2025,no,no,si,si,si,si,Tarapoto
+185,14218-8,18/05/2025,19/05/2025,no,no,si,si,si,si,Tarapoto
+186,12184-8B,no,19/05/2025,no,no,si,si,si,si,Libertad
+187,24024-8B,19/05/2025,19/05/2025,no,no,si,si,si,si,Loboyacu
+188,12144-8B,no,20/05/2025,no,no,si,si,si,si,Libertad
+189,14182-8,18/05/2025,20/05/2025,no,no,si*******,si,si,si,Tarapoto
+190,01029-8,no,22/05/2025,no,no,si,si,si,si,Nina Rumi
+191,06010-8,no,25/05/2025,no,no,si,si,si,si,Samito
+192,01677-8B,no,26/05/2025,no,no,si,si,si,si,Nina Rumi
+193,16158-8,no,26/05/2025,no,no,si,si,si,si,San antonio SJB
+194,07029-8,no,26/05/2025,no,no,si,si,si,si,Diamante Azul
+195,06272-8B,no,26/05/2025,no,no,si,si,si,si,Samito
+196,06271-8,no,26/05/2025,no,no,si,si,si,si,Samito
+197,06094-8,no,26/05/2025,no,no,si,si,si,si,Samito
+198,07042-8,no,26/05/2025,no,no,si,si,si,si,Diamante Azul
+199,07041-8,no,26/05/2025,no,no,si,si,si,si,Diamante Azul
+200,06348-8,no,28/05/2025,no,no,si,si,si,si,Samito
+201,09005-8,no,29/05/2025,no,no,si,si,si,si,Moralillo
+202,14228-8C,no,29/05/2025,no,no,si,si,si,si,Tarapoto
+203,07128-8,30/05/2025,30/05/2025,no,no,si,si,si,si,Diamante Azul
+204,01439-8,31/05/2025,31/05/2025,no,no,si,si,si,si,Nina Rumi
+205,01421-8,01/06/2025,02/06/2025,no,si,si,si,si,si,Nina Rumi
+206,02353-8C,no,02/06/2025,no,si,si,si,si,si,Zungarococha
+207,06384-8,no,05/06/2025,no,si,si,si,si,si,Samito
+208,14130-8,05/06/2025,06/06/2025,no,si,si,si,si,si,Tarapoto
+209,14064-8D,09/06/2025,09/06/2025,no,si,si,si,si,si,Tarapoto
+210,13204-8,NA,09/06/2025,no,si,si,si,si,si,Puerto Almendra
+211,14129-8B,9/06/2025,10/06/2025,no,si,si,si,si,si,Tarapoto
+212,27048-8,10/06/2025,10/06/2025,no,si,si,si,si,si,Picuroyacu
+213,16177-8,no,11/06/2025,no,si,si,si,si,si,San antonio SJB
+214,16082-8,no,12/06/2025,no,si,si,si,si,si,San antonio SJB
+215,14216-8B,14/06/2025,16/06/2025,no,si,si,si,si,si,Tarapoto
+216,03168-8,no,18/06/2025,no,si,si,si,si,si,Cahuide
+217,26051-8,22/06/2025,23/06/2025,no,si,si,si,si,si,Pisco
+218,16086-8,no,27/06/2025,no,si,si,si,si,si,San antonio SJB
+219,23012-8,28/06/2025,30/06/2025,no,si,si,si,si,si,Nuevo San Antonio
+220,14035-8C,29/06/2025,30/06/2025,no,si,si,si,si,si,Tarapoto
+221,13087-8,29/06/2025,30/06/2025,no,si,si,si,si,si,Puerto Almendra
+222,01423-8,no,30/06/2025,no,si,si,si,si,si,Nina Rumi
+223,01126-8,no,01/07/2025,no,si,si,si,si,si,Nina Rumi
+224,14189-8B,01/07/2025,01/07/2025,no,si,si,si,si,si,Tarapoto
+225,14190-8B,01/07/2025,01/07/2025,no,si,si,si,si,si,Tarapoto
+226,14191-8,no,01/07/2025,no,si,si,si,si,si,Tarapoto
+227,14153-8B,01/07/2025,02/07/2025,no,si,si,si,si,si,Tarapoto
+228,13042-8B,01/07/2025,02/07/2025,no,si,si,si,si,si,Puerto Almendra
+229,09168-8,no,02/07/2025,no,si,si,si,si,si,Moralillo
+230,14097-8,no,02/07/2025,no,si,si,si,si,si,Tarapoto
+231,12041-8,no,02/07/2025,no,si,si,si,si,si,Libertad
+232,01125-8,no,03/07/2025,no,si,si,si,si,si,Nina Rumi
+233,14018-8,03/07/2025,03/07/2025,no,si,si,si,si,si,Tarapoto
+234,13128-8,06/07/2025,07/07/2025,no,si,si,si,si,si,Puerto Almendra
+235,14006-8B,07/07/2025,08/07/2025,no,si,si,si,si,si,Tarapoto
+236,01309-8,no,10/07/2025,no,si,si,si,si,si,Nina Rumi
+237,07094-8,no,16/07/2025,no,si,si,si,si,si,Diamante Azul
+238,14078-8,18/07/2025,18/07/2025,no,si,si,si,si,si,Tarapoto
+239,14044-8B,24/07/2025,25/07/2025,no,si,si,si,si,si,Tarapoto
+240,14217-8,28/07/2025,30/07/2025,no,si,si,si,si,si,Tarapoto
+241,13081-8B,30/07/2025,31/07/2025,no,si,si,si,si,si,Puerto Almendra
+242,16178-8B,01/08/2025,01/08/2025,no,si,si,si,si,si,San antonio SJB
+243,14219-8B,04/08/2025,05/08/2025,no,si,si,si,si,si,Tarapoto
+244,20007-8,09/08/2025,09/08/2025,no,si,si,si,si,si,Huaturi
+245,06018-8,no,13/08/2025,no,si,si,si,si,si,Samito
+246,06272-8C,14/08/2025,14/08/2025,no,si,si,si,si,si,Samito
+247,07094-8B,no,16/08/2025,no,si,si,si,si,si,Diamante Azul
+248,06386-8B,no,17/08/2025,no,si,si,si,si,si,Samito
+249,21016-8,no,20/08/2025,no,si,si,si,si,si,Pava Quevada
+250,07237-8B,no,21/08/2025,no,si,si,si,si,si,Diamante Azul
+251,01239-8B,no,25/08/2025,no,si,si,si,si,si,Nina Rumi
+252,06118-8,24/08/2025,25/08/2025,no,si,si,si,si,si,Samito
+253,07239-8B,no,29/08/2025,no,no,si,si,si,si,Diamante Azul
+254,14064-8E,01/09/2025,01/09/2025,no,no,si,si,si,si,Tarapoto
+255,06009-8,no,03/09/2025,no,no,si,si,si,si,Samito
+256,14129-8C,no,05/09/2025,no,no,si,si,si,si,Tarapoto
+257,14042-8C,no,05/09/2025,no,no,si,si,si,si,Tarapoto
+258,20102-8,05/09/2025,06/09/2025,no,no,si,si,si,si,Huaturi
+259,13128-8B,08/09/2025,08/09/2025,no,no,si,si,si,si,Puerto Almendra
+260,06022-8,no,10/09/2025,no,no,si,si,si,si,Samito
+261,14006-8C,no,13/09/2025,no,no,si,si,si,si,Tarapoto
+262,14018-8B,no,14/09/2025,no,no,si,si,si,si,Tarapoto
+263,14070-8B,20/09/2025,22/09/2025,no,no,si,si,si,si,Tarapoto
+264,14152-8,22/09/2025,22/09/2025,no,no,si,si,si,si,Tarapoto
+265,07138-8,no,24/09/2025,no,no,si,si,si,si,Diamante Azul
+266,06265-8B,no,26/09/2025,no,no,si,si,si,si,Samito
+267,07296-8,28/09/2025,28/09/2025,no,no,si,si,si,si,Diamante Azul
+268,07294-8,no ,29/09/2025,no,no,si,si,si,si,Diamante Azul
+269,01227-8C,no ,02/10/2025,no,no,si,si,si,si,Nina Rumi
+270,21099-8,03/10/2025,05/10/2025,no,no,si,si,si,si,Pava Quevada
+271,21005-8,no,05/10/2025,no,no,si,si,si,si,Pava Quevada
+272,21077-8,06/10/2025,07/10/2025,no,no,si,si,si,si,Pava Quevada
+273,07094-8C,no,07/10/2025,no,no,si,si,si,si,Diamante Azul
+274,21094-8B,09/10/2025,09/10/2025,no,no,si,si,si,si,Pava Quevada
+275,07305-8,no,26/10/2025,no,no,si,si,si,si,Diamante Azul
+276,03002-8,no,31/10/2025,no,no,si,si,si,si,Cahuide
+277,01207-8,no,03/11/2025,no,no,si,si,si,si,Nina Rumi
+278,01239-8C,no,03/11/2025,no,no,si,si,si,si,Nina Rumi
+279,14006-8D,07/11/2025,08/11/2025,no,no,si,si,si,si,Tarapoto
+280,01716-8C,no,10/11/2025,no,no,si,si,si,si,Nina Rumi
+281,07295-8,no,10/11/2025,no,no,si,si,si,si,Diamante Azul
+282,14035-8D,10/11/2025,11/11/2025,no,no,si,si,si,si,Tarapoto
+283,14228-8D,10/11/2025,11/11/2025,no,no,si,si,si,si,Tarapoto
+284,07094-8D,no,11/11/2025,no,no,si,si,si,si,Diamante Azul
+285,06271-8B,no,11/11/2025,no,no,si,si,si,si,Samito
+286,06293-8B,no,12/11/2025,no,no,si,si,si,si,Samito
+287,07097-8,no,15/11/2025,no,no,si,si,si,si,Diamante Azul
+288,21005-8B,16/11/2025,19/11/2025,no,no,si,si,si,si,Pava Quevada
+289,13157-8,16/11/2025,17/11/2025,no,no,si,si,si,si,Puerto Almendra
+290,03289-8,no,17/11/2025,no,no,si,si,si,si,Cahuide
+291,06266-8,no,17/11/2025,no,no,si,si,si,si,Samito
+292,06367-8B,no,17/11/2025,no,no,si,si,si,si,Samito
+293,06348-8B,no,17/11/2025,no,no,si,si,si,si,Samito
+294,12182-8,no,18/11/2025,no,no,si,si,si,si,Libertad
+295,12082-8,no,26/11/2025,no,no,si,si,si,si,Libertad
+296,16131-8,29/11/2025,30/11/2025,no,no,si,si,si,si,San antonio SJB
+297,26051-8B,30/11/2025,30/11/2025,si,no,si,si,si,si,Pisco
+298,26003-8,no,30/11/2025,si,no,si,si,si,si,Pisco
+299,07137-8,no,03/12/2025,no,no,si,si,si,si,Diamante Azul
+300,06188-8,no,05/12/2025,no,no,si,si,si,si,Samito
+301,06010-8B,06/12/2025,06/12/2025,no,no,si,si,si,si,Samito
+302,07014-8,no,07/12/2025,no,no,si,si,si,si,Diamante Azul
+303,07341-8,09/12/2025,10/12/2025,no,no,si,si,si,si,Diamante Azul
+304,07013-8,no,13/12/2025,no,no,si,si,si,si,Diamante Azul
+305,24042-8B,no,22/12/2025,no,no,si,si,si,pendiente,Loboyacu
+306,12071-8,no,23/12/2025,no,no,si,si,si,pendiente,Libertad
+307,13091-8B,22/12/2025,23/12/2025,no,no,si,si,si,pendiente,Puerto Almendra
+308,07128-8B,no,23/12/2025,no,no,si,si,si,pendiente,Diamante Azul
+309,07209-8,29/12/2025,29/12/2025,no,no,si,si,si,pendiente,Diamante Azul
+310,26003-8B,02/01/2026,02/01/2026,no,no,si,si,si,pendiente,Pisco
+311,07294-8B,07/01/2026,07/01/2026,no,no,si,si,si,pendiente,Diamante Azul
+312,07238-8,12/01/2026,12/01/2026,no,no,si,si,si,pendiente,Diamante Azul
+313,07434-8,12/01/2026,12/01/2026,no,no,si,si,si,pendiente,Diamante Azul
+314,12014-8,no,15/01/2026,no,no,si,si,si,pendiente,Libertad
+315,12081-8,no,22/01/2026,no,no,si,si,si,pendiente,Libertad
+316,07491-8,23/01/2026,25/01/2026,no,no,si,si,si,pendiente,Diamante Azul
+317,07024-8,no,02/02/2026,no,no,si,si,si,pendiente,Diamante Azul
+318,07113-8,no,09/02/2026,no,no,si,si,si,pendiente,Diamante Azul
+319,16002-8,2/10/26,10/02/2026,no,no,si,si,si,pendiente,San antonio SJB
+320,04495-8,no,11/02/2026,no,no,si,si,si,pendiente,13 de February
+321,21006-8,no,22/02/2026,no,no,si,si,si,pendiente,Pava Quevada
+322,10427-8,no,01/03/2026,no,no,si,si,si,pendiente,Peña Negra
+323,03280-8,no,03/03/2026,no,no,si,si,si,pendiente,Cahuide
+324,07408-8,no,06/03/2026,no,no,si,si,si,pendiente,Diamante Azul
+325,01664-8,no,06/03/2026,no,no,si,si,si,pendiente,Nina Rumi
+326,12152-8,no,09/03/2026,no,no,si,si,si,pendiente,Libertad
+327,07205-8,no,12/03/2026,no,no,si,si,si,pendiente,Diamante Azul
+328,16155-8,3/18/26,18/03/2026,no,no,si,si,si,pendiente,San Antonio SJB
+329,16079-8,no,20/03/2026,no,no,si,si,si,pendiente,San Antonio SJB
+330,14151-8,no,22/03/2026,no,no,si,si,si,pendiente,Tarapoto
+331,01655-8,no,25/03/2026,no,no,si,si,si,pendiente,Nina Rumi
+332,06010-8C,3/25/26,25/03/2026,no,no,si,si,si,pendiente,Samito
+333,07314-8,no,26/03/2026,no,no,si,si,si,pendiente,Diamante Azul
