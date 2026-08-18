@@ -16,9 +16,10 @@ library(ggplot2)
 
 ####lectura de archivo csv ####
 # Importar la base de datos de casos de malaria por persona
-control_malaria_cases_by_person=read.csv(file="C:/Users/brend/OneDrive/Escritorio/GitHub/FLAME/data/
-analysis/
-                                         control_malaria_cases_by_person.csv")
+control_malaria_cases_by_person=
+  read.csv(
+    file=
+      "C:/Users/brend/OneDrive/Escritorio/GitHub/FLAME/data/analysis/control_malaria_cases_by_person.csv")
 
 ### Estandarizar identificadores ####
 #modifiqué el objeto y luego lo guardé en el mismo objeto ####
@@ -48,9 +49,12 @@ control_malaria_cases_by_person%>%filter(is.na(base_ind_code))%>%select(unihh_p)
 #### Completar base_ind_code faltantes ####
 # Si base_ind_code es NA, crear un código usando "c" + unihh_p.
 # Si ya existe, mantener el valor original.
-control_malaria_cases_by_person%<>%mutate(base_ind_code=case_when(is.na(base_ind_code)~paste0
-                                                                  ("c",unihh_p),
-                                                                  .default=base_ind_code))
+control_malaria_cases_by_person %<>%
+  mutate(
+    base_ind_code=
+      case_when(
+        is.na(base_ind_code) ~ paste0("c",unihh_p),
+        .default = as.character(base_ind_code)))
 ### Obtener village ####
 # Crear la variable village a partir de base_ind_code,
 # eliminando la letra "c" inicial y los últimos tres dígitos.
@@ -195,158 +199,7 @@ ggplot(comparacion_entre_casas, aes(x = dist_ij)) +
   geom_histogram() +
   facet_wrap(~comparacion_comunidad)
 
-# Graficar la distancia de cada par de casas
-# y diferenciarlas según si pertenecen a la misma comunidad
-# o a comunidades diferentes
-#geom_point -> gráfico de puntos
-ggplot(comparacion_entre_casas,
-       aes(x = 1:nrow(comparacion_entre_casas),
-           y = dist_ij,
-           color = comparacion_comunidad)) +
-  geom_point()
-
 #### Comparar distancias según comunidad ####
-
-# Comparar la distribución de distancias entre pares de casas
-# de la misma comunidad y de comunidades diferentes
-#geom_jitter -> # geom_jitter() -> muestra cada observación como un punto y las separa
-# ligeramente para evitar que se superpongan
-
-ggplot(comparacion_entre_casas,
-       aes(x = comparacion_comunidad,
-           y = dist_ij)) +
-  geom_boxplot() +
-  geom_jitter(width = 0.2, alpha = 0.3)
-
-ggplot(comparacion_entre_casas,
-       aes(x = dist_ij,
-           y = comparacion_comunidad)) +
-  geom_jitter(height = 0.15, alpha = 0.3)
-
-#contar cuantas casas pertencen a la misma o a diferente comunidad
-# Crear una tabla con el número de filas que pertenecen
-# a cada categoría: misma comunidad u otra comunidad
-# Mostrar el conteo de cada categoría
-conteo_comunidades <- comparacion_entre_casas %>%
-  count(comparacion_comunidad)
-conteo_comunidades
-
-# Crear una gráfica usando la tabla comparacion_entre_casas
-# aes() define qué variables van en cada eje
-# dist_ij va en el eje X y representa la distancia en metros
-# comparacion_comunidad va en el eje Y y separa los pares
-# en "misma comunidad" y "otra comunidad"
-# Mostrar cada fila de la tabla como un punto
-
-ggplot(comparacion_entre_casas,
-       aes(x = dist_ij,
-           y = comparacion_comunidad)) +
-  geom_jitter(height = 0.15, alpha = 0.3) +
-  labs(
-    x = "Distancia entre casa i y casa j (metros)",
-    y = "Tipo de comparación"
-  )
-
-# Filtrar únicamente los pares de casas que pertenecen a la misma comunidad
-# y graficar la distancia entre casa_i y casa_j.
-# Cada punto representa un par de casas.
-comparacion_entre_casas %>%
-  filter(comparacion_comunidad == "misma comunidad") %>%
-  ggplot(aes(x = dist_ij, y = "misma comunidad")) +
-  geom_jitter(height = 0.15, alpha = 0.3) +
-  labs(
-    x = "Distancia entre casa i y casa j (metros)",
-    y = NULL
-  )
-
-comparacion_entre_casas %>%
-  filter(comparacion_comunidad == "otra comunidad") %>%
-  ggplot(aes(x = dist_ij, y = "otra comunidad")) +
-  geom_jitter(height = 0.15, alpha = 0.3) +
-  labs(
-    x = "Distancia entre casa i y casa j (metros)",
-    y = NULL
-  )
-
-#hay NA en dist_ij, podría borrar esos datos??
-
-#Según village
-#### Grafico de distancias desde una casa hacia las demas casas de su village ####
-
-#ggplot(
- # datos_casa,              # Tabla que contiene las casas que voy a comparar
-  
-  #aes(
-   # x = dist_ij,           # Eje X = distancia entre la casa focal y cada casa comparada
-    #y = 1                  # Todas las casas se colocan en la misma linea horizontal
-    # El eje Y no representa ninguna variable real
-  )
-) +
-  
-  #geom_jitter(
-   # height = 0.15,         # Separa ligeramente los puntos hacia arriba y abajo
-    # para evitar que se superpongan
-    #alpha = 0.5            # Transparencia de los puntos
-    # 1 = opaco, 0 = transparente
-  ) +
-  
-  #labs(
-   # title = "Village 02 - Casa 02704",  # Titulo del grafico
-    #x = "Distancia (m)",                # Nombre del eje X
-    #y = NULL                            # No colocar titulo en el eje Y
-  ) +
-  
-  #theme_minimal() +         # Estilo limpio del grafico
-  
-  #theme(
-   # axis.text.y = element_blank(),      # Oculta los numeros/texto del eje Y
-    #axis.ticks.y = element_blank()      # Oculta las pequeñas marcas del eje Y
-  )
-ggplot(
-  datos_casa,
-  aes(
-    x = dist_ij,
-    y = 1
-  )
-) +
-  geom_jitter(
-    height = 0.15,
-    alpha = 0.5
-  ) +
-  labs(
-    title = "Village 02 - Casa 02704",
-    x = "Distancia (m)",
-    y = NULL
-  ) +
-  theme_minimal() +
-  theme(
-    axis.text.y = element_blank(),
-    axis.ticks.y = element_blank()
-  )
-#### Grafico de barras: distancia desde una casa focal hacia las demas casas ####
-
-ggplot(
-  datos_casa,                       # Tabla con las comparaciones de la casa 02704
-  aes(
-    x = reorder(casa_j, dist_ij),   # Ordena las casas segun su distancia
-    y = dist_ij                     # Altura de cada barra = distancia en metros
-  )
-) +
-  
-  geom_col() +                      # Crea una barra usando directamente el valor de dist_ij
-  
-  labs(
-    title = "Village 02 - Casa 02704", # Casa focal y village analizado
-    x = "Casa comparada",               # Cada barra representa una casa_j
-    y = "Distancia (m)"                  # Altura de la barra = distancia a casa_i
-  ) +
-  
-  theme_minimal() +                 # Estilo limpio del grafico
-  
-  theme(
-    axis.text.x = element_blank(),  # Oculta los numeros de las casas en el eje X
-    axis.ticks.x = element_blank()  # Oculta las marcas del eje X
-  )
 
 # filter-> solo con los pares de casas que pertenecen a la MISMA comunidad
 # En el eje X ->  distancia entre cada par de casas
@@ -360,9 +213,9 @@ ggplot(
 #formato visual más limpio
 ## ~ significa organiza el gráfico según village i
 ## :: cargar una función sin cargar todo el paquete
-comparacion_entre_casas %>%
-  filter(village_i == village_j) %>%
-  ggplot(aes(x = dist_ij)) +
+plot1 = comparacion_entre_casas %>%
+  filter(comparacion_comunidad == "misma comunidad") %>%
+  ggplot(mapping = aes(x = dist_ij, fill = village_i)) +
   geom_histogram(binwidth = 200) + 
   facet_grid(village_i ~ ., scales = "free_y")+
   scale_y_continuous(
@@ -371,8 +224,57 @@ comparacion_entre_casas %>%
   labs(
     x = "Distancia entre casas (metros)",
     y = "Pares de casas",
-    title = "Distribución de distancias entre casas dentro de cada comunidad"
+    title = "Distribución de distancias entre casas dentro de cada comunidad",
+    fill = "Comunidad"
   ) +
-  theme_minimal()
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8))
   
-  
+plot1 + 
+  theme(axis.text.x = element_text(angle = 90))
+
+#### Crear un mapa ####
+install.packages("ggplot2")
+library(ggplot2)
+unique(malaria_cases_long$village)
+ggplot(data =malaria_cases_long,aes(x=longitude,y=latitude, color = village)) +
+  geom_point(pch=20,size=2)+ scale_color_manual(values=c("grey1",
+                                                         "#838B8B",
+                                                         "blue4",
+                                                         "brown1",
+                                                         "purple4",
+                                                         "cadetblue4",
+                                                         "magenta4",
+                                                         "hotpink",
+                                                         "chartreuse",
+                                                         "cyan",
+                                                         "coral4",
+                                                         "orangered4",
+                                                         "darkgoldenrod",
+                                                         "darkorchid",
+                                                         "darkolivegreen"))
+
+
+install.packages(c("OpenStreetMap"))
+library(OpenStreetMap)
+upper_left=c(max(malaria_cases_long$latitude,na.rm=TRUE)+0.1,min(malaria_cases_long$longitude,na.rm=TRUE)-0.1)
+lower_right=c(min(malaria_cases_long$latitude,na.rm=TRUE)-0.1,max(malaria_cases_long$longitude,na.rm=TRUE)+0.1)
+#Download the static raster map tiles
+map_raster <- openmap(upper_left, lower_right, type = "osm")
+map_latlon <- openproj(map_raster,projection="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs")
+autoplot(map_latlon)+geom_point(data=malaria_cases_long,mapping = aes(x=longitude,y=latitude,color = village)) +
+  geom_point(pch=16,size=2)+ scale_color_manual(values=c("red",
+                                                         "#838B8B",
+                                                         "blue4",
+                                                         "brown1",
+                                                         "purple4",
+                                                         "cadetblue4",
+                                                         "magenta4",
+                                                         "hotpink",
+                                                         "chartreuse",
+                                                         "cyan",
+                                                         "coral4",
+                                                         "orangered4",
+                                                         "darkgoldenrod",
+                                                         "darkorchid",
+                                                         "darkolivegreen"))
