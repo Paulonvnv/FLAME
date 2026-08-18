@@ -267,6 +267,112 @@ comparacion_entre_casas %>%
     x = "Distancia entre casa i y casa j (metros)",
     y = NULL
   )
-#¿¿tal vez si lo convierto en km salga mejor??
+
 #hay NA en dist_ij, podría borrar esos datos??
-#podría hacer un gráfico por cada 100 mil casas???
+
+#Según village
+#### Grafico de distancias desde una casa hacia las demas casas de su village ####
+
+#ggplot(
+ # datos_casa,              # Tabla que contiene las casas que voy a comparar
+  
+  #aes(
+   # x = dist_ij,           # Eje X = distancia entre la casa focal y cada casa comparada
+    #y = 1                  # Todas las casas se colocan en la misma linea horizontal
+    # El eje Y no representa ninguna variable real
+  )
+) +
+  
+  #geom_jitter(
+   # height = 0.15,         # Separa ligeramente los puntos hacia arriba y abajo
+    # para evitar que se superpongan
+    #alpha = 0.5            # Transparencia de los puntos
+    # 1 = opaco, 0 = transparente
+  ) +
+  
+  #labs(
+   # title = "Village 02 - Casa 02704",  # Titulo del grafico
+    #x = "Distancia (m)",                # Nombre del eje X
+    #y = NULL                            # No colocar titulo en el eje Y
+  ) +
+  
+  #theme_minimal() +         # Estilo limpio del grafico
+  
+  #theme(
+   # axis.text.y = element_blank(),      # Oculta los numeros/texto del eje Y
+    #axis.ticks.y = element_blank()      # Oculta las pequeñas marcas del eje Y
+  )
+ggplot(
+  datos_casa,
+  aes(
+    x = dist_ij,
+    y = 1
+  )
+) +
+  geom_jitter(
+    height = 0.15,
+    alpha = 0.5
+  ) +
+  labs(
+    title = "Village 02 - Casa 02704",
+    x = "Distancia (m)",
+    y = NULL
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),
+    axis.ticks.y = element_blank()
+  )
+#### Grafico de barras: distancia desde una casa focal hacia las demas casas ####
+
+ggplot(
+  datos_casa,                       # Tabla con las comparaciones de la casa 02704
+  aes(
+    x = reorder(casa_j, dist_ij),   # Ordena las casas segun su distancia
+    y = dist_ij                     # Altura de cada barra = distancia en metros
+  )
+) +
+  
+  geom_col() +                      # Crea una barra usando directamente el valor de dist_ij
+  
+  labs(
+    title = "Village 02 - Casa 02704", # Casa focal y village analizado
+    x = "Casa comparada",               # Cada barra representa una casa_j
+    y = "Distancia (m)"                  # Altura de la barra = distancia a casa_i
+  ) +
+  
+  theme_minimal() +                 # Estilo limpio del grafico
+  
+  theme(
+    axis.text.x = element_blank(),  # Oculta los numeros de las casas en el eje X
+    axis.ticks.x = element_blank()  # Oculta las marcas del eje X
+  )
+
+# filter-> solo con los pares de casas que pertenecen a la MISMA comunidad
+# En el eje X ->  distancia entre cada par de casas
+# El histograma agrupa las distancias en intervalos
+# Separamos el gráfico por village
+# village_i ~ . significa: una comunidad por FILA
+#bindwith -> que tan ancho es el intervalo entre barras
+# scales = "free_y" permite que cada comunidad tenga su propia escala en el eje Y
+# algunas comunidades pueden tener muchos más pares de casas que otras
+# Mostrar aproximadamente 3 números por escala del eje Y
+#formato visual más limpio
+## ~ significa organiza el gráfico según village i
+## :: cargar una función sin cargar todo el paquete
+comparacion_entre_casas %>%
+  filter(village_i == village_j) %>%
+  ggplot(aes(x = dist_ij)) +
+  geom_histogram(binwidth = 200) + 
+  facet_grid(village_i ~ ., scales = "free_y")+
+  scale_y_continuous(
+    breaks = scales::breaks_pretty(n = 3)
+  ) +
+  labs(
+    x = "Distancia entre casas (metros)",
+    y = "Pares de casas",
+    title = "Distribución de distancias entre casas dentro de cada comunidad"
+  ) +
+  theme_minimal()
+  
+  
