@@ -186,18 +186,6 @@ comparacion_entre_casas %<>%
     village_i == village_j ~ "misma comunidad",
     village_i != village_j ~ "otra comunidad"
   ))
-#¿por qué no es necesario agregar comillas?
-
-#### Graficar distribución de distancias ####
-
-# Crear histogramas de la distancia entre pares de casas,
-# separados según si pertenecen a la misma comunidad o a comunidades diferentes
-# geom_histogram() ->crea el histograma. El eje Y será el número de pares de casas 
-#que caen en cada rango de distancia. 
-#facet_wrap -> → divide el gráfico según la columna
-ggplot(comparacion_entre_casas, aes(x = dist_ij)) +
-  geom_histogram() +
-  facet_wrap(~comparacion_comunidad)
 
 #### Comparar distancias según comunidad ####
 
@@ -226,7 +214,7 @@ plot1 = comparacion_entre_casas %>%
     y = "Pares de casas",
     title = "Distribución de distancias entre casas dentro de cada comunidad",
     fill = "Comunidad"
-  ) +
+  ) 
   theme_minimal() +
   theme(axis.text.y = element_text(size = 8))
   
@@ -278,3 +266,32 @@ autoplot(map_latlon)+geom_point(data=malaria_cases_long,mapping = aes(x=longitud
                                                          "darkgoldenrod",
                                                          "darkorchid",
                                                          "darkolivegreen"))
+#### Describir el tiempo ####
+malaria_cases_long%>%
+  summarise(n_samples=n(),.by = base_ind_code)%>%
+  ggplot(mapping = aes(x=n_samples)) +
+  geom_histogram()
+class(as.Date(malaria_cases_long$date))
+as.Date(malaria_cases_long$date[1])-as.Date(malaria_cases_long$date[5])
+malaria_cases_long%<>%mutate(date=as.Date(date))
+class(malaria_cases_long$date)
+ind_i=unique(malaria_cases_long$base_ind_code)[3]
+nrow(malaria_cases_long%>%filter(base_ind_code==ind_i))
+data_i=malaria_cases_long%>%filter(base_ind_code==ind_i)
+as.numeric(data_i[["date"]][-1]-
+data_i[["date"]][-nrow(data_i)])
+malaria_cases_long$time_to_previous_episode=0
+for (ind_i in unique(malaria_cases_long$base_ind_code)){
+  if(nrow(malaria_cases_long%>%filter(base_ind_code==ind_i))>1){
+    data_i=malaria_cases_long%>%filter(base_ind_code==ind_i)
+    malaria_cases_long$time_to_previous_episode[
+      malaria_cases_long$base_ind_code==ind_i]= 
+      c(0,as.numeric(data_i[["date"]][-1]-
+                 data_i[["date"]][-nrow(data_i)]))
+  }}
+malaria_cases_long%>%filter(episode!="first_date",village=="07")%>%
+  ggplot(mapping = aes(x=time_to_previous_episode)) + 
+  geom_histogram(binwidth=1) + scale_x_continuous(limits = c(0,40)) +
+  facet_grid(village~.)
+  
+  
