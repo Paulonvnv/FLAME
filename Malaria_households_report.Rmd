@@ -154,7 +154,7 @@ hh_comb %>%
 
 
 
-```{r 'plot houshold in villages'}
+```{r 'plot houshold in villages', fig.width=8, fig.height=8}
 
 max_long = hh_table %>%
   select(longitude) %>%
@@ -1240,8 +1240,14 @@ ggdraw()+
 
 ```{r}
 sample_comb %>% 
-  filter(rhat_520 == 1) %>%
-  summarise(nSecCases = length(unique(sample_i)), .by = hh_i) %>% arrange(desc(nSecCases))
+  filter(rhat_520 == 1#, village_i %in% 
+         ) %>%
+  summarise(nSecCases = length(unique(indv_j)),
+            village_i = unique(village_i), .by = hh_i) %>% #arrange(desc(nSecCases))
+  ggplot(aes(x = nSecCases)) +
+  geom_histogram(binwidth = 1)+
+  facet_grid(village_i~., scales = 'free_y') +
+  theme(strip.text.y = element_text(angle = 0))
 ```
 
 
