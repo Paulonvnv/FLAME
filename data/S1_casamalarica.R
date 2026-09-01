@@ -266,32 +266,212 @@ autoplot(map_latlon)+geom_point(data=malaria_cases_long,mapping = aes(x=longitud
                                                          "darkgoldenrod",
                                                          "darkorchid",
                                                          "darkolivegreen"))
-#### Describir el tiempo ####
+#### Describir el tiempo entre episodios ####
+# Contar cuántas muestras/episodios tiene cada individuo.
+# .by = base_ind_code hace el resumen por individuo.
 malaria_cases_long%>%
   summarise(n_samples=n(),.by = base_ind_code)%>%
+  # Graficar la distribución del número de episodios por individuo.
   ggplot(mapping = aes(x=n_samples)) +
   geom_histogram()
+# Revisar qué clase tiene la fecha.
+# Aquí primero se convierte temporalmente a Date para comprobarlo.
 class(as.Date(malaria_cases_long$date))
+# Ejemplo: calcular la diferencia en días entre dos fechas específicas.
+# Restar dos objetos Date devuelve una diferencia de tiempo.
 as.Date(malaria_cases_long$date[1])-as.Date(malaria_cases_long$date[5])
+# Convertir TODA la columna date al formato Date.
+# %<>% significa:
+# toma malaria_cases_long, aplica mutate() y guarda el resultado nuevamente
+# en malaria_cases_long.
 malaria_cases_long%<>%mutate(date=as.Date(date))
+# Comprobar que la columna date quedó correctamente como Date.
 class(malaria_cases_long$date)
+#### Probar el cálculo para un solo individuo ####
+
+# Obtener todos los individuos únicos y seleccionar el tercero
+# como ejemplo para probar el código.
 ind_i=unique(malaria_cases_long$base_ind_code)[3]
+
+# Contar cuántas filas/episodios tiene ese individuo.
 nrow(malaria_cases_long%>%filter(base_ind_code==ind_i))
+
+# Guardar únicamente los registros de ese individuo.
+# Calcular la diferencia de días entre episodios consecutivos.
 data_i=malaria_cases_long%>%filter(base_ind_code==ind_i)
+# elimina la PRIMERA fecha:
 as.numeric(data_i[["date"]][-1]-
+             # elimina la ÚLTIMA fecha:
 data_i[["date"]][-nrow(data_i)])
+# Crear una nueva columna.
+# Recorrer uno por uno todos los individuos únicos
+# Solo hacer el cálculo si el individuo tiene más de un episodio.
+# Si solo tiene uno, no existe un episodio anterior con el cual comparar.
 malaria_cases_long$time_to_previous_episode=0
 for (ind_i in unique(malaria_cases_long$base_ind_code)){
   if(nrow(malaria_cases_long%>%filter(base_ind_code==ind_i))>1){
+    # Seleccionar solamente los registros del individuo actual.
     data_i=malaria_cases_long%>%filter(base_ind_code==ind_i)
+    # Guardar las diferencias de tiempo en la columna
+    # time_to_previous_episode.
+    # c(0, ...)
+    # pone 0 para el primer episodio porque no tiene episodio previo.
     malaria_cases_long$time_to_previous_episode[
       malaria_cases_long$base_ind_code==ind_i]= 
       c(0,as.numeric(data_i[["date"]][-1]-
                  data_i[["date"]][-nrow(data_i)]))
   }}
+#### Graficar tiempo entre episodios ####
+# Seleccionar:
+# 1. Episodios que NO sean el primer episodio.
+# 2. Solo individuos del village 07.
+# Histograma con intervalos de 1 día.
+# Mostrar únicamente valores entre 0 y 40 días.
+# Crear paneles separados por village.
+# En este caso solo quedará village 07 porque ya lo filtramos arriba.
 malaria_cases_long%>%filter(episode!="first_date",village=="07")%>%
   ggplot(mapping = aes(x=time_to_previous_episode)) + 
   geom_histogram(binwidth=1) + scale_x_continuous(limits = c(0,40)) +
   facet_grid(village~.)
+
+# Ordenar primero la base por fecha.
+# Esto es importante porque ayuda a mantener los episodios
+# en orden cronológico.
+#arrange() ordena filas
+malaria_cases_long%<>%arrange(date)
+
+### Crear listado de individuos únicos ####
+listado_de_individuos=unique(
+  malaria_cases_long$base_ind_code)
+
+#### Probar la creación del código de muestra con un individuo ####
+
+# Seleccionar el tercer individuo de la lista como ejemplo.
+base_ind_code= listado_de_individuos[3]
+# Buscar en qué posiciones de malaria_cases_long aparece este individuo.
+grep(base_ind_code,malaria_cases_long$base_ind_code)
+# Contar cuántas veces aparece el individuo.
+n_episodes=length(grep(base_ind_code,malaria_cases_long$base_ind_code))
+# Crear una secuencia
+episodes=1:n_episodes
+# Convertir los números de un solo dígito a dos dígitos
+episodes=ifelse(nchar(episodes)==1,paste0(0,episodes),episodes)
+# Crear un código único para cada muestra/episodio
+# concatenando el código del individuo con el número de episodio.
+malaria_cases_long[["cod_muestra"]][malaria_cases_long$base_ind_code==base_ind_code]=
+  paste0(base_ind_code,episodes)
+
+malaria_cases_long$cod_muestra=NA
+# Recorrer cada individuo único.
+for(base_ind_code in listado_de_individuos){
+  # Contar cuántos episodios tiene el individuo.
+  n_episodes=length(grep(base_ind_code,malaria_cases_long$base_ind_code))
+  # Crear una secuencia desde 1 hasta el número total de episodios.
+  episodes=1:n_episodes
+  # Agregar un 0 delante de los episodios de un solo dígito.
+  episodes=ifelse(nchar(episodes)==1,paste0(0,episodes),episodes)
+  # Crear el código único de muestra:
+  malaria_cases_long[["cod_muestra"]][malaria_cases_long$base_ind_code==base_ind_code]=
+    paste0(base_ind_code,episodes)
+}
   
+### Crear todas las combinaciones posibles de cod_muestra ####
+
+# Crear un vector que contiene todos los códigos de muestra.
+listado_de_muestras=malaria_cases_long$cod_muestra
+# Crear todas las combinaciones posibles de DOS muestras.
+# t() transpone el resultado para que cada par sea una fila.
+# as.data.frame() transforma el resultado en una tabla.
+comparacion_entre_muestras=as.data.frame(t(combn(listado_de_muestras,2)))
+colnames(comparacion_entre_muestras)=c("cod_i","cod_j")
+# Hacer un left_join para recuperar la información original
+# correspondiente a cod_i y cod_j
+
+comparacion_entre_muestras=left_join(comparacion_entre_muestras,malaria_cases_long%>%
+                                  select(cod_muestra,base_ind_code,village,date,longitude,
+                                         latitude,unihh_p),
+                                  by=join_by("cod_i"=="cod_muestra"))
+comparacion_entre_muestras%<>%dplyr::rename("village_i"="village","base_ind_code_i"="base_ind_code",
+                                       "date_i"="date","longitude_i"="longitude",
+                                       "latitude_i"="latitude","casa_i"="unihh_p")
+                                
+comparacion_entre_muestras=left_join(comparacion_entre_muestras,malaria_cases_long%>%
+                                       select(cod_muestra,base_ind_code,village,date,longitude,
+                                              latitude,unihh_p),
+                                     by=join_by("cod_j"=="cod_muestra"))
+comparacion_entre_muestras%<>%dplyr::rename("village_j"="village","base_ind_code_j"="base_ind_code",
+                                            "date_j"="date","longitude_j"="longitude",
+                                            "latitude_j"="latitude","casa_j"="unihh_p")
+# Revisar qué tipo de variable es date_i.
+class(comparacion_entre_muestras$date_i)
+
+# Filtrar la tabla para conservar únicamente pares de muestras
+# donde ambas muestras tengan longitud disponible
+
+comparacion_entre_muestras%<>%filter(!is.na(longitude_i),!is.na(longitude_j))
+#### Probar el cálculo de distancia espacial ####
+
+# Tomar solamente las primeras 40 comparaciones
+# para probar si el cálculo funciona antes de aplicarlo a toda la base.
+#reframe() sirve para crear un nuevo resumen por grupo, y a diferencia de summarise()
+#, puede devolver más de una fila por grupo.
+#Para cada combinación cod_i–cod_j, calcula algo y crea una nueva tabla con el resultado
+comparacion_entre_muestras %>% head(40)%>%reframe(
+  distancia_espacial=distHaversine(p1=c(longitude_i,latitude_i), 
+                                   p2=c(longitude_j,latitude_j)),
+  .by = c(cod_i, cod_j)
+  )
+
+#as.numeric() no sirve para juntar longitud y latitud.
+#El problema principal era que estabas pasando columnas enteras 
+#a una función que espera un par de coordenadas por punto.
+
+comparacion_entre_muestras %>% head(10) %>% mutate(
+
+  distancia_espacial=
+  distHaversine(
+    p1=as.numeric(longitude_i,latitude_i), 
+    p2=as.numeric(longitude_j,latitude_j))
   
+  )
+#### *Calcular distancia espacial para cada par ####
+#rowwise() = calcula fila por fila
+#ungroup() = quita ese comportamiento especial
+#cbind
+
+comparacion_entre_muestras %<>%
+  mutate(
+    
+    # Calcular distancia entre la coordenada de i
+    # y la coordenada de j.
+    # Resultado: metros.
+    distancia_espacial = distHaversine(
+      p1 = cbind(longitude_i, latitude_i),
+      p2 = cbind(longitude_j, latitude_j)
+    ))
+  
+
+#### Revisar coordenadas faltantes ####
+# Contar cuántos NA existen todavía en latitude_i.
+sum(is.na(comparacion_entre_muestras$latitude_i))
+
+#### Calcular distancia temporal entre muestras ####
+# Crear una nueva columna llamada distancia_temporal.
+comparacion_entre_muestras%<>%mutate(distancia_temporal=as.numeric(date_j-date_i))
+
+#rm() elimina objetos del Environment de R, no columnas de un dataframe.
+rm(list = c("longitude_i","longitude_j","latitude_i","latitude_j"))
+
+#Crear columna para almacenar distancias 
+comparacion_entre_ind$time_since_previous_episode=NA
+
+comparacion_entre_muestras%<>%mutate(rhat=case_when(distancia_temporal>=16 & distancia_temporal<=28 &
+                                                              distancia_espacial<=200~1,.default=0))
+source("C:/Users/brend/OneDrive/Escritorio/GitHub/FLAME/funciones.R")
+comparacion_entre_muestrasmatriz=long2wide_relatedness(comparacion_entre_muestras,
+                                                       malaria_cases_long,id = "cod_muestra",
+                                                      id_i = "cod_i",id_j = "cod_j",var = "rhat")
+write.csv(x=comparacion_entre_muestrasmatriz,file = "comparacion_entre_muestras_matriz.csv",quote = FALSE,
+          row.names = TRUE)
+
+plot3_network=plot_ggnetwork()
