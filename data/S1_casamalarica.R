@@ -468,6 +468,9 @@ comparacion_entre_ind$time_since_previous_episode=NA
 comparacion_entre_muestras%<>%mutate(rhat=case_when(distancia_temporal>=16 & distancia_temporal<=28 &
                                                               distancia_espacial<=200~1,.default=0))
 source("C:/Users/brend/OneDrive/Escritorio/GitHub/FLAME/funciones.R")
+
+malaria_cases_long%<>%filter(!is.na(longitude))
+
 comparacion_entre_muestrasmatriz=long2wide_relatedness(comparacion_entre_muestras,
                                                        malaria_cases_long,id = "cod_muestra",
                                                       id_i = "cod_i",id_j = "cod_j",var = "rhat")
@@ -475,3 +478,7 @@ write.csv(x=comparacion_entre_muestrasmatriz,file = "comparacion_entre_muestras_
           row.names = TRUE)
 
 plot3_network=plot_ggnetwork()
+
+comparacion_entre_muestras_matriz <- read.csv("comparacion_entre_muestras_matriz.csv")
+View(comparacion_entre_muestras_matriz)
+
