@@ -26,17 +26,17 @@ get_network_clusters =
       library(sna)
     }else{library(sna)}
     
-    if(!require(ggnet)){
-      devtools::install_github("briatte/ggnet")
-      library(ggnet)
-    }else{library(ggnet)}
+    # if(!require(ggnet)){
+    #   devtools::install_github("briatte/ggnet")
+    #   library(ggnet)
+    # }else{library(ggnet)}
     
-    library(S4Vectors)
+    #library(S4Vectors)
     
     library(parallel)
-    library(doMC)
+    #library(doMC)
     
-    registerDoMC(detectCores()-1)
+    #registerDoMC(detectCores()-1)
     
     
     pairwise_relatedness_l = 
@@ -73,9 +73,13 @@ get_network_clusters =
     
     selected_edges = pairwise_relatedness_l[pairwise_relatedness_l[[variable]] >= threshold,][,cols]
     
-    edges = foreach(edge = 1:nrow(selected_edges), .combine = 'c') %dopar% {
-      
-      unlist(selected_edges[edge,])
+    # edges = foreach(edge = 1:nrow(selected_edges), .combine = 'c') %dopar% {
+    #   
+    #   unlist(selected_edges[edge,])
+    # }
+    edges=NULL
+    for(edge in 1:nrow(selected_edges)){
+      edges=c(edges,unlist(selected_edges[edge,]))
     }
     
     sample_list = unique(unlist(pairwise_relatedness_l[,cols]))
@@ -250,10 +254,10 @@ plot_ggnetwork = function(pairwise_relatedness_matrix = NULL,
     library(sna)
   }else{library(sna)}
   
-  if(!require(ggnet)){
-    devtools::install_github("briatte/ggnet")
-    library(ggnet)
-  }else{library(ggnet)}
+  #if(!require(ggnet)){
+   # devtools::install_github("briatte/ggnet")
+    #library(ggnet)
+ # }else{library(ggnet)}
   
   library(RColorBrewer)
   

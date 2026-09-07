@@ -477,8 +477,30 @@ comparacion_entre_muestrasmatriz=long2wide_relatedness(comparacion_entre_muestra
 write.csv(x=comparacion_entre_muestrasmatriz,file = "comparacion_entre_muestras_matriz.csv",quote = FALSE,
           row.names = TRUE)
 
-plot3_network=plot_ggnetwork()
-
 comparacion_entre_muestras_matriz <- read.csv("comparacion_entre_muestras_matriz.csv")
 View(comparacion_entre_muestras_matriz)
 
+nombre_fila=comparacion_entre_muestras_matriz$X
+nombre_columna=colnames(comparacion_entre_muestras_matriz)[-1]
+nombre_columna=gsub("^X","",nombre_columna)
+comparacion_entre_muestras_matriz=as.matrix(comparacion_entre_muestras_matriz[,-1])
+dimnames(comparacion_entre_muestras_matriz)=list(nombre_fila,nombre_columna)
+
+set.seed(500)
+plot3_network=plot_ggnetwork(pairwise_relatedness_matrix = comparacion_entre_muestras_matriz,malaria_cases_long,
+                             id="cod_muestra",color_by = "village",palette ="AUTO",shape_by =NULL,shape_levels =
+                               NULL,
+                             alpha_by = NULL,mode = "fruchtermanreingold",directed = TRUE)
+
+plot3_network$plot_network
+
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("S4Vectors")
+library(S4Vectors)
+
+test1=get_network_clusters(pairwise_relatedness = comparacion_entre_muestras,variable = "rhat",threshold = 1,
+                     cols = c("cod_i","cod_j"),rhat_formula = NULL,metadata = malaria_cases_long,
+                      sample_id = "cod_muestra"
+        )
+View(test1$clusters)
