@@ -504,3 +504,84 @@ test1=get_network_clusters(pairwise_relatedness = comparacion_entre_muestras,var
                       sample_id = "cod_muestra"
         )
 View(test1$clusters)
+count(test1$clusters)
+cluster_table=test1$clusters
+cluster_table$dist=200
+
+
+comparacion_entre_muestras$rhat = NULL
+
+comparacion_entre_muestras$distancia_temporal
+
+
+
+
+cluster_table%>%summarise(n_muestras_clusters=sum(grepl("Cluster",Cluster)),
+                           n_clusters=sum(grepl("Cluster",unique(Cluster))),n_singles=sum(grepl(
+                             "Singleton",
+                             unique(Cluster))))
+
+n_clusters = test1$clusters%>%
+  summarise(n_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
+  unlist()
+
+
+cluster_table = rbind(cluster_table, data.frame(test1$clusters, dist = 700))
+
+dist = 10
+n_clusters = 2
+cluster_table = NULL
+  
+while(dist <= 2000 & n_clusters > 1){
+  
+  rhat_formula = paste0("distancia_temporal >= 16 & distancia_temporal <= 28 & distancia_espacial <= ", dist)
+  
+  
+  test1=get_network_clusters(pairwise_relatedness = comparacion_entre_muestras,variable = "rhat",threshold = 1,
+                             cols = c("cod_i","cod_j"), rhat_formula = rhat_formula,
+                             metadata = malaria_cases_long,
+                             sample_id = "cod_muestra")
+  
+  n_clusters = test1$clusters%>%
+    summarise(n_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
+    unlist()
+  
+  cluster_table = rbind(cluster_table, data.frame(test1$clusters, dist = dist))
+  
+  dist = dist + 10
+}
+
+View(rbind(cluster_table, data.frame(test1$clusters, dist = 700)))
+head(cluster_table)
+plot4 = ggplot(head(cluster_table), aes(x = dist)) + geom_smooth() +
+  facet_wrap(~ Cluster, ncol = 2)
+
+plot4 = ggplot(data = cluster_table)+ aes(x = dist) +
+  geom_histogram() + facet_wrap(~ dist, ncol = 2)
+
+plot4
+
+head(cluster_table, 10)
+N_clusters = cluster_table%>%
+  summarise(N_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
+  unlist()
+cluster_dist =cluster_table %>%
+  group_by(dist) %>%
+  summarise(N_cluster = length(unique(Cluster)))
+
+head(cluster_dist, 10)
+plot4=ggplot(data = cluster_dist, aes(x = dist, y = N_cluster)) +
+  geom_point() +
+  geom_smooth() + scale_x_continuous(breaks = seq(100,2000,by=200))
+plot4
+
+cluster_table2=cluster_table%>%rename("Sample_id" = "cod_muestra") 
+
+cluster_table3= cluster_table2 %>%
+  left_join(
+    malaria_cases_long %>%
+      select(cod_muestra, village),
+    by = "cod_muestra"
+  )
+cluster_table3
+
