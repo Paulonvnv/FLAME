@@ -465,123 +465,263 @@ rm(list = c("longitude_i","longitude_j","latitude_i","latitude_j"))
 #Crear columna para almacenar distancias 
 comparacion_entre_ind$time_since_previous_episode=NA
 
+# Crear la variable rhat:
+# rhat = 1 si la distancia temporal está entre 16 y 28 (inclusive)
+# Y además la distancia espacial es <= 200.
+# Si no cumple ambas condiciones, rhat = 0.
+
 comparacion_entre_muestras%<>%mutate(rhat=case_when(distancia_temporal>=16 & distancia_temporal<=28 &
                                                               distancia_espacial<=200~1,.default=0))
+# Cargar el archivo funciones.R, que contiene funciones creadas previamente
+# y que se utilizarán más adelante en este script.
 source("C:/Users/brend/OneDrive/Escritorio/GitHub/FLAME/funciones.R")
 
+
+# Eliminar de malaria_cases_long las filas que tienen longitude NA.
+# Se conservan solamente las muestras que tienen información de longitud.
 malaria_cases_long%<>%filter(!is.na(longitude))
 
+# Convertir la información de relatedness de formato largo a una matriz.
+# comparacion_entre_muestras = datos de comparación entre pares de muestras.
 comparacion_entre_muestrasmatriz=long2wide_relatedness(comparacion_entre_muestras,
                                                        malaria_cases_long,id = "cod_muestra",
                                                       id_i = "cod_i",id_j = "cod_j",var = "rhat")
+# Guardar la matriz como archivo CSV.
+# quote = FALSE evita poner comillas alrededor de los valores.
+# row.names = TRUE guarda también los nombres de las filas.
 write.csv(x=comparacion_entre_muestrasmatriz,file = "comparacion_entre_muestras_matriz.csv",quote = FALSE,
           row.names = TRUE)
 
+# Leer nuevamente el archivo CSV que acabamos de guardar.
 comparacion_entre_muestras_matriz <- read.csv("comparacion_entre_muestras_matriz.csv")
+
+
+# Abrir la tabla para inspeccionarla.
 View(comparacion_entre_muestras_matriz)
 
+
+# Guardar los nombres de las filas de la matriz.
+
 nombre_fila=comparacion_entre_muestras_matriz$X
+
+# Obtener los nombres de las columnas, excluyendo la primera columna X.
 nombre_columna=colnames(comparacion_entre_muestras_matriz)[-1]
+
+
+# Eliminar el "X" que aparece al inicio de los nombres de las columnas.
 nombre_columna=gsub("^X","",nombre_columna)
+
+
+# Eliminar la primera columna X y convertir el resto del data frame
+# en una matriz.
 comparacion_entre_muestras_matriz=as.matrix(comparacion_entre_muestras_matriz[,-1])
+
+
+# Asignar los nombres de filas y columnas a la matriz.
 dimnames(comparacion_entre_muestras_matriz)=list(nombre_fila,nombre_columna)
 
+
+# Fijar la semilla para que los resultados que dependen de aleatoriedad
+# puedan reproducirse.
 set.seed(500)
+
+# Crear el gráfico de red utilizando la matriz de relatedness.
+# color_by = "village": los nodos se colorean según village.
+# mode = "fruchtermanreingold": utiliza ese algoritmo para distribuir
+# visualmente los nodos de la red.
+# directed = TRUE: considera las conexiones como dirigidas.
 plot3_network=plot_ggnetwork(pairwise_relatedness_matrix = comparacion_entre_muestras_matriz,malaria_cases_long,
                              id="cod_muestra",color_by = "village",palette ="AUTO",shape_by =NULL,shape_levels =
                                NULL,
                              alpha_by = NULL,mode = "fruchtermanreingold",directed = TRUE)
 
+
+# Mostrar únicamente el gráfico de la red.
 plot3_network$plot_network
 
+
+# Comprobar si BiocManager está instalado.
+# Si no está instalado, instalarlo.
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install("S4Vectors")
 library(S4Vectors)
 
+# Identificar clusters dentro de la red.
+#
+# pairwise_relatedness = datos de comparación entre pares de muestras.
+# variable = variable utilizada para definir la relación (rhat).
+# threshold = umbral utilizado para determinar la relación.
+# cols = columnas que contienen los identificadores de las muestras.
+# rhat_formula = fórmula/condición para definir rhat.
+# metadata = información adicional de las muestras.
+# sample_id = identificador de cada muestra.
 test1=get_network_clusters(pairwise_relatedness = comparacion_entre_muestras,variable = "rhat",threshold = 1,
-                     cols = c("cod_i","cod_j"),rhat_formula = NULL,metadata = malaria_cases_long,
-                      sample_id = "cod_muestra"
-        )
+                           cols = c("cod_i","cod_j"),rhat_formula = NULL,metadata = malaria_cases_long,
+                           sample_id = "cod_muestra"
+)
+
+
+# Visualizar la tabla de clusters generada.
 View(test1$clusters)
 count(test1$clusters)
+#Contar las observaciones de la tabla de clusters.
+count(test1$clusters)
+
+
+# Guardar la tabla de clusters en un objeto llamado cluster_table.
 cluster_table=test1$clusters
+
+
+# Crear una columna llamada dist y asignarle inicialmente el valor 200
+# a todas las filas.
 cluster_table$dist=200
 
 
+# Eliminar la variable rhat del objeto comparacion_entre_muestras.
 comparacion_entre_muestras$rhat = NULL
 
+
+# Mostrar la variable distancia_temporal.
+# Esto sirve como una revisión/exploración rápida de sus valores.
 comparacion_entre_muestras$distancia_temporal
 
-
-
-
+# Calcular:
+# n_muestras_clusters = número de muestras que pertenecen a clusters.
+# n_clusters = número de clusters únicos.
+# n_singles = número de singleton únicos.
+#
+# grepl("Cluster", ...) busca los nombres que contienen "Cluster".
 cluster_table%>%summarise(n_muestras_clusters=sum(grepl("Cluster",Cluster)),
-                           n_clusters=sum(grepl("Cluster",unique(Cluster))),n_singles=sum(grepl(
-                             "Singleton",
-                             unique(Cluster))))
+                          n_clusters=sum(grepl("Cluster",unique(Cluster))),n_singles=sum(grepl(
+                            "Singleton",
+                            unique(Cluster))))
 
+
+# Calcular nuevamente el número de clusters únicos.
+# unique(Cluster) evita contar varias veces el mismo nombre de cluster.
+# unlist() convierte el resultado en un vector simple.
 n_clusters = test1$clusters%>%
   summarise(n_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
   unlist()
 
 
+# Agregar nuevamente las filas de test1$clusters a cluster_table
+# y asignarles dist = 700.
 cluster_table = rbind(cluster_table, data.frame(test1$clusters, dist = 700))
 
 dist = 10
 n_clusters = 2
 cluster_table = NULL
   
+# Repetir el análisis mientras:
+# 1. dist sea <= 2000
+# 2. haya más de un cluster.
 while(dist <= 2000 & n_clusters > 1){
   
+  
+  # Crear dinámicamente la condición de rhat.
+  # La distancia temporal debe estar entre 16 y 28,
+  # y la distancia espacial debe ser <= dist.
+  #
+  # Como dist cambia en cada vuelta del loop,
+  # esta fórmula cambia también.
   rhat_formula = paste0("distancia_temporal >= 16 & distancia_temporal <= 28 & distancia_espacial <= ", dist)
   
   
+  # Identificar los clusters utilizando la fórmula rhat creada arriba.
   test1=get_network_clusters(pairwise_relatedness = comparacion_entre_muestras,variable = "rhat",threshold = 1,
                              cols = c("cod_i","cod_j"), rhat_formula = rhat_formula,
                              metadata = malaria_cases_long,
                              sample_id = "cod_muestra")
   
+  # Contar cuántos clusters existen en esta distancia.
   n_clusters = test1$clusters%>%
     summarise(n_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
     unlist()
   
+  
+  # Agregar los resultados de esta distancia a cluster_table.
+  # También guardar qué distancia espacial se utilizó.
   cluster_table = rbind(cluster_table, data.frame(test1$clusters, dist = dist))
   
+  
+  # Aumentar la distancia espacial en 10 para la siguiente iteración.
   dist = dist + 10
 }
 
-View(rbind(cluster_table, data.frame(test1$clusters, dist = 700)))
-head(cluster_table)
-plot4 = ggplot(head(cluster_table), aes(x = dist)) + geom_smooth() +
-  facet_wrap(~ Cluster, ncol = 2)
 
-plot4 = ggplot(data = cluster_table)+ aes(x = dist) +
-  geom_histogram() + facet_wrap(~ dist, ncol = 2)
-
-plot4
-
-head(cluster_table, 10)
+# Calcular el número total de clusters únicos.
 N_clusters = cluster_table%>%
   summarise(N_clusters=sum(grepl("Cluster",unique(Cluster)))) %>%
   unlist()
-cluster_dist =cluster_table %>%
-  group_by(dist) %>%
-  summarise(N_cluster = length(unique(Cluster)))
 
-head(cluster_dist, 10)
+
+# Crear una tabla que resume el número de clusters para cada distancia.
+cluster_dist =cluster_table %>%
+  summarise(N_cluster = sum(grepl("Cluster", unique(Cluster))),
+            .by = dist
+  )
+
+
 plot4=ggplot(data = cluster_dist, aes(x = dist, y = N_cluster)) +
-  geom_point() +
-  geom_smooth() + scale_x_continuous(breaks = seq(100,2000,by=200))
+  geom_point()  + geom_line() + scale_x_continuous(breaks = seq(100,2000,by=100)) + 
+  theme(axis.text.x = element_text(angle = 90))
 plot4
 
-cluster_table2=cluster_table%>%rename("Sample_id" = "cod_muestra") 
+# Crear/inicializar una columna para registrar nuevos clusters.
+# Inicialmente todos los valores son 30.
+cluster_dist$nuevos_cluster=30
 
-cluster_table3= cluster_table2 %>%
-  left_join(
-    malaria_cases_long %>%
-      select(cod_muestra, village),
-    by = "cod_muestra"
-  )
-cluster_table3
 
+# Crear/inicializar una columna para registrar fusiones de clusters.
+# Inicialmente todos los valores son 0.
+cluster_dist$fusion_cluster=0
+# Establecer dist_i inicialmente en 200.
+dist_i=200
+# Repetir el análisis para distancias desde 20 hasta 2000,
+# aumentando de 10 en 10.
+# Comparar los clusters actuales con los clusters de la distancia anterior.
+# clasificacion indica cuántos clusters anteriores están relacionados
+# con cada cluster actual.
+# Después:
+# nuevos_cluster = clusters actuales que no tenían un cluster anterior.
+# fusion_cluster = clusters actuales relacionados con 2 o más clusters anteriores.
+for (dist_i in seq(20,2000,by = 10)) {
+  dist_prev=dist_i-10
+  
+  tab_temporal1<-cluster_table%>%filter(dist==dist_i)
+  tab_temporal2<-cluster_table%>%filter(dist==dist_prev)
+  names(tab_temporal1)=c("dist_actual","Sample_id","dist")
+
+  
+  names(tab_temporal2)=c("dist_prev","Sample_id","dist")
+  tab_temporal3= full_join(tab_temporal1,tab_temporal2,by="Sample_id")
+  
+  tab_temp4<-tab_temporal3%>%summarise(clasificacion=sum(grepl("Cluster",unique(dist_prev))),
+                                       .by = dist_actual)%>%filter(grepl("Cluster",dist_actual))%>%
+    summarise(nuevos_cluster= sum(clasificacion==0),
+              fusion_cluster = sum(clasificacion>=2))
+  
+  cluster_dist[cluster_dist$dist==dist_i,c("nuevos_cluster","fusion_cluster")]=tab_temp4
+  
+}
+
+#como hacer el tamaño de los clusters
+#crear 3 graficos en 1 solo 
+
+library("ggplot2")
+
+plot5=ggplot(cluster_dist, aes(x = dist, y = nuevos_cluster,color=nuevos_cluster)) +
+  geom_point()  + geom_line() + scale_x_continuous(breaks = seq(100,2000,by=100)) + 
+  theme(axis.text.x = element_text(angle = 90)) 
+
+plot6=ggplot(cluster_dist, aes(x = dist, y = fusion_cluster,color=fusion_cluster)) +
+  geom_point()  + geom_line() + scale_x_continuous(breaks = seq(100,2000,by=100)) + 
+  theme(axis.text.x = element_text(angle = 90)) 
+plot6
+
+plot7=ggplot(cluster_dist, aes(x = dist, y = N_cluster,color=N_cluster)) +
+  geom_point()  + geom_line() + scale_x_continuous(breaks = seq(100,2000,by=100)) + 
+  theme(axis.text.x = element_text(angle = 90)) 
+plot7
